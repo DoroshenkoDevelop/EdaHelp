@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link href="/style.css" type="text/css" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <title>Рецепты</title>
+</head>
+<body>
+<header class="card-header container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <div>
+                    <p class="text-center mb-1 text-inter h3 text-inter text-white">ЕДА</p>
+                    <hr class="hr">
+                    <p class="text-center mt-1 text-inter h3 text-inter h3 text-white">HELP</p>
+                </div>
+            </a>
+            <div class="container">
+                <form class="d-flex">
+                    <input class="form-control mr-xl-1 cuprum" type="search" placeholder="ПОИСК" aria-label="Search">
+                    <button class="btn btn-outline-success margin cuprum" type="submit">ПОИСК</button>
+                    <button type="button" class="btn btn-success margin cuprum">РЕГИСТРАЦИЯ</button>
+                    <button type="button" class="btn btn-success cuprum">ВХОД</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<header class="container">
+    <header class="card-header border-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../contact_terms_of_use/page_o_nas.html"><p class="h4 cuprum"><b>О НАС</b></p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../schedule_page/schedule_page.html"><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/page/schedule_recipes_page/recipes_page.html"><p class="h4 cuprum"><b>РЕЦЕПТЫ</b></p></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="">
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=""><p class="h5 lead cuprum">ЗАКУСКИ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=""><p class="h5 lead cuprum">САЛАТЫ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">КРЕМ СУПЫ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ПАСТА</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">РЕЗОТТО</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">МЯСО</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">РЫБА</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ДИСЕРТЫ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">НАПИТКИ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ПП</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">СУШИ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ИЗЫСКАННОЕ</p></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">СОУС</p></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</header>
+<main class="container border-right border-left border-dark">
+    <div class="container">
+        <div class="col m-5"><h2 class="text-center text-comfortaa"><b>РАДУЖНАЯ ФОРЕЛЬ</b></h2></div>
+        <div class="row ">
+            <div class="col-7"><img class="img-fluid img-thumbnail " alt="Responsive image" width="100%" src="/image/trout_images/trout.JPG"></div>
+            <div class="col-3">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Форель свежая</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Масло оливковое</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Соль</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Смесь перцев</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Стебель петрушки</p></li>
+
+                </ul>
+
+            </div>
+            <div class="col-2">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">900 г</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ч. ложка</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">По вкусу</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">Щепотка</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 шт</p></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col m-4"><p class="cuprum h4 mb-4"><b>ТЕХНОЛОГИЯ ПРИГОТОВЛЕНИЯ</b></p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">1</p></div>
+                <p class="cuprum">Нашу рыбку чистим, после чего удаляем внутренности и жабры, промываем глаза холодной водой, обсушиваем.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">2</p></div>
+                <p class="cuprum">Надрезаем тушку форели по бокам и натираем сольюи перцем.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">3</p></div>
+                <p class="cuprum">Кладем рыку на пергамент и в брюшко выкладываем травы и специи.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">4</p></div>
+                <p class="cuprum">Смазываем рыбу маслом и жарим в духовке 15 минут на 180 градусах.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-5"><h2 class="text-center text-comfortaa"><b>СОУС ПЕСТО</b></h2>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-7"><img class="img-fluid img-thumbnail " alt="Responsive image" src="/image/trout_images/pesto.jpg" width="100%"></div>
+            <div class="col-3">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Растительное масло</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Оливковое масло</li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Базилик свежий</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Пармезан</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Лимонный концентрат</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Чеснок</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Сахар</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Соль</p></li>
+
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">2 ст. ложка</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ст. ложка</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">15 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">5 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ч. ложка</li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">3 зуб</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">по вкусу</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">по вкусу</p></li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m-4"><p class="cuprum h4 mb-4"><b>ТЕХНОЛОГИЯ ПРИГОТОВЛЕНИЯ</b></p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">1</p></div>
+                <p class="cuprum"> Если ограничены во времени можно купить уже готовый.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">2</p></div>
+                <p class="cuprum"> Все ингредиенты мелко нарезаем и пробиваем блендером до однородной массы.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-5"><h2 class="text-center text-comfortaa"><b>ГРАНОЛА</b></h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-7"><img class="img-fluid img-thumbnail " alt="Responsive image" src="/image/trout_images/granola.jpg" width="100%"></div>
+            <div class="col-3">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Багет</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Перец болгарский</li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Лук репчатый</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Оливковое масло</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Корень имбиря</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Маслины (без кости)</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Зелень</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Тимьян</p></li>
+
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 кусочек</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">50 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">30 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 л / ч</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">10 гр</li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">4 шт</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">3 стебля</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">3 стебля</p></li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m-4"><p class="cuprum h4 mb-4"><b>ТЕХНОЛОГИЯ ПРИГОТОВЛЕНИЯ</b></p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">1</p></div>
+                <p class="cuprum"> Подготовленные наши овощи измельчаем на мелкие кубики.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">2</p></div>
+                <p class="cuprum"> Сначало подсушиваем багет на сковородке без масла.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">3</p></div>
+                <p class="cuprum"> Потом добавляем к багету наш мелко рубленный микс овощей, темьян и в конце масло.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">4</p></div>
+                <p class="cuprum"> Все обжариваем до хруста снимаем с огня и добовляем зелень.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-5"><h2 class="text-center text-comfortaa"><b>ОВОЩНОЙ РАТАТУЙ</b></h2>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-7"><img class="img-fluid img-thumbnail " alt="Responsive image" src="/image/trout_images/рататуй-3-scaled.jpg" width="100%"></div>
+            <div class="col-3">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Цукини</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Баклажан</li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Болгарский перец</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Шампиньоны</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Томаты</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Морковь</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Лук репчатый</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Лук порей</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Чеснок</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Перец чили</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Оливковое масло</p></li>
+
+                    <li class="list-group-item"><p class="font-italic h5 text-inter">Соль</p></li>
+
+                </ul>
+            </div>
+            <div class="col-2">
+                <ul class="list-group">
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 гр</li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">15 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">10 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">10 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">3 зубчика</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">10 гр</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ч. ложка</p></li>
+
+                    <li class="list-group-item"><p class="text-right font-italic h5 text-inter">по вкусу</p></li>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m-4"><p class="cuprum h4 mb-4"><b>ТЕХНОЛОГИЯ ПРИГОТОВЛЕНИЯ</b></p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">1</p></div>
+                <p class="cuprum"> Очищаем овощи и наризаем мелким кубиком.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">2</p></div>
+                <p class="cuprum"> Лук, морковь и чеснок нарезаем еще мельче и ожариваем в первую очередь до золотистого цвета.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">3</p></div>
+                <p class="cuprum"> Добовляем оставшиеся овощи и тоже их обжариваем до появления сока.</p>
+                <div class="round bg-dark text-white mb-3"><p class="lead">4</p></div>
+                <p class="cuprum"> Солим и добовляем свежую зелень по вкусу.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col m-4 border-dark border-left border-right border-bottom border-top pt-3"><p class="cuprum h4 "><b>ДОПОЛНИТЕЛЬНО</b></p>
+                <div ><p class="cuprum">Прекрасным дополнением к блюду будет нарезанный соломкой салат состоящий из манго, болгарского перца, красного лука, авокадо и салатного листа. Заправить эту смесь можно оливковым маслом, солью и перцем. Приготовленый мус надо употреблять намазаным на ожаренный хлеб натертый чесночком. <p CLASS="cuprum "><b>Вкусное блюдо готово, ПРИЯТНОГО АППЕТИТА!!!</b></p></div>
+
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="page-footer font-small blue pt-4 border-top rounded-top bg-dark text-white">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h1 class="text-uppercase text-inter">EH</h1>
+                <p class="text-comfortaa">МИР КУЛИНОРНОГО ИСКУСТВА</p>
+
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3 text-white">
+
+                <!-- Links -->
+
+                <ul class="list-unstyled cuprum">
+                    <li>
+                        <a class="text-decoration-none text-white" href="#!">ГЛАВНАЯ</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-white" href="#!">ПРАВИЛА САЙТА</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-white" href="#!">ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-white" href="#!">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase"></h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!"></a>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                    </li>
+                    <li>
+                        <a href="#!"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-comfortaa">© 2020 DoroshenkoDevelop
+
+    </div>
+    <!-- Copyright -->
+
+</footer>
+</body>
+</html>
