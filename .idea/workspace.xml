@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/IMG_0807.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Smyzi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/mussels_images/1356542.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/mussels_images/trout.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/mussels_images/unnamed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/photo_2020-11-26_11-49-26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/shank_images/BBQ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/shank_images/shank.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/shrimp_mousse/_71A5736.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/trout_images/granola.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/trout_images/pesto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/trout_images/trout.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/trout_images/рататуй-3-scaled.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/contact_terms_of_use/page_o_nas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/contact_terms_of_use/terms_of_use_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/reciept_page/mussels_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/reciept_page/shank_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/reciept_page/shrimp_mousse_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/reciept_page/trout_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/registration_authorization/authorization_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/registration_authorization/registration_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/schedule_recipes_page/recipes_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/schedule_shef_page/schedule_shef_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/shef_page/shef_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -347,7 +289,7 @@
       <workItem from="1612839601643" duration="551000" />
       <workItem from="1612840535568" duration="2162000" />
       <workItem from="1612843712675" duration="20344000" />
-      <workItem from="1612864980101" duration="425000" />
+      <workItem from="1612864980101" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -370,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611076934631</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project EH">
+      <created>1612865704248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612865704248</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
