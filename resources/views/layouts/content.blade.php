@@ -1,3 +1,4 @@
+@section('content')
 <main class="container border-right border-left border-dark">
     <main class="text-center">
         <h1 class="display-2 mt-5 text-comfortaa">
@@ -116,3 +117,4 @@
         </div>
     </main>
 </main>
+@show

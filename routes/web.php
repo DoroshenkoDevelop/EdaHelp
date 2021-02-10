@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Pages;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,14 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('layout');
-});
-Route::get('/', 'PostsController@index');
+});*/
+Route::view('/','layout');
+
+Route::get('o_nas',[Pages::class,'index'])->name('o_nas');
 
 
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+
+Route::middleware(['auth:sanctum', 'verified'])
+    ->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
