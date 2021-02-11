@@ -25,6 +25,6 @@
             <!-- Скрипт -->
             @include('layouts.script')
             <!-- Скрипт -->
-    
+
     </body>
 </html>

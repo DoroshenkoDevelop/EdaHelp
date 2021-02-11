@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 {{--Логотип--}}
-                <a href="" class="navbar-brand">
+                <a href="{{ route('home')}}" class="navbar-brand">
                     <p class="text-center mb-1 text-inter h3 text-inter text-white">ЕДА</p>
                     <hr class="hr">
                     <p class="text-center mt-1 text-inter h3 text-inter h3 text-white">HELP</p>

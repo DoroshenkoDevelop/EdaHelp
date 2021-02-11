@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/o_nas.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,15 +169,15 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\EH\page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\layouts" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
       <recent name="D:\open server\OpenServer\domains\EH\public\css" />
       <recent name="D:\open server\OpenServer\domains\EH\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\app\public\css" />
-      <recent name="D:\open server\OpenServer\domains\EH\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\page" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -302,7 +301,8 @@
       <workItem from="1612866074285" duration="381000" />
       <workItem from="1612888894916" duration="5079000" />
       <workItem from="1612936691732" duration="25000" />
-      <workItem from="1612947219387" duration="5574000" />
+      <workItem from="1612947219387" duration="5649000" />
+      <workItem from="1613021175162" duration="16922000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612865726992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="project EH">
+      <created>1612966508762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612966508762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +361,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="412" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1611069990947" />
+    <state x="586" y="198" key="#Inspections" timestamp="1613031469737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1613031469737" />
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612189154873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -370,10 +381,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1612865724260">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1612966504893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612865724260" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612966504893" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1612936712648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,11 +406,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607120878064" />
-    <state x="795" y="444" key="NewPhpFileDialog" timestamp="1612965943722">
+    <state x="795" y="444" key="NewPhpFileDialog" timestamp="1613037887420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="444" key="NewPhpFileDialog/0.0.1920.1040/3840.486.1920.1040@0.0.1920.1040" timestamp="1604923745871" />
-    <state x="795" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612965943722" />
+    <state x="795" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613037887420" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1611071192797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -408,10 +419,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1611818448762" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612866355593">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612966530189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612866355593" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612966530189" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,6 +431,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611818452296" />
+    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1613037549392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613037549392" />
     <state x="740" y="325" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1611070789619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

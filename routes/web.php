@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Pages;
+use App\Http\Controllers\ChefPages;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,14 +14,11 @@ use App\Http\Controllers\Pages;
 |
 */
 
-/*Route::get('/', function () {
-    return view('layout');
-});*/
-Route::view('/','layout');
+Route::view('/','home')->name('home');
 
 Route::get('o_nas',[Pages::class,'index'])->name('o_nas');
 
-
+Route::get('chef_list',[ChefPages::class,'index'])->name('chef_list');
 
 
 

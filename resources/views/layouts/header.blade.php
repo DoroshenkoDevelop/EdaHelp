@@ -5,12 +5,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route("o_nas") }}"><p class="h4 cuprum"><b>О НАС</b></p></a>
+                        <a class="nav-link active" aria-current="page" href="{{ asset('o_nas') }}"><p class="h4 cuprum"><b>О НАС</b></p></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" ><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
+                        <a class="nav-link active" aria-current="page" href="{{ asset('chef_list') }}" ><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
                     </li>
                 </ul>
 
