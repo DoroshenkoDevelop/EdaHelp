@@ -34,6 +34,8 @@
             </div>
 
         </main>
+
+        {{--ОПИСАНИЕ--}}
         <main class="text-center">
             <h1 class="display-2 mt-5 text-comfortaa">
                 Мир кулинарного искусства
@@ -45,6 +47,9 @@
                 На нашем сайте вы найдете огромное количество фоторецептов с пошаговым и детальным описанием процесса приготовления.
             <p/>
         </main>
+        {{--ОПИСАНИЕ--}}
+
+        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
         <main class="container">
             <div class="row mt-5">
                 <div class="">
@@ -67,6 +72,9 @@
                 </div>
             </div>
         </main>
+        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
+
+        {{--ТОП ШЕФ РЕЦЕПТОВ--}}
         <main class="container">
             <div class="row">
                 <div class="col">
@@ -95,6 +103,9 @@
                 </div>
             </div>
         </main>
+        {{--ТОП ШЕФ РЕЦЕПТОВ--}}
+
+        {{--СЕЗОННЫЕ РЕЦЕПТЫ--}}
         <main class="container">
             <div class="row">
                 <div class="">
@@ -119,6 +130,9 @@
 
             </div>
         </main>
+        {{--СЕЗОННЫЕ РЕЦЕПТЫ--}}
+
+        {{--НОВЫЕ РЕЦЕПТЫ--}}
         <main class="container">
             <div class="row">
                 <article class="">
@@ -149,6 +163,9 @@
 
             </div>
         </main>
+        {{--НОВЫЕ РЕЦЕПТЫ--}}
+
+        {{--СПИСОК ШЕФ ПОВАРОВ--}}
         <table class="table table-striped table-hover">
             <tbody>
             <tr>
@@ -159,5 +176,133 @@
             </tr>
             </tbody>
         </table>
+        {{--СПИСОК ШЕФ ПОВАРОВ--}}
+
+        {{--АЛЕКСЕЙ КАРПОВИЧ--}}
+        <main class="container">
+
+            {{--ОПИСАНИЕ ШЕФ ПОВОРА--}}
+            <div class="container mt-5">
+                <div class="row ">
+                    <div class="col-1">
+                        <p class="text-comfortaa h2">ШЕФ</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-comfortaa h2">АЛЕКСЕЙ КАРПОВИЧ</p>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-comfortaa h2">ПАНАЗИАЦКАЯ КУХНЯ</p>
+                    </div>
+                    <div class="col"><a href="">link</a><a href="">link</a><a href="">link</a></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-7"><a href=""><img class="img-fluid img-thumbnail"src="/image/photo_2020-11-26_11-49-26.jpg"> </a></div>
+                    <div class="col-4">
+                        <p class="cuprum h5 mt-5">
+                            Карпович Алексей Геннадьевич.
+                            Кулинарный стаж более 10 лет.
+                            Первые профессиональные уроки японской кухни получил в Киеве, Украина.</p>
+                        <p class="cuprum h5">Ресторан Мураками стал его родным домой и уже через некоторое время смог достичь высоких результатов.</p>
+                        <p class="cuprum h5">После вернулся в Беларуси и участвовал в различных Минских проектов.</p>
+                        <p class="cuprum h5">Открывал ресторан, доставку и точки take away.
+                            На данный момент запускает в продажи свою продукцию под брендом FIT CHEF, которая специализируется исключительно на здоровой еде.</p>
+                    </div>
+                </div>
+            </div>
+            {{--ОПИСАНИЕ ШЕФ ПОВОРА--}}
+
+            {{--ОПИСАНИЕ ШЕФ РЕЦЕПТА--}}
+            <div class="container">
+                <br>
+                <p class="text-comfortaa"><b>РЕЦЕПТЫ</b></p>
+                <p class="cuprum">
+                    Рецепт на все случаи жизни.
+                    Паштет морковный от Карповича Алексея
+                    Нут замочить на ночь, отварить до готовности. Бульон оставить для хумуса чтобы регулировать консистенцию.
+                    Морковь запекаем в фольге при температуре 180 - 40 минут (в зависимости от толщины моркови).
+                    После того как морковь запеклась погружаем в блендер нут и все остальные компоненты,часть моркови.
+                    Оставшиеся морковь пойдет на декор.
+                </p>
+            </div>
+            {{--ОПИСАНИЕ ШЕФ РЕЦЕПТА--}}
+
+            {{--РЕЦЕПТ--}}
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <img class="img-fluid img-thumbnail" alt="Responsive image"  src="/image/IMG_0807.JPG">
+                    </div>
+
+                    <div class="col-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col mb-5">
+                                    <p class="h3 text-center text-comfortaa"><b>ПАШТЕТ МОРКОВНЫЙ</b></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-7">
+                                        <ul class="list-group">
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Отварной нут</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Паста Тахини</li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Винаградное масло</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Лимонный сок</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Чеснок</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Морская соль</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Перец молотый</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Зира</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Паприка сладкая</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Вода</p></li>
+
+                                            <li class="list-group-item"><p class="font-italic h5 text-inter">Морковь</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-5">
+                                        <ul class="list-group">
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">100 г</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ст.ложка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ст.ложка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 ч.ложка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">1 зубчик</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">по вкусу</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">щепотка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">щепотка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">щепотка</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">25 г</p></li>
+
+                                            <li class="list-group-item"><p class="text-right font-italic h5 text-inter">70 г</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{--РЕЦЕПТ--}}
+            </div>
+        </main>
+        {{--АЛЕКСЕЙ КАРПОВИЧ--}}
+
     </main>
 @show

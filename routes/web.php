@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Pages;
-use App\Http\Controllers\ChefPages;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,7 +22,9 @@ Route::get('o_nas',[Pages::class,'index'])->name('o_nas');
 /* О НАС */
 
 /* ШЕФ РЕЦЕПТЫ */
-/*Route::get('chef_list/',[ChefPages::class,'index'])->name('chef_list');*/
+Route::get('chef/', function (){
+    return view('chef.alexsei_karpovich');
+})->name('chef');
 /* ШЕФ РЕЦЕПТЫ */
 
 
