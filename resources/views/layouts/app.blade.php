@@ -12,8 +12,7 @@
 
                 {{--Регистрация--}}
                 <div class="container">
-                    {{--Форма--}}
-
+                    {{--Форма регистрации--}}
                     <form class="d-flex">
                         <input class="form-control mr-xl-1 cuprum" type="search" placeholder="ПОИСК" aria-label="Search">
                         <button class="btn btn-outline-success margin cuprum" type="submit">ПОИСК</button>
@@ -30,10 +29,12 @@
                             @endauth
 
                         @endif
+                        {{--Форма регистрации--}}
+
                     </form>
                 {{--Форма--}}
 
-                <!-- Modal registration -->
+                {{--Форма регистрации на бустрап--}}
                     {{--<div class="modal fade" id="registration" tapindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -79,9 +80,9 @@
                             </div>
                         </div>
                     </div>--}}
-                    <!-- Modal registration -->
+                {{--Форма регистрации на бустрап--}}
 
-                    <!-- Modal authorization -->
+                {{--Форма регистрации на бустрап--}}
                     {{--<div class="modal fade" id="authorization" tapindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
@@ -125,28 +126,11 @@
                             </div>
                         </div>
                     </div>--}}
-                    <!-- Modal authorization -->
+                    {{--Форма регистрации на бустрап--}}
                 </div>
             </div>
         </nav>
     </header>
-        {{--    <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
 
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
-        </div>
-
-        @stack('modals')
-
-        @livewireScripts--}}
 @show
 

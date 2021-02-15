@@ -1,28 +1,28 @@
 @section('footer')
 <footer class="page-footer font-small blue pt-4 border-top rounded-top bg-dark text-white">
 
-    <!-- Footer Links -->
+    {{-- КОНТЕНТ--}}
     <div class="container-fluid text-center text-md-left">
 
-        <!-- Grid row -->
+        {{-- КОНТЕНТ--}}
         <div class="row">
 
-            <!-- Grid column -->
+
             <div class="col-md-6 mt-md-0 mt-3">
 
-                <!-- Content -->
+                {{-- КОНТЕНТ--}}
                 <h1 class="text-uppercase text-inter">EH</h1>
                 <p class="text-comfortaa">МИР КУЛИНОРНОГО ИСКУСТВА</p>
+                {{-- КОНТЕНТ--}}
 
             </div>
-            <!-- Grid column -->
 
 
-            <!-- Grid column -->
+
+            {{-- ПРАВИЛА И ПОЛИТИКА--}}
             <div class="col-md-3 mb-md-0 mb-3 text-white">
 
-                <!-- Links -->
-
+                {{-- ПРАВИЛА И ПОЛИТИКА--}}
                 <ul class="list-unstyled cuprum">
                     <li>
                         <a class="text-decoration-none text-white" href="#!">ГЛАВНАЯ</a>
@@ -37,11 +37,12 @@
                         <a class="text-decoration-none text-white" href="#!">КОНТАКТЫ</a>
                     </li>
                 </ul>
+                {{-- ПРАВИЛА И ПОЛИТИКА--}}
 
             </div>
-            <!-- Grid column -->
 
-            <!-- Grid column -->
+
+
             <div class="col-md-3 mb-md-0 mb-3">
 
                 <!-- Links -->
@@ -63,20 +64,17 @@
                 </ul>
 
             </div>
-            <!-- Grid column -->
+
 
         </div>
-        <!-- Grid row -->
+        {{-- КОНТЕНТ--}}
 
     </div>
-    <!-- Footer Links -->
+    {{-- КОНТЕНТ--}}
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 text-comfortaa">© 2020 DoroshenkoDevelop
-
-    </div>
-    <!-- Copyright -->
-
+    {{-- © 2020 DoroshenkoDevelop --}}
+    <div class="footer-copyright text-center py-3 text-comfortaa">© 2020 DoroshenkoDevelop</div>
+    {{-- © 2020 DoroshenkoDevelop --}}
 </footer>
 @show
 
