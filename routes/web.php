@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Pages;
+use App\Http\Controllers\ChefPages;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,26 +18,23 @@ Route::view('/','home')->name('home');
 /* ДОМАШНЯЯ СТРАНИЦА */
 
 /* О НАС */
-Route::get('o_nas',[Pages::class,'index'])->name('o_nas');
+Route::view('o_nas','o_nas')->name('o_nas');
 /* О НАС */
 
-/* ШЕФ РЕЦЕПТЫ */
-Route::get('chef/', function (){
-    return view('chef.alexsei_karpovich');
-})->name('chef');
-/* ШЕФ РЕЦЕПТЫ */
+/* ГИД */
+Route::view('map','map.map')->name('map');
+/* ГИД */
 
+/* ШЕФ СПИСОК */
+Route::get('chef_list',[ChefPages::class,'index'])->name('chef_list');
+/* ШЕФ СПИСОК */
 
-/* ШЕФ РЕЦЕПТЫ */
-Route::get('chef_list',function (){
-$lists = DB::table('list_chefs')->get();
-return view('chef_list', compact('lists'));
-})->name('list_chef');
-/* ШЕФ РЕЦЕПТЫ */
+/* ШЕФ */
+/*Route::get('chef_list/chef',[ChefPages::class,'show'])->name('chef');*/
+Route::view('chef','chef.gordon')->name('chef');
+/* ШЕФ */
 
-/* ШЕФ РЕЦЕПТЫ */
-Route::middleware(['auth:sanctum', 'verified'])
-    ->get('/dashboard', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 /* ШЕФ РЕЦЕПТЫ */

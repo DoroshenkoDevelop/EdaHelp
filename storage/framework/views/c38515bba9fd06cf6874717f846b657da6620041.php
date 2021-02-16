@@ -1,4 +1,4 @@
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="container-sm border-right border-left border-dark">
         <main class="container-sm">
             <div class="text-center mt-5">
@@ -35,7 +35,7 @@
 
         </main>
 
-        {{--ОПИСАНИЕ--}}
+        
         <main class="text-center container-sm">
             <h1 class="display-2 mt-5 text-comfortaa">
                 Мир кулинарного искусства
@@ -47,9 +47,9 @@
                 На нашем сайте вы найдете огромное количество фоторецептов с пошаговым и детальным описанием процесса приготовления.
             <p/>
         </main>
-        {{--ОПИСАНИЕ--}}
+        
 
-        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
+        
         <main class="container-sm">
             <div class="row mt-5">
                 <div class="">
@@ -72,9 +72,9 @@
                 </div>
             </div>
         </main>
-        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
+        
 
-        {{--ТОП ШЕФ РЕЦЕПТОВ--}}
+        
         <main class="container-sm">
             <div class="row">
                 <div class="col">
@@ -103,9 +103,9 @@
                 </div>
             </div>
         </main>
-        {{--ТОП ШЕФ РЕЦЕПТОВ--}}
+        
 
-        {{--СЕЗОННЫЕ РЕЦЕПТЫ--}}
+        
         <main class="container-sm">
             <div class="row">
                 <div class="">
@@ -130,9 +130,9 @@
 
             </div>
         </main>
-        {{--СЕЗОННЫЕ РЕЦЕПТЫ--}}
+        
 
-        {{--НОВЫЕ РЕЦЕПТЫ--}}
+        
         <main class="container-sm">
             <div class="row">
                 <article class="">
@@ -163,21 +163,21 @@
 
             </div>
         </main>
-        {{--НОВЫЕ РЕЦЕПТЫ--}}
+        
 
         <main class="container-sm border-right border-left border-dark">
 
-            {{--ЗАГОЛОВОК ШЕФ-ПОВОРА--}}
+            
             <div class="content-header container text-white p-5">
                 <div class="row">
                     <p class="text-comfortaa h4 text-center mt-3"><b>Gordon Ramzi</b></p>
                 </div>
             </div>
-            {{--ЗАГОЛОВОК ШЕФ-ПОВОРА--}}
+            
 
-            {{--ФОТО ШЕФ-ПОВОРА--}}
+            
             <div class="parallax"></div>
-            {{--ФОТО ШЕФ-ПОВОРА--}}
+            
 
             <div class="content-footer text-white p-5 text-center">
                 <p class="cuprum h5">
@@ -193,4 +193,5 @@
 
 
     </main>
-@show
+<?php echo $__env->yieldSection(); ?>
+<?php /**PATH W:\domains\EH\resources\views/layouts/content.blade.php ENDPATH**/ ?>
