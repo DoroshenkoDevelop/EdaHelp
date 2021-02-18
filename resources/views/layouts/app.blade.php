@@ -1,4 +1,6 @@
+@extends('layouts.head')
 @section('app')
+
 <header class="card-header container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
@@ -19,13 +21,14 @@
                         @if (Route::has('login'))
 
                             @auth
-                                <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
+                                <a href="{{ route('home')}}" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
                             @else
                                 <a href="{{ route('login') }}" button class="btn btn-success margin cuprum">ВХОД</a>
 
                                 @if (Route::has('register'))
                                     <a href="{{ route('register') }}" button class="btn btn-success margin cuprum">РЕГИСТРАЦИЯ</a>
                                 @endif
+
                             @endauth
 
                         @endif

@@ -1,7 +1,6 @@
 <?php $__env->startSection('header'); ?>
     
 <header class="container-sm">
-
     <header class="card-header border-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -9,7 +8,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(asset('o_nas')); ?>"><p class="h4 cuprum"><b>О НАС</b></p></a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('info')); ?>"><p class="h4 cuprum"><b>О НАС</b></p></a>
                     </li>
                 </ul>
                 
@@ -17,7 +16,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(asset('chef_list')); ?>" ><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('list_chefs')); ?>" ><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
                     </li>
                 </ul>
                 
@@ -25,7 +24,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(asset('map')); ?>" ><p class="h4 cuprum"><b>РЕСТО-ГИД</b></p></a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('map')); ?>" ><p class="h4 cuprum"><b>РЕСТО-ГИД</b></p></a>
                     </li>
                 </ul>
                 
@@ -43,11 +42,11 @@
 
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=""><p class="h5 lead cuprum">ЗАКУСКИ</p></a>
+                        <a class="nav-link active" aria-current="page" href=""><p class="h-25 cuprum">ЗАКУСКИ</p></a>
                     </li>
                 </ul>
                 
@@ -55,7 +54,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=""><p class="h5 lead cuprum">САЛАТЫ</p></a>
+                        <a class="nav-link active" aria-current="page" href=""><p class="h-25 cuprum">САЛАТЫ</p></a>
                     </li>
                 </ul>
                 
@@ -63,7 +62,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">КРЕМ СУПЫ</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">КРЕМ СУПЫ</p></a>
                     </li>
                 </ul>
                 
@@ -71,7 +70,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ПАСТА</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ПАСТА</p></a>
                     </li>
                 </ul>
                 
@@ -79,7 +78,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">РИЗОТТО</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">РИЗОТТО</p></a>
                     </li>
                 </ul>
                 
@@ -87,7 +86,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">МЯСО</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">МЯСО</p></a>
                     </li>
                 </ul>
                 
@@ -95,7 +94,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">РЫБА</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25 cuprum">РЫБА</p></a>
                     </li>
                 </ul>
                 
@@ -103,7 +102,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ДИСЕРТЫ</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ДИСЕРТЫ</p></a>
                     </li>
                 </ul>
                 
@@ -111,7 +110,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">НАПИТКИ</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">НАПИТКИ</p></a>
                     </li>
                 </ul>
                 
@@ -119,7 +118,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">СУШИ</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СУШИ</p></a>
                     </li>
                 </ul>
                 
@@ -127,7 +126,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">ИЗЫСКАННОЕ</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ИЗЫСКАННОЕ</p></a>
                     </li>
                 </ul>
                 
@@ -135,7 +134,7 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h5 lead cuprum">СОУС</p></a>
+                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СОУС</p></a>
                     </li>
                 </ul>
                 

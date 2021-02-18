@@ -36,3 +36,18 @@
     align-content: center;
     margin: 0 auto;
 }
+.parallax{
+    background-image: url("public/images/Gordon.jpg");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-header{
+    background-color: #1b1e21;
+}
+.content-footer{
+    background-color: #1b1e21;
+    background-size: cover;
+}

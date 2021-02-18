@@ -1,28 +1,33 @@
 <?php $__env->startSection('content'); ?>
-    <main class="container-sm border-right border-left border-dark">
+    <form action="<?php echo e(route('list_chefs')); ?>" method="POST">
+      
 
-        
-        <div class="content-header container text-white p-5">
+        <main class="container-sm border-right border-left border-dark">
+            
+            <div class="content-header container">
                 <div class="row">
-                    <p class="text-comfortaa h4 text-center mt-3"><b>Gordon Ramzi</b></p>
+                    <p class="text-comfortaa h4 text-center text-white mt-3"><b>Gordon Ramzi</b></p>
+                </div>
             </div>
-        </div>
-        
+            
 
-        
-        <div class="parallax"></div>
-        
-
-        <div class="content-footer text-white p-5 text-center">
-                <p class="cuprum h5">
-                    Кулинарный стаж более 10 лет.
-                    Первые профессиональные уроки японской кухни получил в Киеве, Украина.</p>
-                <p class="cuprum h5">Ресторан Мураками стал его родным домой и уже через некоторое время смог достичь высоких результатов.</p>
-                <p class="cuprum h5">После вернулся в Беларуси и участвовал в различных Минских проектов.</p>
-                <p class="cuprum h5">Открывал ресторан, доставку и точки take away.
-                    На данный момент запускает в продажи свою продукцию под брендом FIT CHEF, которая специализируется исключительно на здоровой еде.</p>
+            
+            <div class="parallax text-white p-5 text-left">
+                <p class="cuprum h3 mt-5">
+                    Его рестораны удостоены 16 звёзд Мишлен.
+                    Его фирменный ресторан Restaurant Gordon Ramsay, находящийся в Лондоне, имеет три звезды Мишлен.
+                    Популярный ведущий британских телешоу The F-Word, Ramsay’s Kitchen Nightmares и Адская кухня, а также их американских теле-близнецов.</p>
+                <p class="cuprum h3">Его фирменный ресторан Restaurant Gordon Ramsay, находящийся в Лондоне, имеет три звезды Мишлен.</p>
+                <p class="cuprum h3"> Популярный ведущий британских телешоу The F-Word, Ramsay’s Kitchen Nightmares и Адская кухня, а также их американских теле-близнецов.</p>
             </div>
-    </main>
+            
+
+            <div class="content-footer text-white p-5 text-center">
+
+            </div>
+        </main>
+    </form>
+
 
 
 

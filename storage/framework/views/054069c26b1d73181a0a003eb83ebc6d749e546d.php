@@ -1,4 +1,5 @@
 <?php $__env->startSection('app'); ?>
+
 <header class="card-header container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
@@ -19,13 +20,14 @@
                         <?php if(Route::has('login')): ?>
 
                             <?php if(auth()->guard()->check()): ?>
-                                <a href="<?php echo e(url('/dashboard')); ?>" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
+                                <a href="<?php echo e(route('home')); ?>" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
                             <?php else: ?>
                                 <a href="<?php echo e(route('login')); ?>" button class="btn btn-success margin cuprum">ВХОД</a>
 
                                 <?php if(Route::has('register')): ?>
                                     <a href="<?php echo e(route('register')); ?>" button class="btn btn-success margin cuprum">РЕГИСТРАЦИЯ</a>
                                 <?php endif; ?>
+
                             <?php endif; ?>
 
                         <?php endif; ?>
@@ -48,4 +50,5 @@
 
 <?php echo $__env->yieldSection(); ?>
 
-<?php /**PATH W:\domains\EH\resources\views/layouts/app.blade.php ENDPATH**/ ?>
+
+<?php echo $__env->make('layouts.head', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/layouts/app.blade.php ENDPATH**/ ?>

@@ -5,11 +5,11 @@
             <tbody>
             <tr>
                 <td>
-                        <a class="" href="<?php echo e(route('chef')); ?>"><p class="cuprum">Gordon Ramzi</p>
+                        <a class="" href=""><p class="cuprum">Gordon Ramzi</p>
                             <img class="img-fluid" width="100px" height="100px" src="<?php echo e(asset('images/Gordon.jpg')); ?>">
                         </a>
                 <td>
-                   <a href="<?php echo e(route('chef')); ?>"><p class="cuprum">ШЕФ</p></a>
+                   <a href=""><p class="cuprum">ШЕФ</p></a>
                 </td>
 
                 </td>
