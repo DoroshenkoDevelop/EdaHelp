@@ -46,7 +46,7 @@
                 {{-- ЗАКУСКИ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=""><p class="h-25 cuprum">ЗАКУСКИ</p></a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('list_recipes') }}"><p class="h-25 cuprum">ЗАКУСКИ</p></a>
                     </li>
                 </ul>
                 {{-- ЗАКУСКИ --}}

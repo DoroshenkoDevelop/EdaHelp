@@ -2,7 +2,7 @@
     <form action="<?php echo e(route('list_chefs')); ?>" method="POST">
       
 
-        <main class="container-sm border-right border-left border-dark">
+        <main class="container-md border-right border-left border-dark">
             
             <div class="content-header container">
                 <div class="row">

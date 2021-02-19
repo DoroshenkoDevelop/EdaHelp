@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
     
-    <main class="container border-right border-left border-dark">
+    <main class="container-md border-right border-left border-dark">
         <table class="table table-striped table-hover">
             <tbody>
             <tr>

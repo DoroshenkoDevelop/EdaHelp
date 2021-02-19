@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ListChefController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RecipesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,8 +33,8 @@ Route::get('list_chef{id}/chef',[ListChefController::class,'show'])->name('chef'
 /* ШЕФ СПИСОК */
 
 /* СПИСОК РЕЦЕПТОВ */
-Route::get('list_recipes',[ListChefController::class,'index'])->name('list_recipes');
-Route::get('list_recipes{id}/recipes',[ListChefController::class,'show'])->name('recipes');
+Route::get('list_recipes',[RecipesController::class,'index'])->name('list_recipes');
+Route::get('list_recipes/recipes',[RecipesController::class,'show'])->name('recipes');
 /* СПИСОК РЕЦЕПТОВ */
 
 
