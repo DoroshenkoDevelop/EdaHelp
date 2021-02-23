@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Modal\ListChef;
+use App\Models\ListRecipes;
 use Illuminate\Http\Request;
 
-class ListChefController extends Controller
+class ListRecipesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,8 @@ class ListChefController extends Controller
      */
     public function index()
     {
-        $lists = ListChef::all();
-        return view('chef.index' , compact('lists'));
+        $recipes = ListRecipes::all();
+      return view('recipes.index' , compact('recipes'));
     }
 
     /**
@@ -24,7 +24,7 @@ class ListChefController extends Controller
      */
     public function create()
     {
-      //
+        //
     }
 
     /**
@@ -45,12 +45,10 @@ class ListChefController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-
     {
-        return view('chef.gordon');
 
+        return view('recipes.recipe_1');
     }
-
 
     /**
      * Show the form for editing the specified resource.

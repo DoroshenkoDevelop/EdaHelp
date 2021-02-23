@@ -12,69 +12,17 @@
 
                 
                 <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="<?php echo e(route('recipes')); ?>">
+                    <?php $__currentLoopData = $recipes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $recipe): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a class="text-decoration-none"
+                       <?php echo e($recipe->id); ?> href="<?php echo e(route('recipe',['id'=>$recipe->id])); ?>">
                         <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
                     </a>
-                </article>
-                
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                    
-
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
 
                 
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                </article>
                 
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>"  class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>
-
-                
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>
-                
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                    
-
-                </article>
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                </article>
-                
-
-                
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>"  class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>
+               
                 
 
             </div>

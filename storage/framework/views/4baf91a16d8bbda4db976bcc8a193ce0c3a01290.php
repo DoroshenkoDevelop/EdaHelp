@@ -22,18 +22,30 @@
                     <p class="cuprum h2">ПОПУЛЯРНЫЕ РЕЦЕПТЫ</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="" >
-                        <img src="<?php echo e(asset('images/shank.jpg')); ?>" class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
+                    <a class="text-decoration-none"
+                       href="" >
+                        <img src="<?php echo e(asset('images/shank.jpg')); ?>" class="img-fluid">
+                        <p class="cuprum text-dark">
+                            <b>Рулька в соусе BBQ</b>
+                        </p>
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/trout.jpg')); ?>" class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
+                    <a class="text-decoration-none"
+                       href="">
+                        <img src="<?php echo e(asset('images/trout.jpg')); ?>" class="img-fluid">
+                        <p class="cuprum text-dark">
+                            <b>Рулька в соусе BBQ</b>
+                        </p>
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="">
-                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
+                    <a class="text-decoration-none"
+                       href="">
+                        <img src="<?php echo e(asset('images/_71A5736.jpg')); ?>" class="img-fluid">
+                        <p class="cuprum text-dark">
+                            <b>Мусс из тигровых креветок</b>
+                        </p>
                     </a>
                 </div>
             </div>

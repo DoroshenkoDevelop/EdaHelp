@@ -2,38 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RecipesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/recipe_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/list_recipes/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/list_recipes/css/public/images/recipe_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/list_recipes/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/list_recipes/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/list_recipes/recipe_1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/chef/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/list_recipes/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/list_recipes/recipe_1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/ad7144de72d7c0396e5733007c337ee226c40d41.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListRecipesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ListRecipes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_23_134138_create_list_recipes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipes1/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipes1/css/public/images/recipe_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipes1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a8c01e707f64e190964c4e4632ad2d542c0a4fb9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListRecipesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/chef/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list_recipes/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/chef/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list_recipes/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListChefController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListChefController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RecipesController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/contact_terms_of_use/terms_of_use_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/contact_terms_of_use/terms_of_use_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/reciept_page/mussels_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/reciept_page/mussels_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/reciept_page/shank_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/reciept_page/shank_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/reciept_page/shrimp_mousse_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/reciept_page/shrimp_mousse_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/reciept_page/trout_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/reciept_page/trout_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/registration_authorization/authorization_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/registration_authorization/authorization_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/registration_authorization/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/registration_authorization/registration_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/schedule_recipes_page/recipes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/schedule_recipes_page/recipes_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/schedule_shef_page/schedule_shef_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/schedule_shef_page/schedule_shef_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page/shef_page/shef_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/shef_page/shef_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list_recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list_recipes/recipe_1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/recipe_1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/8bb33ee2b6abd05f73cc6118033fd1aab90edd32.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8bb33ee2b6abd05f73cc6118033fd1aab90edd32.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/b62a13feb2694693acd9cb456a58eaadc7d89834.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b62a13feb2694693acd9cb456a58eaadc7d89834.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/0fc16ff054f7dd1c70feee8d5504c217b04d00d4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/25a0405748e5ef5bfc6a76c2c4f21a24b22292f7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/2d5a71c4c5bcddef9f2ed4a9100df4f4f917eceb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/2fb942e39311a5e81918a6319c47ddb1740f0b6c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/3164d75335b37edd7310b95fdfce063471e63f23.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/3deb275e892aaf9d66e398a8eaf8b363e68560bd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/4baf91a16d8bbda4db976bcc8a193ce0c3a01290.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/4baf91a16d8bbda4db976bcc8a193ce0c3a01290.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/8d054735974bfcb52ce48902ed7c81051ab8bd69.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/975720d566a6268835488e40f6d9ab115fd67da7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/9ca955a4b4cd1a0c01a0033219f3bb146eaf9dfe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/ad7144de72d7c0396e5733007c337ee226c40d41.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ad7144de72d7c0396e5733007c337ee226c40d41.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/b239cfcea002706ad70f0f6bcd16fc64c51a7ccd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/bcc0896dc8baa3a7c4fffb9e88eeea88ab43ec04.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c4952568305cba45eb653fe376829d45d9d1274d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c4f0b09155d8b067d60080dc04a81b126a0ec7a7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/ce12f6345d797a176d9b6ea895b57b9ddf3fef03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/dd07f45bb4ecaa1a57a7d30e11ba5613c05747d8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e35e4886070ec3a3f621a45dd882ccf8dc206dda.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/ed06c6e60abe83d18fafe4649ab02bc8e3f0e4c7.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,25 +196,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/list_recipes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/recipes1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\list_recipes" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\chef" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\list_recipes\css\public\images" />
-      <recent name="D:\open server\OpenServer\domains\EH\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\public\recipes1" />
       <recent name="D:\open server\OpenServer\domains\EH\public\list_recipes" />
       <recent name="D:\open server\OpenServer\domains\EH\public\images" />
       <recent name="D:\open server\OpenServer\domains\EH\public" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\recipes" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\list_chef1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\app\Models\Modal" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\recipes" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\list_recipes" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\chef" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -342,7 +346,8 @@
       <workItem from="1613470962443" duration="26339000" />
       <workItem from="1613576359463" duration="1601000" />
       <workItem from="1613636600793" duration="27988000" />
-      <workItem from="1613741678290" duration="11673000" />
+      <workItem from="1613741678290" duration="13260000" />
+      <workItem from="1614087197223" duration="9129000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -421,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613676879449</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="project EH">
+      <created>1613753952527</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613753952527</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1613676872963">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1613753947413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613676872963" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613753947413" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
