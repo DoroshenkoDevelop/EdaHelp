@@ -178,4 +178,4 @@
 
 
 
-<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/recipes/recipe_1.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/recipes/snacks.blade.php ENDPATH**/ ?>

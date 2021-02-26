@@ -1,4 +1,4 @@
-@extends('home')
+@extends('home.home')
 @section('content')
     {{-- ЗАКУСКИ--}}
     <main class="container-md border-right border-left border-dark">
@@ -15,13 +15,18 @@
                 <article class="col-sm-12 col-md-3">
                     @foreach($recipes as $recipe)
                     <a class="text-decoration-none"
-                       {{ $recipe->id }} href="{{ route('recipe',['id'=>$recipe->id])}}">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
+                       {{ $recipe->id }} href="{{ route('snack',['id'=>$recipe->id])}}">
+                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                Мус из тигровых креветок и форели
+                            </b>
+                        </p>
                     </a>
                     @endforeach
                 </article>
 
-                
+
                 {{-- РЕЦЕПТ --}}
                {{-- <article class="col-sm-12 col-md-3">
                     <a class="text-decoration-none" href="">

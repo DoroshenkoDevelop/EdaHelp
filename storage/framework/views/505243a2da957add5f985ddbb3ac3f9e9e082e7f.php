@@ -1,11 +1,16 @@
 <?php $__env->startSection('content'); ?>
+
 <main class="container-sm p-0">
 
     
     <article class="col m-5">
+
         <h2 class="text-center text-comfortaa h4">
-            <b>МУС ИЗ ТИГРОВЫХ КРИВЕТОК И ФОРЕЛИ</b>
+            <b>
+                КАПРЕЗЕ С СОУСОМ ПЕСТО
+            </b>
         </h2>
+
     </article>
     
 
@@ -13,14 +18,14 @@
     <main class="block-container border-right border-left border-dark">
         
 
-            
-            <article class="">
-                <img class="img-fluid"
-                     alt="Responsive image"
-                     width="100%"
-                     src="<?php echo e(asset('images/recipe_1.jpg')); ?>">
-            </article>
-            
+        
+        <article class="">
+            <img class="img-fluid"
+                 alt="Responsive image"
+                 width="100%"
+                 src="<?php echo e(asset('images/Kapreze.jpg')); ?>">
+        </article>
+        
 
         
         <article class="row">
@@ -28,64 +33,79 @@
                 <ul class="list-group">
                     <li class="list-group-item">
                         <p class="font-italic h-100 cuprum">
-                            Лосось
+                            Моцарелла "Буффало"
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="font-italic  h-100 cuprum">
-                            Лосось копченый
+                            Томаты черри
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="font-italic  h-100 cuprum">
-                            Креветки тигровые
+                            Соус песто
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="font-italic  h-100 cuprum">
-                            Сливки
+                            Руккола
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="font-italic  h-100 cuprum">
-                            Соль
+                            Базилик (Свежий)
+                        </p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <p class="font-italic  h-100 cuprum">
+                            Бальзамическая крем-редукция
                         </p>
                     </li>
                 </ul>
             </div>
+
+
+
             <div class="col-4">
                 <ul class="list-group">
                     <li class="list-group-item">
                         <p class="text-right font-italic  h-100 cuprum">
-                            50 г
+                            100 гр
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="text-right font-italic  h-100 cuprum">
-                            30 г
+                            100 гр
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="text-right font-italic  h-100 cuprum">
-                            30 г
+                            20 гр
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="text-right font-italic  h-100 cuprum">
-                            40 мл
+                            50 гр
                         </p>
                     </li>
 
                     <li class="list-group-item">
                         <p class="text-right font-italic  h-100 cuprum">
-                            По вкусу
+                            5 гр
+                        </p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <p class="text-right font-italic  h-100 cuprum">
+                            5 гр
                         </p>
                     </li>
                 </ul>
@@ -104,12 +124,14 @@
                     </b>
                 </p>
 
-                <div class="round bg-dark text-white mb-3">
-                    <p class="lead">1</p>
+                <div class="round bg-dark text-white mb-3 ">
+                    <p class="lead">
+                        1
+                    </p>
                 </div>
 
                 <p class="cuprum">
-                    Обжариваем вкуснейшие креветки и измельчапем их.
+                    Рвем листья рукколы и базилика, томаты нарезаем пополам.
                 </p>
 
                 <div class="round bg-dark text-white mb-3">
@@ -119,7 +141,7 @@
                 </div>
 
                 <p class="cuprum">
-                    Измельчаем лосось двух видов.
+                    Сыр "Буффало" кусочками добавляем к рукколе и томатам.
                 </p>
                 <div class="round bg-dark text-white mb-3">
                     <p class="lead">
@@ -128,17 +150,9 @@
                 </div>
 
                 <p class="cuprum">
-                    Смешиваем этот тандем со сливками, добавляем соль.
+                    Заправляем соусом песто и перемешиваем.
                 </p>
-                <div class="round bg-dark text-white mb-3">
-                    <p class="lead">
-                        4
-                    </p>
-                </div>
 
-                <p class="cuprum">
-                    Пробиваем блендером до однородной массы.
-                </p>
             </div>
         </div>
         
@@ -154,28 +168,23 @@
 
                 <div>
                     <p class="cuprum">
-                        Прекрасным дополнением к блюду будет нарезанный соломкой салат состоящий из манго,
-                        болгарского перца,
-                        красного лука,
-                        авокадо и салатного листа.
-                        Заправить эту смесь можно оливковым маслом,
-                        солью и перцем.
-                        Приготовленый мус надо употреблять намазаным на ожаренный хлеб натертый чесночком.
-                    <p CLASS="cuprum ">
+                      Соус "Песто" (если ограничены во времени, можно купить),
+                        но можно воспользоваться нашим рецептом соуса
+                        <a
+                            href="">"Песто"
+                        </a>.
+
+                    <p class="cuprum ">
                         <b>
                             Вкусное блюдо готово, ПРИЯТНОГО АППЕТИТА!!!
                         </b>
                     </p>
+                </div>
             </div>
         </div>
-    </div>
         
-        </main>
     </main>
-
+</main>
 <?php $__env->stopSection(); ?>
 
-
-
-
-<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/recipes/recipe_1.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/list_salads/salads.blade.php ENDPATH**/ ?>

@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\ListRecipes;
+use App\Models\ListSnacks;
 use Illuminate\Http\Request;
 
-class ListRecipesController extends Controller
+class ListSnacksController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,8 @@ class ListRecipesController extends Controller
      */
     public function index()
     {
-        $recipes = ListRecipes::all();
-      return view('recipes.index' , compact('recipes'));
+        $recipes = ListSnacks::all();
+        return view('recipes.index' , compact('recipes'));
     }
 
     /**
@@ -47,7 +47,7 @@ class ListRecipesController extends Controller
     public function show($id)
     {
 
-        return view('recipes.recipe_1');
+        return view('recipes.snacks');
     }
 
     /**

@@ -1,4 +1,4 @@
-@extends('home')
+@extends('home.home')
 @section('content')
 <main class="container-sm p-0">
 

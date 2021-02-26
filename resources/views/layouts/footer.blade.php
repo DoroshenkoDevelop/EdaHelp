@@ -11,8 +11,12 @@
             <div class="col-md-6 mt-md-0 mt-3">
 
                 {{-- КОНТЕНТ--}}
-                <h1 class="text-uppercase text-inter">EH</h1>
-                <p class="text-comfortaa">МИР КУЛИНОРНОГО ИСКУСТВА</p>
+                <h1 class="text-uppercase text-inter h3">
+                        EH
+                </h1>
+                <p class="text-comfortaa">
+                    МИР КУЛИНОРНОГО ИСКУСТВА
+                </p>
                 {{-- КОНТЕНТ--}}
 
             </div>
@@ -25,16 +29,27 @@
                 {{-- ПРАВИЛА И ПОЛИТИКА--}}
                 <ul class="list-unstyled cuprum">
                     <li>
-                        <a class="text-decoration-none text-white" href="#!">ГЛАВНАЯ</a>
+                        <a class="text-decoration-none text-white"
+                           href="{{ route('home') }}">
+                            ГЛАВНАЯ
+                        </a>
                     </li>
                     <li>
-                        <a class="text-decoration-none text-white" href="#!">ПРАВИЛА САЙТА</a>
+                        <a class="text-decoration-none text-white"
+                           href="#!">ПРАВИЛА САЙТА
+                        </a>
                     </li>
                     <li>
-                        <a class="text-decoration-none text-white" href="#!">ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ</a>
+                        <a class="text-decoration-none text-white"
+                           href="{{ route('order') }}">
+                            ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ
+                        </a>
                     </li>
                     <li>
-                        <a class="text-decoration-none text-white" href="#!">КОНТАКТЫ</a>
+                        <a class="text-decoration-none text-white"
+                           href="">
+                            КОНТАКТЫ
+                        </a>
                     </li>
                 </ul>
                 {{-- ПРАВИЛА И ПОЛИТИКА--}}

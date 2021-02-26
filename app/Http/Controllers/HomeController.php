@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
    public function home()
    {
-        return view('home');
+        return view('home.home');
    }
 
    public function info()
@@ -21,5 +21,13 @@ class HomeController extends Controller
         return view('map.map');
     }
 
+    public function order()
+    {
+        return view('order.order');
+    }
 
+    public function send()
+    {
+        return view('my_recipe.my_recipe');
+    }
 }

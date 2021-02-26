@@ -3,12 +3,54 @@
 <header class="container-sm">
     <header class="card-header border-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse"
+                 id="navbarSupportedContent">
+
 
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('info')); ?>"><p class="h4 cuprum"><b>О НАС</b></p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('my_recipe')); ?>">
+                            <p class="h4 cuprum">
+                                <b>
+                                    МОЙ РЕЦЕПТ
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                
+
+
+                
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('list_chefs')); ?>" >
+                            <p class="h4 cuprum">
+                                <b>
+                                    ШЕФ-РЕЦЕПТЫ
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                
+                
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="" >
+                            <p class="h4 cuprum">
+                                <b>
+                                    ПП
+                                </b>
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -16,23 +58,33 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('list_chefs')); ?>" ><p class="h4 cuprum"><b>ШЕФ-РЕЦЕПТЫ</b></p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('map')); ?>" >
+                            <p class="h4 cuprum">
+                                <b>
+                                    КАРТА
+                                </b>
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
 
-                
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('map')); ?>" ><p class="h4 cuprum"><b>РЕСТО-ГИД</b></p></a>
-                    </li>
-                </ul>
-                
+
 
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="" ><p class="h4 cuprum"><b>ПП</b></p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('info')); ?>">
+                            <p class="h4 cuprum">
+                                <b>
+                                    О НАС
+                                </b>
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -42,11 +94,19 @@
 
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse"
+                 id="navbarSupportedContent">
+
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?php echo e(route('recipes')); ?>"><p class="h-25 cuprum">ЗАКУСКИ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('snacks')); ?>">
+                            <p class="h-25 cuprum">
+                                ЗАКУСКИ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -54,7 +114,13 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=""><p class="h-25 cuprum">САЛАТЫ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(route('salads')); ?>">
+                            <p class="h-25 cuprum">
+                                САЛАТЫ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -62,7 +128,13 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">КРЕМ СУПЫ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">
+                            <p class="h-25  cuprum">
+                                КРЕМ СУПЫ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 

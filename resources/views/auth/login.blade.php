@@ -1,7 +1,7 @@
     <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="{{ route('home') }}">
                 <p class="text-center mb-1 text-inter h3 text-inter text-dark">ЕДА</p>
                 <hr class="hr">
                 <p class="text-center mt-1 text-inter h3 text-inter h3 text-dark">HELP</p>

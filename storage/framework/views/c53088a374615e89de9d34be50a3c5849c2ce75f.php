@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
     
-    <main class="container">
+    <main class="container-sm border-right border-left border-dark">
         
         <div class="form-group">
             <label class="small"></label>
@@ -74,4 +74,4 @@
     
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/map/map.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/map/map.blade.php ENDPATH**/ ?>

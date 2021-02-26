@@ -1,7 +1,7 @@
-@extends('home')
+@extends('home.home')
 @section('content')
     {{-- КАРТА --}}
-    <main class="container">
+    <main class="container-sm border-right border-left border-dark">
         {{-- ФОРМА --}}
         <div class="form-group">
             <label class="small"></label>

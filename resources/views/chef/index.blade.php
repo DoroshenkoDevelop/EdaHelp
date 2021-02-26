@@ -1,4 +1,4 @@
-@extends('home')
+@extends('home.home')
 @section('content')
     {{-- Гордон Рамзи --}}
     <main class="container-md border-right border-left border-dark">
