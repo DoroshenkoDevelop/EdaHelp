@@ -25,9 +25,42 @@
                     </a>
                     @endforeach
                 </article>
-
-
                 {{-- РЕЦЕПТ --}}
+
+
+             {{--   --}}{{-- РЕЦЕПТ --}}{{--
+                <article class="col-sm-12 col-md-3">
+                    @foreach($recipes as $recipe)
+                        <a class="text-decoration-none"
+                           {{ $recipe->id }} href="{{ route('snack',['id'=>$recipe->id])}}">
+                            <img src="{{ asset('images/Tar-Tar.jpg') }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                --}}{{-- РЕЦЕПТ --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                {{-- <article class="col-sm-12 col-md-3">
                     <a class="text-decoration-none" href="">
                         <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>

@@ -12,7 +12,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('my_recipe') }}">
+                           href="{{ asset('my_recipe') }}">
                             <p class="h4 cuprum">
                                 <b>
                                     МОЙ РЕЦЕПТ
@@ -39,21 +39,7 @@
                     </li>
                 </ul>
                 {{-- ШЕФ РЕЦЕПТЫ --}}
-                {{-- ПП --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="" >
-                            <p class="h4 cuprum">
-                                <b>
-                                    ПП
-                                </b>
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                {{-- ПП --}}
+
 
                 {{-- КАРТА --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
@@ -70,7 +56,6 @@
                     </li>
                 </ul>
                 {{-- КАРТА--}}
-
 
 
                 {{-- О НАС --}}
@@ -142,7 +127,12 @@
                 {{-- ПАСТА --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ПАСТА</p></a>
+                        <a class="nav-link active"
+                           aria-current="page" href="#">
+                            <p class="h-25  cuprum">
+                                ПАСТА
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- ПАСТА --}}
@@ -150,7 +140,12 @@
                 {{-- РИЗОТТО --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">РИЗОТТО</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                РИЗОТТО
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- РИЗОТТО --}}
@@ -158,7 +153,12 @@
                 {{-- МЯСО --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">МЯСО</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                МЯСО
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- МЯСО --}}
@@ -166,7 +166,12 @@
                 {{-- РЫБА --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25 cuprum">РЫБА</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25 cuprum">
+                                РЫБА
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- РЫБА --}}
@@ -174,7 +179,12 @@
                 {{-- ДИСЕРТЫ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ДИСЕРТЫ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                ДИСЕРТЫ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- ДИСЕРТЫ --}}
@@ -182,7 +192,12 @@
                 {{-- НАПИТКИ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">НАПИТКИ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                НАПИТКИ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- НАПИТКИ --}}
@@ -190,7 +205,12 @@
                 {{-- СУШИ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СУШИ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                СУШИ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- СУШИ --}}
@@ -198,7 +218,12 @@
                 {{-- ИЗЫСКАННОЕ--}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ИЗЫСКАННОЕ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                ИЗЫСКАННОЕ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- ИЗЫСКАННОЕ--}}
@@ -206,10 +231,30 @@
                 {{-- СОУС--}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СОУС</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">
+                            <p class="h-25  cuprum">
+                                СОУС
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 {{-- СОУС--}}
+
+                {{-- ПП--}}
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">
+                            <p class="h-25  cuprum">
+                                СОУС
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                {{-- ПП--}}
                 {{-- СПИСОК РЕЦЕПТОВ --}}
             </div>
         </nav>

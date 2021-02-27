@@ -1,7 +1,8 @@
 @extends('home.home')
 @section('content')
 
-    <main class="container-sm  ">
+    <main class="container-sm">
+
             <section class="block-container card-header border-right border-left border-dark">
                 <div class="logo mt-5 mb-5">
                     <a class="navbar-brand"
@@ -16,7 +17,7 @@
                     </a>
                 </div>
 
-        <form  method="POST">
+        <form  method="POST" action="{{ asset('send_recipe') }}">
             <input name="_token" type="hidden" value="{{ csrf_token() }}">
 
             <div class="form-group ">
@@ -144,8 +145,9 @@
 
 
             </div>
+
             <div class="form-group text-right mt-5 mb-3">
-                <button submit="send" class="btn btn-success ml-2 cuprum">
+                <button type="submit" value="send" class="btn btn-success ml-2 cuprum">
                     ОТПРАВИТЬ
                 </button>
             </div>

@@ -26,8 +26,8 @@ class HomeController extends Controller
         return view('order.order');
     }
 
-    public function send()
+/*    public function send()
     {
         return view('my_recipe.my_recipe');
-    }
+    }*/
 }

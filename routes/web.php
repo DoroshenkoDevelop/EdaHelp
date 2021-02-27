@@ -1,13 +1,13 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ListChefController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListSnacksController;
 use App\Http\Controllers\ListSaladsController;
-use App\Http\Controllers\MailController;
-use App\Mail\Mail;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,17 +35,15 @@ Route::get('map',[HomeController::class,'map'])->name('map');
 Route::get('order',[HomeController::class,'order'])->name('order');
 /* ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ */
 
-/* ЕМАЙЛ */
-Route::get('my_recipe',[HomeController::class,'send'])->name('my_recipe');
-/* ЕМАЙЛ */
+/* МОЙ РЕЦЕПТ */
+Route::get('my_recipe',function (){
+    return view('my_recipe.my_recipe');
+});
+/* ОТПРАВКА МОЙ РЕЦЕПТ */
+Route::post('send_recipe',[MailController::class,'send']);
+/* ОТПРАВКА МОЙ РЕЦЕПТ */
+/* МОЙ РЕЦЕПТ */
 
-/* ЕМАЙЛ ОТПРАВКА */
-
-/* ЕМАЙЛ ОТПРАВКА */
-
-/*Route::get('email',function (){
-Mail::to('printcodestudio@gmail.com')->send(new Mail());
-});*/
 
 /* ШЕФ СПИСОК */
 Route::get('list_chef',[ListChefController::class,'index'])->name('list_chefs');

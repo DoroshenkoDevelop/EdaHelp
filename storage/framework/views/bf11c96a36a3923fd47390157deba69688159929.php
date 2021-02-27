@@ -12,7 +12,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(route('my_recipe')); ?>">
+                           href="<?php echo e(asset('my_recipe')); ?>">
                             <p class="h4 cuprum">
                                 <b>
                                     МОЙ РЕЦЕПТ
@@ -39,21 +39,7 @@
                     </li>
                 </ul>
                 
-                
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="" >
-                            <p class="h4 cuprum">
-                                <b>
-                                    ПП
-                                </b>
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                
+
 
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
@@ -70,7 +56,6 @@
                     </li>
                 </ul>
                 
-
 
 
                 
@@ -142,7 +127,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ПАСТА</p></a>
+                        <a class="nav-link active"
+                           aria-current="page" href="#">
+                            <p class="h-25  cuprum">
+                                ПАСТА
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -150,7 +140,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">РИЗОТТО</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                РИЗОТТО
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -158,7 +153,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">МЯСО</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                МЯСО
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -166,7 +166,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25 cuprum">РЫБА</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25 cuprum">
+                                РЫБА
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -174,7 +179,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ДИСЕРТЫ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                ДИСЕРТЫ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -182,7 +192,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">НАПИТКИ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                НАПИТКИ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -190,7 +205,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СУШИ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                СУШИ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -198,7 +218,12 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">ИЗЫСКАННОЕ</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#"><p class="h-25  cuprum">
+                                ИЗЫСКАННОЕ
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 
@@ -206,7 +231,27 @@
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><p class="h-25  cuprum">СОУС</p></a>
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">
+                            <p class="h-25  cuprum">
+                                СОУС
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                
+
+                
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="#">
+                            <p class="h-25  cuprum">
+                                СОУС
+                            </p>
+                        </a>
                     </li>
                 </ul>
                 

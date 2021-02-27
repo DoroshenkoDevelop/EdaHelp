@@ -5,10 +5,13 @@
     {{-- ЗАГОЛОВОК --}}
     <article class="col m-5">
         <h2 class="text-center text-comfortaa h4">
-            <b>МУС ИЗ ТИГРОВЫХ КРИВЕТОК И ФОРЕЛИ</b>
+            <b>{{ $list->name }}МУС ИЗ ТИГРОВЫХ КРИВЕТОК И ФОРЕЛИ</b>
         </h2>
     </article>
     {{-- ЗАГОЛОВОК --}}
+
+
+
 
     {{-- КОНТЕНТ --}}
     <main class="block-container border-right border-left border-dark">

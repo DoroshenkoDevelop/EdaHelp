@@ -46,9 +46,12 @@ class ListSnacksController extends Controller
      */
     public function show($id)
     {
+       $list = ListSnacks::find($id);
 
-        return view('recipes.snacks');
+        return view('recipes.snacks',compact('list'));
+
     }
+
 
     /**
      * Show the form for editing the specified resource.

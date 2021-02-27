@@ -2,63 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSaladsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ListSalads.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_24_155614_create_list_salads_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Kapreze.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_snack1/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_snack1/css/public/images/recipe_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_snack1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/list_salads/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/list_salads/salads.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/my_recipe/my_recipe.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/order/order.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/2d5a71c4c5bcddef9f2ed4a9100df4f4f917eceb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/2fb942e39311a5e81918a6319c47ddb1740f0b6c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/3164d75335b37edd7310b95fdfce063471e63f23.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/360a954f51c29262a6707c1241b66a2605904a46.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/505243a2da957add5f985ddbb3ac3f9e9e082e7f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/51d408e2087666ea7a7753724bf356545b20f809.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/748b66d0e47d83aa73389b5265fc478c9ed8af40.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/8d054735974bfcb52ce48902ed7c81051ab8bd69.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/98cfabb75e2c0cadd3f1b35d2136af84fa78ffea.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/9ca955a4b4cd1a0c01a0033219f3bb146eaf9dfe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/b239cfcea002706ad70f0f6bcd16fc64c51a7ccd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/bda08064c86c4fef9f758e235bc6a3ebeb4b9c56.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c4f0b09155d8b067d60080dc04a81b126a0ec7a7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/c530a1851cfe81da773d1a0dda5daa8c8e554413.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/f21952cc9ac2e401d2cb10f58801de3b2517c854.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/MyMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/OrderShipped.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Tar-Tar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/mail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/view.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListRecipesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ListRecipes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ListSnacks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_23_134138_create_list_recipes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_23_134138_create_list_snacks_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page/contact_terms_of_use/terms_of_use_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/9809dcc3159b6e12db3ed6b817a2013548095277.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/recipes1/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/recipe_salads1/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/recipes1/css/public/images/recipe_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/recipe_salads1/css/public/images/recipe_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/recipes1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/recipe_salads1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/chef/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/chef/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/map/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/map/map.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/my_recipe/my_recipe.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/my_recipe/my_recipe.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/recipes/recipe_1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/snacks.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/recipes/snacks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/snacks.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/8bb33ee2b6abd05f73cc6118033fd1aab90edd32.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8bb33ee2b6abd05f73cc6118033fd1aab90edd32.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/748b66d0e47d83aa73389b5265fc478c9ed8af40.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/748b66d0e47d83aa73389b5265fc478c9ed8af40.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/ad7144de72d7c0396e5733007c337ee226c40d41.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ad7144de72d7c0396e5733007c337ee226c40d41.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/b31329b64cc1eeec199a1df79c55dc6486a976c8.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b31329b64cc1eeec199a1df79c55dc6486a976c8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/b62a13feb2694693acd9cb456a58eaadc7d89834.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b62a13feb2694693acd9cb456a58eaadc7d89834.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/98cfabb75e2c0cadd3f1b35d2136af84fa78ffea.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/98cfabb75e2c0cadd3f1b35d2136af84fa78ffea.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/c53088a374615e89de9d34be50a3c5849c2ce75f.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/c53088a374615e89de9d34be50a3c5849c2ce75f.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/ed074b2e462ba4ec8bf67e411306a58bb0b506b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ed074b2e462ba4ec8bf67e411306a58bb0b506b2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,19 +186,19 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
-      <recent name="D:\open server\OpenServer\domains\EH\app\Models\Modal" />
-      <recent name="D:\open server\OpenServer\domains\EH\app\Models" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\order" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\open server\OpenServer\domains\EH" />
       <recent name="D:\open server\OpenServer\domains\EH\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\recipes1" />
       <recent name="D:\open server\OpenServer\domains\EH\public\list_recipes" />
       <recent name="D:\open server\OpenServer\domains\EH\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
+      <recent name="D:\open server\OpenServer\domains\EH\app\Models\Modal" />
+      <recent name="D:\open server\OpenServer\domains\EH\app\Models" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\order" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -373,7 +334,9 @@
       <workItem from="1614087197223" duration="9546000" />
       <workItem from="1614173058980" duration="11399000" />
       <workItem from="1614254103651" duration="11420000" />
-      <workItem from="1614339609676" duration="17584000" />
+      <workItem from="1614339609676" duration="17939000" />
+      <workItem from="1614427606607" duration="7000" />
+      <workItem from="1614435879567" duration="10143000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -466,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614111546193</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="project EH">
+      <created>1614364777357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614364777357</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,14 +452,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="412" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1611069990947" />
-    <state x="586" y="198" key="#Inspections" timestamp="1613031469737">
+    <state x="586" y="198" key="#Inspections" timestamp="1614437564099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1613031469737" />
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613494553445">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1614437564099" />
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614443770339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613494553445" />
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614443770339" />
     <state x="815" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614181794292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -498,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614111540977">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614364768568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614111540977" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614364768568" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -522,6 +492,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607120878064" />
+    <state x="700" y="243" key="NewPhpClassDialog" timestamp="1614442515235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614442515235" />
     <state x="795" y="444" key="NewPhpFileDialog" timestamp="1613743777383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -534,10 +508,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613752171239" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614111552488">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614364800224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614111552488" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614364800224" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -546,10 +520,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611818452296" />
-    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1613373796131">
+    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1614440787606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613373796131" />
+    <state x="688" y="328" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614440787606" />
     <state x="740" y="325" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1611070789619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -574,5 +548,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1057" y="404" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609871287824" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Mail/OrderShipped.php</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
