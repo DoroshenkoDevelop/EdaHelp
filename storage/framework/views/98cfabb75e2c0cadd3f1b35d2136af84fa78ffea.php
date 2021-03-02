@@ -4,7 +4,7 @@
     
     <article class="col m-5">
         <h2 class="text-center text-comfortaa h4">
-            <b><?php echo e($list->name); ?>МУС ИЗ ТИГРОВЫХ КРИВЕТОК И ФОРЕЛИ</b>
+            <b><?php echo e($list->name); ?></b>
         </h2>
     </article>
     
@@ -21,7 +21,7 @@
                 <img class="img-fluid"
                      alt="Responsive image"
                      width="100%"
-                     src="<?php echo e(asset('images/recipe_1.jpg')); ?>">
+                     src="<?php echo e(asset($list->image)); ?>">
             </article>
             
 
@@ -29,68 +29,149 @@
         <article class="row">
             <div class="col-8">
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p class="font-italic h-100 cuprum">
-                            Лосось
+                    <li>
+                        <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
+                            <?php echo e($list->ingredients_1); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="font-italic  h-100 cuprum">
-                            Лосось копченый
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_2); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="font-italic  h-100 cuprum">
-                            Креветки тигровые
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_3); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="font-italic  h-100 cuprum">
-                            Сливки
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_4); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="font-italic  h-100 cuprum">
-                            Соль
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_5); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_6); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_7); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_8); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_9); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <?php echo e($list->ingredients_10); ?>
+
                         </p>
                     </li>
                 </ul>
             </div>
             <div class="col-4">
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <p class="text-right font-italic  h-100 cuprum">
-                            50 г
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
+                            <?php echo e($list->ingredients_gr_1); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="text-right font-italic  h-100 cuprum">
-                            30 г
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_2); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="text-right font-italic  h-100 cuprum">
-                            30 г
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_3); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="text-right font-italic  h-100 cuprum">
-                            40 мл
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_4); ?>
+
                         </p>
                     </li>
 
-                    <li class="list-group-item">
-                        <p class="text-right font-italic  h-100 cuprum">
-                            По вкусу
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_5); ?>
+
                         </p>
                     </li>
+
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_6); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_7); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_8); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_9); ?>
+
+                        </p>
+                    </li>
+
+                    <li>
+                        <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <?php echo e($list->ingredients_gr_10); ?>
+
+                        </p>
+                    </li>
+
                 </ul>
             </div>
         </article>
