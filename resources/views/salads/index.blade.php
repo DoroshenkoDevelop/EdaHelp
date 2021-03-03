@@ -15,21 +15,21 @@
 
                  {{--РЕЦЕПТ--}}
                 <article class="col-sm-12 col-md-3">
-                    @foreach($listSalads as $listSalad)
+                    @foreach($salads  as $salad)
                         <a class="text-decoration-none"
-                           {{ $listSalad->id }}
-                           href="{{ route('salad',['id'=>$listSalad->id])}}">
-                            <img src="{{ asset('images/Kapreze.jpg') }}" class="img-fluid card-img">
+                           {{ $salad->id }}
+                           href="{{ route('salad',['id'=>$salad->id])}}">
+                            <img src="{{ asset($salad->salads_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    Капрезе
+                                    {{ $salad->salads_name}}
                                 </b>
                             </p>
                         </a>
                     @endforeach
-                        {{--РЕЦЕПТ--}}
                 </article>
+                {{--РЕЦЕПТ--}}
             </div>
         </main>
-        </main>
+    </main>
 @endsection

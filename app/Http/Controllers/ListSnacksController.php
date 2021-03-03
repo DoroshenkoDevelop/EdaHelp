@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\ListSnacks;
+
 use Illuminate\Http\Request;
+use App\Models\ListSnacks;
 
 class ListSnacksController extends Controller
 {
@@ -51,8 +52,8 @@ class ListSnacksController extends Controller
     public function show($id)
     {
 
-       $list = ListSnacks::find($id);
-        return view('recipes.snacks',compact('list'));
+       $snack = ListSnacks::find($id);
+        return view('recipes.snacks',compact('snack'));
 
     }
 

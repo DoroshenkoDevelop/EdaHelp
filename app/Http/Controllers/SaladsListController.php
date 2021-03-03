@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ListSalads;
+use App\Models\SaladsList;
 use Illuminate\Http\Request;
 
-class ListSaladsController extends Controller
+class SaladsListController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class ListSaladsController extends Controller
      */
     public function index()
     {
-        $listSalads = ListSalads::all();
-        return view('list_salads.index', compact('listSalads'));
+        $salads = SaladsList::all();
+        return view('salads.index',compact('salads'));
     }
 
     /**
@@ -36,28 +36,29 @@ class ListSaladsController extends Controller
      */
     public function store(Request $request)
     {
-       //
+        //
     }
 
     /**
      * Display the specified resource.
-     *
-     * @param  \App\Models\ListSalads  $listSalads
+     * @param  int  $id
+     * @param  \App\Models\SaladsList  $saladsList
      * @return \Illuminate\Http\Response
      */
-    public function show(ListSalads $listSalads)
+    public function show($id)
     {
+        $salad = SaladsList::find($id);
+        return view('salads.salads',compact('salad'));
 
-        return view('list_salads.salads');
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\ListSalads  $listSalads
+     * @param  \App\Models\SaladsList  $saladsList
      * @return \Illuminate\Http\Response
      */
-    public function edit(ListSalads $listSalads)
+    public function edit(SaladsList $saladsList)
     {
         //
     }
@@ -66,10 +67,10 @@ class ListSaladsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\ListSalads  $listSalads
+     * @param  \App\Models\SaladsList  $saladsList
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ListSalads $listSalads)
+    public function update(Request $request, SaladsList $saladsList)
     {
         //
     }
@@ -77,10 +78,10 @@ class ListSaladsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\ListSalads  $listSalads
+     * @param  \App\Models\SaladsList  $saladsList
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ListSalads $listSalads)
+    public function destroy(SaladsList $saladsList)
     {
         //
     }

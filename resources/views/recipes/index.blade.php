@@ -5,9 +5,11 @@
         <main class="container-sm">
 
             {{-- ЗАГОЛОВОК --}}
-            <div class="row ">
+            <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">ЗАКУСКИ</p>
+                    <p class="cuprum h2 mt-5 mb-5">
+                        ЗАКУСКИ
+                    </p>
                 </article>
                 {{-- ЗАГОЛОВОК --}}
 
@@ -15,11 +17,12 @@
                 <article class="col-sm-12 col-md-3">
                     @foreach($recipes as $recipe)
                     <a class="text-decoration-none"
-                       {{ $recipe->id }} href="{{ route('snack',['id'=>$recipe->id])}}">
-                        <img src="{{ asset($recipe->image) }}" class="img-fluid card-img">
+                       {{ $recipe->id }}
+                       href="{{ route('snack',['id'=>$recipe->id])}}">
+                        <img src="{{ asset($recipe->snacks_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                Мус из тигровых креветок и форели
+                               {{ $recipe->snacks_name}}
                             </b>
                         </p>
                     </a>

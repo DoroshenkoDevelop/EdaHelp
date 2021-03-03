@@ -4,9 +4,11 @@
         <main class="container-sm">
 
             
-            <div class="row ">
+            <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">ЗАКУСКИ</p>
+                    <p class="cuprum h2 mt-5 mb-5">
+                        ЗАКУСКИ
+                    </p>
                 </article>
                 
 
@@ -14,11 +16,14 @@
                 <article class="col-sm-12 col-md-3">
                     <?php $__currentLoopData = $recipes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $recipe): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($recipe->id); ?> href="<?php echo e(route('snack',['id'=>$recipe->id])); ?>">
-                        <img src="<?php echo e(asset($recipe->image)); ?>" class="img-fluid card-img">
+                       <?php echo e($recipe->id); ?>
+
+                       href="<?php echo e(route('snack',['id'=>$recipe->id])); ?>">
+                        <img src="<?php echo e(asset($recipe->snacks_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                Мус из тигровых креветок и форели
+                               <?php echo e($recipe->snacks_name); ?>
+
                             </b>
                         </p>
                     </a>

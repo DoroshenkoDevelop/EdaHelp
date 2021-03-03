@@ -5,7 +5,7 @@
     {{-- ЗАГОЛОВОК --}}
     <article class="col m-5">
         <h2 class="text-center text-comfortaa h4">
-            <b>{{ $list->name }}</b>
+            <b>{{ $snack->snacks_name }}</b>
         </h2>
     </article>
     {{-- ЗАГОЛОВОК --}}
@@ -22,7 +22,7 @@
                 <img class="img-fluid"
                      alt="Responsive image"
                      width="100%"
-                     src="{{ asset($list->image) }}">
+                     src="{{ asset($snack->snacks_image) }}">
             </article>
             {{-- ФОТО--}}
 
@@ -32,61 +32,61 @@
                 <ul class="list-group">
                     <li>
                         <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
-                            {{ $list->ingredients_1 }}
+                            {{ $snack->snacks_ingredients_1 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_2 }}
+                            {{ $snack->snacks_ingredients_2 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_3 }}
+                            {{ $snack->snacks_ingredients_3 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_4 }}
+                            {{ $snack->snacks_ingredients_4 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_5 }}
+                            {{ $snack->snacks_ingredients_5 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_6 }}
+                            {{ $snack->snacks_ingredients_6 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_7 }}
+                            {{ $snack->snacks_ingredients_7 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_8 }}
+                            {{ $snack->snacks_ingredients_8 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_9 }}
+                            {{ $snack->snacks_ingredients_9 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                            {{ $list->ingredients_10 }}
+                            {{ $snack->snacks_ingredients_10 }}
                         </p>
                     </li>
                 </ul>
@@ -95,61 +95,61 @@
                 <ul class="list-group">
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
-                            {{ $list->ingredients_gr_1 }}
+                            {{ $snack->snacks_ingredients_gr_1 }} {{ $snack->snacks_ingredients_value_1 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_2 }}
+                            {{ $snack->snacks_ingredients_gr_2 }} {{ $snack->snacks_ingredients_value_2 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_3 }}
+                            {{ $snack->snacks_ingredients_gr_3 }} {{ $snack->snacks_ingredients_value_3 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_4 }}
+                            {{ $snack->snacks_ingredients_gr_4 }} {{ $snack->snacks_ingredients_value_4 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_5 }}
+                            {{ $snack->snacks_ingredients_gr_5 }} {{ $snack->snacks_ingredients_value_5 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_6 }}
+                            {{ $snack->snacks_ingredients_gr_6 }} {{ $snack->snacks_ingredients_value_6 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_7 }}
+                            {{ $snack->snacks_ingredients_gr_7 }} {{ $snack->snacks_ingredients_value_7 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_8 }}
+                            {{ $snack->snacks_ingredients_gr_8 }} {{ $snack->snacks_ingredients_value_8 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_9 }}
+                            {{ $snack->snacks_ingredients_gr_9 }} {{ $snack->snacks_ingredients_value_9 }}
                         </p>
                     </li>
 
                     <li>
                         <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                            {{ $list->ingredients_gr_10 }}
+                            {{ $snack->snacks_ingredients_gr_10 }} {{ $snack->snacks_ingredients_value_10 }}
                         </p>
                     </li>
 
@@ -161,7 +161,8 @@
         <br>
 
         {{-- ТЕХНОДОГИЯ ПРИГОТОВЛЕНИЯ --}}
-        <div class="row">
+        <article class="row">
+
             <div class="col m-4">
                 <p class="cuprum h4 mb-4">
                     <b>
@@ -169,43 +170,46 @@
                     </b>
                 </p>
 
+
                 <div class="round bg-dark text-white mb-3">
-                    <p class="lead">1</p>
+                    <p class="lead">
+                        1
+                    </p>
                 </div>
 
                 <p class="cuprum">
-                    Обжариваем вкуснейшие креветки и измельчапем их.
+                    {{ $snack->snacks_description_1 }}
                 </p>
 
-                <div class="round bg-dark text-white mb-3">
+                <div class="round bg-dark text-white mb-3 mt-3">
                     <p class="lead">
                         2
                     </p>
                 </div>
 
                 <p class="cuprum">
-                    Измельчаем лосось двух видов.
+                    {{ $snack->snacks_description_2 }}
                 </p>
-                <div class="round bg-dark text-white mb-3">
+                <div class="round bg-dark text-white mb-3 mt-3">
                     <p class="lead">
                         3
                     </p>
                 </div>
 
                 <p class="cuprum">
-                    Смешиваем этот тандем со сливками, добавляем соль.
+                    {{ $snack->snacks_description_3 }}
                 </p>
-                <div class="round bg-dark text-white mb-3">
+                <div class="round bg-dark text-white mb-3 mt-3">
                     <p class="lead">
                         4
                     </p>
                 </div>
 
                 <p class="cuprum">
-                    Пробиваем блендером до однородной массы.
+                    {{ $snack->snacks_description_4 }}
                 </p>
             </div>
-        </div>
+        </article>
         {{-- ТЕХНОДОГИЯ ПРИГОТОВЛЕНИЯ --}}
 
         {{-- ДОПОЛНИТЕЛЬНО --}}
@@ -219,13 +223,7 @@
 
                 <div>
                     <p class="cuprum">
-                        Прекрасным дополнением к блюду будет нарезанный соломкой салат состоящий из манго,
-                        болгарского перца,
-                        красного лука,
-                        авокадо и салатного листа.
-                        Заправить эту смесь можно оливковым маслом,
-                        солью и перцем.
-                        Приготовленый мус надо употреблять намазаным на ожаренный хлеб натертый чесночком.
+                    {{ $snack->snacks_additionally    }}
                     <p CLASS="cuprum ">
                         <b>
                             Вкусное блюдо готово, ПРИЯТНОГО АППЕТИТА!!!

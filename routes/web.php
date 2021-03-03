@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ListChefController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListSnacksController;
-use App\Http\Controllers\ListSaladsController;
+use App\Http\Controllers\SaladsListController;
 
 
 /*
@@ -56,8 +56,8 @@ Route::get('recipe_snack{id}/recipe',[ListSnacksController::class,'show'])->name
 /* СПИСОК РЕЦЕПТОВ ЗАКУСОК */
 
 /* СПИСОК РЕЦЕПТОВ САЛАТОВ */
-Route::get('recipe_salads',[ListSaladsController::class,'index'])->name('salads');
-Route::get('recipe_salads{id}/recipe',[ListSaladsController::class,'show'])->name('salad');
+Route::get('recipe_salads',[SaladsListController::class,'index'])->name('salads');
+Route::get('recipe_salad{id}/recipe',[SaladsListController::class,'show'])->name('salad');
 /* СПИСОК РЕЦЕПТОВ САЛАТОВ */
 
 
