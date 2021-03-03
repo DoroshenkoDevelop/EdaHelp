@@ -154,7 +154,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
+                           href="{{ route('meats') }}"><p class="h-25  cuprum">
                                 МЯСО
                             </p>
                         </a>
