@@ -12,6 +12,9 @@ use App\Http\Controllers\ListFishesController;
 use App\Http\Controllers\ListDessertsController;
 use App\Http\Controllers\ListRisottoController;
 use App\Http\Controllers\ListExquisiteController;
+use App\Http\Controllers\ListSushiController;
+use App\Http\Controllers\ListPasteController;
+use App\Http\Controllers\ListCreamSoupController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -49,6 +52,9 @@ Route::get('my_recipe',function ()
 Route::post('send_recipe',[MailController::class,'send']);
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
 
+/* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
+Route::get('popular_recipes',[HomeController::class,'popular'])->name('popular_recipes');
+/* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
 
 
 /* ШЕФ СПИСОК */
@@ -90,6 +96,23 @@ Route::get('recipe_risotto{id}/recipe',[ListRisottoController::class,'show'])->n
 Route::get('recipe_exquisite',[ListExquisiteController::class,'index'])->name('exquisites');
 Route::get('recipe_exquisite{id}/recipe',[ListExquisiteController::class,'show'])->name('exquisite');
 /* СПИСОК РЕЦЕПТОВ ИЗЫСКАНОЕ */
+
+/* СПИСОК РЕЦЕПТОВ СУШИ */
+Route::get('recipe_sushi',[ListSushiController::class,'index'])->name('sushies');
+Route::get('recipe_sushi{id}/recipe',[ListSushiController::class,'show'])->name('sushi');
+/* СПИСОК РЕЦЕПТОВ СУШИ */
+
+/* СПИСОК РЕЦЕПТОВ ПАСТА */
+Route::get('recipe_pastes',[ListPasteController::class,'index'])->name('pastes');
+Route::get('recipe_paste{id}/recipe',[ListPasteController::class,'show'])->name('paste');
+/* СПИСОК РЕЦЕПТОВ ПАСТА */
+
+/* СПИСОК КРЕМ СУПОВ */
+Route::get('recipe_cream_soups',[ListCreamSoupController::class,'index'])->name('cream_soups');
+Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'])->name('cream_soup');
+/* СПИСОК КРЕМ СУПОВ */
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

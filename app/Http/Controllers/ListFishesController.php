@@ -14,8 +14,11 @@ class ListFishesController extends Controller
      */
     public function index()
     {
-        $fishes = ListFishes::all();
-        return view('fish.index',compact('fishes'));
+        $fishes = ListFishes::find([1]);
+        $trouts = ListFishes::find([2]);
+        return view('fish.index',
+            compact('fishes'),
+            compact('trouts'));
     }
 
     /**
@@ -47,7 +50,7 @@ class ListFishesController extends Controller
      */
     public function show($id)
     {
-        $fish = ListFishes::Find($id);
+        $fish = ListFishes::find($id);
         return view('fish.fish', compact('fish'));
     }
 

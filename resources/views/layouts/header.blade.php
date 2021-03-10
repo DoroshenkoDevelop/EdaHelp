@@ -114,7 +114,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#">
+                           href="{{ route('cream_soups') }}">
                             <p class="h-25  cuprum">
                                 КРЕМ СУПЫ
                             </p>
@@ -127,7 +127,8 @@
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
-                           aria-current="page" href="#">
+                           aria-current="page"
+                           href="{{ route('pastes') }}">
                             <p class="h-25  cuprum">
                                 ПАСТА
                             </p>
@@ -141,7 +142,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('risottos') }}"><p class="h-25  cuprum">
+                           href="{{ route('risottos') }}">
+                            <p class="h-25  cuprum">
                                 РИЗОТТО
                             </p>
                         </a>
@@ -154,7 +156,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('meats') }}"><p class="h-25  cuprum">
+                           href="{{ route('meats') }}">
+                            <p class="h-25  cuprum">
                                 МЯСО
                             </p>
                         </a>
@@ -167,7 +170,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('fishes') }}"><p class="h-25 cuprum">
+                           href="{{ route('fishes') }}">
+                            <p class="h-25 cuprum">
                                 РЫБА
                             </p>
                         </a>
@@ -180,7 +184,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('desserts') }}"><p class="h-25  cuprum">
+                           href="{{ route('desserts') }}">
+                            <p class="h-25  cuprum">
                                 ДИСЕРТЫ
                             </p>
                         </a>
@@ -188,26 +193,14 @@
                 </ul>
                 {{-- ДИСЕРТЫ --}}
 
-                {{-- НАПИТКИ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#"><p class="h-25  cuprum">
-                                НАПИТКИ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                {{-- НАПИТКИ --}}
-
                 {{-- СУШИ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
-                                СУШИ
+                           href="{{ route('sushies') }}">
+                            <p class="h-25  cuprum">
+                                 СУШИ
                             </p>
                         </a>
                     </li>
@@ -219,41 +212,14 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('exquisites') }}"><p class="h-25  cuprum">
+                           href="{{ route('exquisites') }}">
+                            <p class="h-25  cuprum">
                                 ИЗЫСКАННОЕ
                             </p>
                         </a>
                     </li>
                 </ul>
                 {{-- ИЗЫСКАННОЕ--}}
-
-                {{-- СОУС--}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#">
-                            <p class="h-25  cuprum">
-                                СОУС
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                {{-- СОУС--}}
-
-                {{-- ПП--}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#">
-                            <p class="h-25  cuprum">
-                                СОУС
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                {{-- ПП--}}
                 {{-- СПИСОК РЕЦЕПТОВ --}}
             </div>
         </nav>

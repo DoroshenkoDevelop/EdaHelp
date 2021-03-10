@@ -114,7 +114,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#">
+                           href="<?php echo e(route('cream_soups')); ?>">
                             <p class="h-25  cuprum">
                                 КРЕМ СУПЫ
                             </p>
@@ -127,7 +127,8 @@
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
-                           aria-current="page" href="#">
+                           aria-current="page"
+                           href="<?php echo e(route('pastes')); ?>">
                             <p class="h-25  cuprum">
                                 ПАСТА
                             </p>
@@ -141,7 +142,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(route('risottos')); ?>"><p class="h-25  cuprum">
+                           href="<?php echo e(route('risottos')); ?>">
+                            <p class="h-25  cuprum">
                                 РИЗОТТО
                             </p>
                         </a>
@@ -154,7 +156,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(route('meats')); ?>"><p class="h-25  cuprum">
+                           href="<?php echo e(route('meats')); ?>">
+                            <p class="h-25  cuprum">
                                 МЯСО
                             </p>
                         </a>
@@ -167,7 +170,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(route('fishes')); ?>"><p class="h-25 cuprum">
+                           href="<?php echo e(route('fishes')); ?>">
+                            <p class="h-25 cuprum">
                                 РЫБА
                             </p>
                         </a>
@@ -180,7 +184,8 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(route('desserts')); ?>"><p class="h-25  cuprum">
+                           href="<?php echo e(route('desserts')); ?>">
+                            <p class="h-25  cuprum">
                                 ДИСЕРТЫ
                             </p>
                         </a>
@@ -193,8 +198,9 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
-                                НАПИТКИ
+                           href="<?php echo e(route('sushies')); ?>">
+                            <p class="h-25  cuprum">
+                                 СУШИ
                             </p>
                         </a>
                     </li>
@@ -206,49 +212,9 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
-                                СУШИ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                
-
-                
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="<?php echo e(route('exquisites')); ?>"><p class="h-25  cuprum">
+                           href="<?php echo e(route('exquisites')); ?>">
+                            <p class="h-25  cuprum">
                                 ИЗЫСКАННОЕ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                
-
-                
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#">
-                            <p class="h-25  cuprum">
-                                СОУС
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                
-
-                
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="#">
-                            <p class="h-25  cuprum">
-                                СОУС
                             </p>
                         </a>
                     </li>

@@ -8,49 +8,27 @@
             <div class="row">
                 <article class="">
                     <p class="cuprum h2 mt-5 mb-5">
-                        ЗАКУСКИ
+                        ПАСТА
                     </p>
                 </article>
                 {{-- ЗАГОЛОВОК --}}
 
                 {{-- РЕЦЕПТ --}}
                 <article class="col-sm-12 col-md-3">
-                    @foreach($recipes as $recipe)
+                    @foreach($pastes  as $paste)
                     <a class="text-decoration-none"
-                       {{ $recipe->id }}
-                       href="{{ route('snack',['id'=>$recipe->id])}}">
-                        <img src="{{ asset($recipe->snacks_image) }}"
-                             class="img-fluid card-img">
+                       {{ $paste->id }}
+                       href="{{ route('paste',['id'=>$paste->id])}}">
+                        <img src="{{ asset($paste->pastes_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               {{ $recipe->snacks_name}}
+                               {{ $paste->pastes_name }}
                             </b>
                         </p>
                     </a>
                     @endforeach
                 </article>
                 {{-- РЕЦЕПТ --}}
-
-                {{-- РЕЦЕПТ --}}
-                <article class="col-sm-12 col-md-3">
-                    @foreach($tartars as $tartar)
-                        <a class="text-decoration-none"
-                           {{ $tartar->id }}
-                           href="{{ route('snack',['id'=>$tartar->id])}}">
-                            <img src="{{ asset($tartar->snacks_image) }}"
-                                 class="img-fluid card-img">
-                            <p class="cuprum text-dark">
-                                <b>
-                                    {{ $tartar->snacks_name}}
-                                </b>
-                            </p>
-                        </a>
-                    @endforeach
-                </article>
-                {{-- РЕЦЕПТ --}}
-
-
-
 
 
 

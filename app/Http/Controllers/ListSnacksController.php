@@ -14,8 +14,11 @@ class ListSnacksController extends Controller
      */
     public function index()
     {
-        $recipes = ListSnacks::all();
-        return view('recipes.index' , compact('recipes'));
+        $recipes = ListSnacks::find([1]);
+        $tartars = ListSnacks::find([2]);
+        return view('recipes.index',
+            compact('recipes'),
+            compact('tartars'));
     }
 
     /**
@@ -36,11 +39,9 @@ class ListSnacksController extends Controller
      */
     public function store(Request $request)
     {
-    /*    $path = $request->file('image')->store('images');
-        $params = $request->all();
-        $params['image'] = $path;
-        ListSnacks::create($params);
-        return view('recipes.snacks',compact('list'));*/
+
+
+
     }
 
     /**

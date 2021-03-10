@@ -13,7 +13,8 @@ class CreateListExquisitesTable extends Migration
      */
     public function up()
     {
-        Schema::create('list_exquisites', function (Blueprint $table) {
+        Schema::create('list_exquisites', function (Blueprint $table)
+        {
             $table->id()->autoIncrement();
             $table->text('exquisite_name')->nullable();
             $table->text('exquisite_image')->nullable();

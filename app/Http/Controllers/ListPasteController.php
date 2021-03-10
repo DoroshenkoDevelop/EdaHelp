@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ListExquisite;
+use App\Models\ListPaste;
 use Illuminate\Http\Request;
 
-class ListExquisiteController extends Controller
+class ListPasteController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class ListExquisiteController extends Controller
      */
     public function index()
     {
-        $exquisites = ListExquisite::all();
-        return view('exquisite.index',compact('exquisites'));
+        $pastes = ListPaste::all();
+        return view('paste.index',compact('pastes'));
     }
 
     /**
@@ -42,22 +42,22 @@ class ListExquisiteController extends Controller
     /**
      * Display the specified resource.
      * @param  int  $id
-     * @param  \App\Models\ListExquisite  $listExquisite
+     * @param  \App\Models\ListPaste  $listPaste
      * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
-        $exq = ListExquisite::Find($id);
-        return view('exquisite.exquisite',compact('exq'));
+        $paste = ListPaste::Find($id);
+        return view('paste.paste',compact('paste'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\ListExquisite  $listExquisite
+     * @param  \App\Models\ListPaste  $listPaste
      * @return \Illuminate\Http\Response
      */
-    public function edit(ListExquisite $listExquisite)
+    public function edit(ListPaste $listPaste)
     {
         //
     }
@@ -66,10 +66,10 @@ class ListExquisiteController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\ListExquisite  $listExquisite
+     * @param  \App\Models\ListPaste  $listPaste
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ListExquisite $listExquisite)
+    public function update(Request $request, ListPaste $listPaste)
     {
         //
     }
@@ -77,10 +77,10 @@ class ListExquisiteController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\ListExquisite  $listExquisite
+     * @param  \App\Models\ListPaste  $listPaste
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ListExquisite $listExquisite)
+    public function destroy(ListPaste $listPaste)
     {
         //
     }

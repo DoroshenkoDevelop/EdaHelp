@@ -6,28 +6,28 @@
         <h1 class="display-1 text-comfortaa">
             -О НАС-
         </h1>
-        <p class="text-comfortaa mt-3">
+        <p class="text-comfortaa mt-3 h4">
             <b>Рады приветствовать Вас на нашей платформе о еде!</b>
         </p>
-        <p class="text-inter text-center mt-5">
+        <p class="cuprum text-center mt-5 h4">
             Здесь вы сможете найти любой необходимый вам рецепт, либо же познакомиться с идеей приготовления чего-то нового, необычного и очень вкусного.
             Наши создатели помогут Вам почерпнуть вдохновениена приготовления блюд и разнообразить ежедневное и приевшиееся меню.
 
 
 
 
-        <p class="text-inter text-center mt-4">
-            <b>ЕДА-HELP</b> - находка для всех, кто хочет освоить поварское искусство.
+        <p class="cuprum  text-center mt-4 h5">
+            <b>ЕДА-HELP</b> - находка для всех, кто любит вкусно поесть.
         <p/>
-        <p class="text-inter text-center mt-4">
+        <p class="cuprum  text-center mt-4 h5">
             <b>ЕДА-HELP</b> поможет Вам научиться играть с ингредиентами.
 
         <p/>
-        <p class="text-inter text-center mt-4">
-            Наш блог с <b>Шеф-Рецептами</b> от профессионалов с авторскими рецептами.
+        <p class="cuprum  text-center mt-4 h5">
+            Наш блог с Шеф-Рецептами от профессионалов с авторскими рецептами.
         <p/>
-        <p class="text-inter text-center mt-4">
-             Раздел <b>ПП</b> с полезной и правильной едой для тех кто следит за своим здоровьем и телом.
+        <p class="cuprum  text-center mt-4 h5">
+
         <p/>
     </main>
     </main>

@@ -30,6 +30,25 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
                 
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $trouts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $trout): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($trout->id); ?>
+
+                           href="<?php echo e(route('fish',['id'=>$trout->id])); ?>">
+                            <img src="<?php echo e(asset($trout->fishes_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($trout->fishes_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
             </div>
         </main>
     </main>
