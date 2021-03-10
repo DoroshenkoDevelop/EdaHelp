@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Modal\ListChef;
+use App\Models\ListExquisite;
 use Illuminate\Http\Request;
 
-class ListChefController extends Controller
+class ListExquisiteController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class ListChefController extends Controller
      */
     public function index()
     {
-        $lists = ListChef::all();
-        return view('chef.index' , compact('lists'));
+        $exquisites = ListExquisite::all();
+        return view('exquisite.index',compact('exquisites'));
     }
 
     /**
@@ -25,7 +25,7 @@ class ListChefController extends Controller
      */
     public function create()
     {
-      //
+        //
     }
 
     /**
@@ -41,25 +41,23 @@ class ListChefController extends Controller
 
     /**
      * Display the specified resource.
-     *
      * @param  int  $id
+     * @param  \App\Models\ListExquisite  $listExquisite
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-
     {
-        return view('chef.gordon');
-
+        $exq = ListExquisite::Find($id);
+        return view('exquisite.index',compact('exq'));
     }
-
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\ListExquisite  $listExquisite
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(ListExquisite $listExquisite)
     {
         //
     }
@@ -68,10 +66,10 @@ class ListChefController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\ListExquisite  $listExquisite
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, ListExquisite $listExquisite)
     {
         //
     }
@@ -79,10 +77,10 @@ class ListChefController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\ListExquisite  $listExquisite
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(ListExquisite $listExquisite)
     {
         //
     }

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Modal\ListChef;
+use App\Models\ListDesserts;
 use Illuminate\Http\Request;
 
-class ListChefController extends Controller
+class ListDessertsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class ListChefController extends Controller
      */
     public function index()
     {
-        $lists = ListChef::all();
-        return view('chef.index' , compact('lists'));
+        $desserts = ListDesserts::all();
+        return view('desserts.index',compact('desserts'));
     }
 
     /**
@@ -25,7 +25,7 @@ class ListChefController extends Controller
      */
     public function create()
     {
-      //
+        //
     }
 
     /**
@@ -41,25 +41,24 @@ class ListChefController extends Controller
 
     /**
      * Display the specified resource.
-     *
      * @param  int  $id
+     * @param  \App\Models\ListDesserts  $listDesserts
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-
     {
-        return view('chef.gordon');
+        $dessert = ListDesserts::Find($id);
+        return view('desserts.dessert',compact('dessert'));
 
     }
-
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\ListDesserts  $listDesserts
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(ListDesserts $listDesserts)
     {
         //
     }
@@ -68,10 +67,10 @@ class ListChefController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\ListDesserts  $listDesserts
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, ListDesserts $listDesserts)
     {
         //
     }
@@ -79,10 +78,10 @@ class ListChefController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\ListDesserts  $listDesserts
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(ListDesserts $listDesserts)
     {
         //
     }

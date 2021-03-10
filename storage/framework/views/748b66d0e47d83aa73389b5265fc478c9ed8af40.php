@@ -1,3 +1,4 @@
+    
 <?php $__env->startSection('content'); ?>
 
     <main class="container-sm">
@@ -25,7 +26,7 @@
                         ВВЕДИТЕ ВАШ ЕМЕИЛ
                     </p>
                 </label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput1">
             </div>
 
             <div class="form-group">
@@ -34,7 +35,7 @@
                         ВАШЕ ИМЯ
                     </p>
                 </label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+                <input type="text"  name="name" class="form-control" id="exampleFormControlInput1">
             </div>
 
             <div class="form-group">
@@ -44,7 +45,7 @@
                     </p>
                 </label>
 
-                <select class="form-control" type="text" id="exampleFormControlSelect1">
+                <select class="form-control" name="category" type="text" id="exampleFormControlSelect1">
                     <option></option>
                     <option>
                         <p class="text-comfortaa">
@@ -128,7 +129,7 @@
                     </p>
                 </label>
 
-                <textarea class="form-control " type="text"
+                <textarea class="form-control " name="recipe" type="text"
                           id="exampleFormControlTextarea1"
                           rows="10">
                 </textarea>
@@ -139,7 +140,7 @@
                                 ЗАГРУЗИТЕ ФОТО
                             </p>
                         </label>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <input type="file" name="image" class="form-control-file" id="exampleFormControlFile1">
                     </div>
 
 

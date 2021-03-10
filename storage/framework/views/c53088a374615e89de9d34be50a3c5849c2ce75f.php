@@ -1,6 +1,8 @@
 <?php $__env->startSection('content'); ?>
+
     
     <main class="container-sm border-right border-left border-dark">
+
         
         <div class="form-group">
             <label class="small"></label>
@@ -23,7 +25,7 @@
             }
         </style>
         
-    
+
         <script type="text/javascript">
             var locations = [
                 ['Bondi Beach', -33.890542, 151.274856, 4],
@@ -66,6 +68,7 @@
 
     </main>
 
+    
     
 <?php $__env->stopSection(); ?>
 

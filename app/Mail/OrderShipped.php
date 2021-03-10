@@ -40,14 +40,14 @@ class OrderShipped extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.view');
-      /*      ->with([
-                'email'=>$this->email,
-                'name'=>$this->name,
-                'category'=>$this->category,
-                'recipe'=>$this->recipe,
-                'image'=>$this->image,
-            ])*/
-          /*  ->subject('New Message');*/
+        return $this->view('mail.mail')
+           ->with([
+                'email' => $this->email,
+                'name' => $this->name,
+                'category' => $this->category,
+                'recipe' => $this->recipe,
+                'image' => $this->image,
+            ])
+           ->subject('New Message');
     }
 }

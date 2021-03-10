@@ -8,7 +8,10 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListSnacksController;
 use App\Http\Controllers\SaladsListController;
 use App\Http\Controllers\ListMeatController;
-
+use App\Http\Controllers\ListFishesController;
+use App\Http\Controllers\ListDessertsController;
+use App\Http\Controllers\ListRisottoController;
+use App\Http\Controllers\ListExquisiteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,13 +39,16 @@ Route::get('order',[HomeController::class,'order'])->name('order');
 /* ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ */
 
 /* МОЙ РЕЦЕПТ */
-Route::get('my_recipe',function (){
+Route::get('my_recipe',function ()
+{
     return view('my_recipe.my_recipe');
 });
+/* МОЙ РЕЦЕПТ */
+
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
 Route::post('send_recipe',[MailController::class,'send']);
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
-/* МОЙ РЕЦЕПТ */
+
 
 
 /* ШЕФ СПИСОК */
@@ -65,16 +71,30 @@ Route::get('recipe_meats',[ListMeatController::class,'index'])->name('meats');
 Route::get('recipe_meat{id}/recipe',[ListMeatController::class,'show'])->name('meat');
 /* СПИСОК РЕЦЕПТОВ МЯСО*/
 
+/* СПИСОК РЕЦЕПТОВ РЫБА */
+Route::get('recipe_fishes',[ListFishesController::class,'index'])->name('fishes');
+Route::get('recipe_fish{id}/recipe',[ListFishesController::class,'show'])->name('fish');
+/* СПИСОК РЕЦЕПТОВ РЫБА*/
 
+/* СПИСОК РЕЦЕПТОВ ДИССЕРТЫ */
+Route::get('recipe_desserts',[ListDessertsController::class,'index'])->name('desserts');
+Route::get('recipe_dessert{id}/recipe',[ListDessertsController::class,'show'])->name('dessert');
+/* СПИСОК РЕЦЕПТОВ ДИССЕРТЫ */
 
+/* СПИСОК РЕЦЕПТОВ РИЗОТТО */
+Route::get('recipe_risottos',[ListRisottoController::class,'index'])->name('risottos');
+Route::get('recipe_risotto{id}/recipe',[ListRisottoController::class,'show'])->name('risotto');
+/* СПИСОК РЕЦЕПТОВ РИЗОТТО */
 
-
-
+/* СПИСОК РЕЦЕПТОВ ИЗЫСКАНОЕ */
+Route::get('recipe_exquisite',[ListExquisiteController::class,'index'])->name('exquisites');
+Route::get('recipe_exquisite{id}/recipe',[ListExquisiteController::class,'show'])->name('exquisite');
+/* СПИСОК РЕЦЕПТОВ ИЗЫСКАНОЕ */
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
-/* ШЕФ РЕЦЕПТЫ */
+
 
 
 

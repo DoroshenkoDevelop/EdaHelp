@@ -141,7 +141,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
+                           href="<?php echo e(route('risottos')); ?>"><p class="h-25  cuprum">
                                 РИЗОТТО
                             </p>
                         </a>
@@ -167,7 +167,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25 cuprum">
+                           href="<?php echo e(route('fishes')); ?>"><p class="h-25 cuprum">
                                 РЫБА
                             </p>
                         </a>
@@ -180,7 +180,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
+                           href="<?php echo e(route('desserts')); ?>"><p class="h-25  cuprum">
                                 ДИСЕРТЫ
                             </p>
                         </a>
@@ -219,7 +219,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="#"><p class="h-25  cuprum">
+                           href="<?php echo e(route('exquisites')); ?>"><p class="h-25  cuprum">
                                 ИЗЫСКАННОЕ
                             </p>
                         </a>
