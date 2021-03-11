@@ -1,5 +1,6 @@
 @section('content')
     <main class="container-sm border-right border-left border-dark">
+
         <main class="container-sm">
             <div class="text-center mt-5">
                 <h1 class="display-1 text-comfortaa">
@@ -50,28 +51,32 @@
         {{--ОПИСАНИЕ--}}
 
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
-        <main class="container-sm">
-            <div class="row mt-5">
-                <div class="">
-                    <p class="cuprum h2">ПОПУЛЯРНЫЕ РЕЦЕПТЫ</p>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="" >
-                        <img src="../image/Smyzi.jpg " class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
+
+        {{-- ЗАГОЛОВОК --}}
+
+            <article class="">
+                <p class="cuprum h2 mt-5 mb-5">
+                    ПОПУЛЯРНЫЕ РЕЦЕПТЫ
+                </p>
+            </article>
+            {{-- ЗАГОЛОВОК --}}
+
+            {{-- РЕЦЕПТ --}}
+          {{--  <article class="col-sm-12 col-md-3">
+                @foreach($populars as $popular)
+                    <a class="text-decoration-none"
+                       {{ $popular->id }}
+                       href="{{ route('popular_recipe',['id'=>$popular->id])}}">
+                        <img src="{{ asset($popular->snacks_image) }}"
+                             class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $popular->snacks_name}}
+                            </b>
+                        </p>
                     </a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="">
-                        <img src="../image/Smyzi.jpg " class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a class="text-decoration-none" href="">
-                        <img src="../image/Smyzi.jpg " class="img-fluid"><p class="cuprum text-dark"><b>Рулька в соусе BBQ</b></p>
-                    </a>
-                </div>
-            </div>
-        </main>
+                @endforeach
+            </article>--}}
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
         {{--ТОП ШЕФ РЕЦЕПТОВ--}}

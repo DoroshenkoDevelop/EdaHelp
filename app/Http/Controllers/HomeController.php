@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ListSnacks;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
    public function home()
    {
-        return view('home.home');
+
+       return view('home.home');
+
    }
 
    public function info()
@@ -26,8 +29,4 @@ class HomeController extends Controller
         return view('order.order');
     }
 
-    public function popular()
-    {
-        return view('my_recipe.my_recipe');
-    }
 }

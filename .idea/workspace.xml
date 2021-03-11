@@ -2,46 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListCreamSoupController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListPasteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSushiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ListCreamSoup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ListPaste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ListSushi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_10_122021_create_list_sushis_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_10_130113_create_list_pastes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_10_140437_create_list_cream_soups_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_exquisite1/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_exquisite1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_sushi1/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recipe_sushi1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cream_soups/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/desserts/cream_soup.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/paste/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/paste/paste.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sushi/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/sushi/sushi.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/42e7c79acb65ef92a0106c85ef6668f8f84e9939.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/7b6cc14e300bf260814f839d5f049485cb159e0c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/7f51140a94b4edb1cb6c222359e6fd5e817f0d56.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/868ac5593c9d1ee4135d3211ef102d26b5264865.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/aed8cd7f9107fed102aa07274dc05dfea48a26ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PopularRecipesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/IndexHome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/PopularRecipes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_11_113802_create_popular_recipes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_11_161520_create_index_homes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/popular_recipes/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/popular_recipes/popular.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/90fa1218c4e2484d61c2a3a3cb101af09725631f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/95063ea642011535f4b8b926cc799e42992b32a0.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListExquisiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListExquisiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListFishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListFishesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_09_143449_create_list_exquisites_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_09_143449_create_list_exquisites_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/desserts/dessert.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cream_soups/cream_soup.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/fish/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fish/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/22fcecafcbfdc8be193a481012a220922de3bbb8.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/22fcecafcbfdc8be193a481012a220922de3bbb8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/8f7a0211c4a2d6083adb95b2b60c2a7c14462129.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/bf11c96a36a3923fd47390157deba69688159929.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/ed074b2e462ba4ec8bf67e411306a58bb0b506b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ed074b2e462ba4ec8bf67e411306a58bb0b506b2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/360a954f51c29262a6707c1241b66a2605904a46.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/360a954f51c29262a6707c1241b66a2605904a46.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c38515bba9fd06cf6874717f846b657da6620041.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/c38515bba9fd06cf6874717f846b657da6620041.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,25 +182,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cream_soups" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/popular_recipes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\cream_soups" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\paste" />
-      <recent name="D:\open server\OpenServer\domains\EH\public" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\sushi" />
-      <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\storage" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\salads" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\popular_recipes" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\cream_soups" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\paste" />
+      <recent name="D:\open server\OpenServer\domains\EH\public" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\sushi" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -370,7 +346,8 @@
       <workItem from="1614855191202" duration="11957000" />
       <workItem from="1614936931356" duration="1214000" />
       <workItem from="1615293076493" duration="8318000" />
-      <workItem from="1615378053867" duration="15073000" />
+      <workItem from="1615378053867" duration="15214000" />
+      <workItem from="1615457623502" duration="14471000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -512,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615367319494</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="project EH">
+      <created>1615404737749</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615404737749</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,14 +524,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614784669816" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615476305816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615476305816" />
     <state x="669" y="202" key="#index.php" timestamp="1611079661198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615367311407">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615404730798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615367311407" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615404730798" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -584,10 +572,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613752171239" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615367322212">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615404744144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615367322212" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615404744144" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,6 +623,16 @@
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Mail/OrderShipped.php</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/layouts/content.blade.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home/home.blade.php</url>
+          <line>132</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

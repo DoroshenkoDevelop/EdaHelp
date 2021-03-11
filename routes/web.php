@@ -15,6 +15,8 @@ use App\Http\Controllers\ListExquisiteController;
 use App\Http\Controllers\ListSushiController;
 use App\Http\Controllers\ListPasteController;
 use App\Http\Controllers\ListCreamSoupController;
+use App\Http\Controllers\PopularRecipesController;
+use App\Http\Controllers\IndexHomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,8 +27,10 @@ use App\Http\Controllers\ListCreamSoupController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 /* ДОМАШНЯЯ СТРАНИЦА */
-Route::get('/',[HomeController::class,'home'])->name('home');
+Route::get('/',[IndexHomeController::class,'index'])->name('home');
+Route::get('popular{id}/recipe',[IndexHomeController::class,'show'])->name('popular_recipe');
 /* ДОМАШНЯЯ СТРАНИЦА */
 
 /* О НАС */
@@ -52,10 +56,37 @@ Route::get('my_recipe',function ()
 Route::post('send_recipe',[MailController::class,'send']);
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
 
+
+/*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*/
+
 /* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
-Route::get('popular_recipes',[HomeController::class,'popular'])->name('popular_recipes');
+Route::get('popular_recipes',[PopularRecipesController::class,'index'])->name('popular_recipes');
+
 /* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
 
+/* ТОП ШЕФ РЕЦЕПТОВ */
+Route::get('top_chef_recipes',[HomeController::class,'popular'])->name('top_chefs');
+Route::get('top_chef{id}/recipe',[HomeController::class,'popular'])->name('top_chef_recipe');
+/* ТОП ШЕФ РЕЦЕПТОВ  */
+
+/* СЕЗОННЫЕ РЕЦЕПТЫ */
+Route::get('seasonal_recipes',[HomeController::class,'popular'])->name('seasonal_recipes');
+Route::get('seasonal{id}/recipe',[HomeController::class,'popular'])->name('seasonal_recipe');
+/* СЕЗОННЫЕ РЕЦЕПТЫ */
+
+/* НОВЫЕ РЕЦЕПТЫ */
+Route::get('new_recipes',[HomeController::class,'popular'])->name('new_recipes');
+Route::get('new{id}/recipe',[HomeController::class,'popular'])->name('new_recipe');
+/* НОВЫЕ РЕЦЕПТЫ */
+
+/*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*/
+
+
+
+
+
+
+/*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
 
 /* ШЕФ СПИСОК */
 Route::get('list_chef',[ListChefController::class,'index'])->name('list_chefs');
@@ -111,6 +142,11 @@ Route::get('recipe_paste{id}/recipe',[ListPasteController::class,'show'])->name(
 Route::get('recipe_cream_soups',[ListCreamSoupController::class,'index'])->name('cream_soups');
 Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'])->name('cream_soup');
 /* СПИСОК КРЕМ СУПОВ */
+
+/*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
+
+
+
 
 
 
