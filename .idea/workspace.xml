@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/popular/1/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/2/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/2/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/3/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/3/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/4/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/4/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/5/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/5/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/6/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/popular/6/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gordon-ramzi.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider-meat.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListDessertsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListDessertsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListFishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListFishesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/fish/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fish/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/22fcecafcbfdc8be193a481012a220922de3bbb8.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/22fcecafcbfdc8be193a481012a220922de3bbb8.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/347c8b2bd9a55f8d8a8436c85ab7160da02b7580.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/347c8b2bd9a55f8d8a8436c85ab7160da02b7580.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/fdb617d469b1c4b41fd35c1d844334b5676b4947.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/fdb617d469b1c4b41fd35c1d844334b5676b4947.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,23 +174,23 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/popular" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
+      <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\popular\2" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\popular_recipes" />
-      <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\home" />
-      <recent name="D:\open server\OpenServer\domains\EH\storage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
       <recent name="D:\open server\OpenServer\domains\EH\public\popular" />
       <recent name="D:\open server\OpenServer\domains\EH\public" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\home" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\popular_recipes" />
     </key>
@@ -355,7 +341,7 @@
       <workItem from="1615378053867" duration="15214000" />
       <workItem from="1615457623502" duration="14738000" />
       <workItem from="1615486947537" duration="3514000" />
-      <workItem from="1615537370059" duration="25649000" />
+      <workItem from="1615537370059" duration="28846000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -518,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615554861076</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="project EH">
+      <created>1615563750865</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615563750865</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,10 +547,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615554853556">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615563746524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615554853556" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615563746524" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

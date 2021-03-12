@@ -80,20 +80,22 @@
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
         {{--ТОП ШЕФ РЕЦЕПТОВ--}}
-        <section class="block-slider">
+        <section class="mt-5">
             <div class="row">
                 <div class="col">
-                    <p class="cuprum h2">ТОП ШЕФ РЕЦЕПТОВ</p>
+                    <p class="cuprum h2 ">
+                        ТОП ШЕФ РЕЦЕПТОВ
+                    </p>
                     <div class="carousel slide" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
-                                <img src="{{ asset('/images/baloneze.jpg') }}" class="img-fluid d-block w-100">
+                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('/images/baloneze.jpg') }}" class="img-fluid d-block w-100">
+                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('/images/baloneze.jpg') }}" class="img-fluid d-block w-100">
+                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
@@ -112,7 +114,7 @@
 
 
         {{--НОВЫЕ РЕЦЕПТЫ--}}
-        <section class="row">
+        <section class="row mb-5">
             <article class="">
                 <p class="cuprum h2  mt-5 mb-2">
                     НОВЫЕ РЕЦЕПТЫ

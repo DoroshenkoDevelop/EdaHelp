@@ -21,7 +21,13 @@ class IndexHomeController extends Controller
         $pas = IndexHome::find([5]);
         $shtr = IndexHome::find([6]);
         return view('home.index',
-            compact('populars','snas','zacs','sys','pas','shtr')
+            compact('populars',
+                'snas',
+                'zacs',
+                'sys',
+                'pas',
+                'shtr'
+            )
         );
     }
 
