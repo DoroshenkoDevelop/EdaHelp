@@ -9,9 +9,6 @@
         </article>
         
 
-
-
-
         
         <main class="block-container border-right border-left border-dark">
             

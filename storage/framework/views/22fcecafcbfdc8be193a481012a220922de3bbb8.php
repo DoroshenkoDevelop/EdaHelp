@@ -33,15 +33,15 @@
 
                 
                 <article class="col-sm-12 col-md-3">
-                    <?php $__currentLoopData = $trouts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $trout): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $tro; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tros): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($trout->id); ?>
+                           <?php echo e($tros->id); ?>
 
-                           href="<?php echo e(route('fish',['id'=>$trout->id])); ?>">
-                            <img src="<?php echo e(asset($trout->fishes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('fish',['id'=>$tros->id])); ?>">
+                            <img src="<?php echo e(asset($tros->fishes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($trout->fishes_name); ?>
+                                    <?php echo e($tros->fishes_name); ?>
 
                                 </b>
                             </p>
@@ -49,6 +49,29 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
                 
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $los; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lo): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($lo->id); ?>
+
+                           href="<?php echo e(route('fish',['id'=>$lo->id])); ?>">
+                            <img src="<?php echo e(asset($lo->fishes_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($lo->fishes_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
+
+
+
             </div>
         </main>
     </main>

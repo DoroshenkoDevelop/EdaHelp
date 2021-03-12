@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\IndexHome;
-use App\Models\ListSnacks;
 use Illuminate\Http\Request;
 
 class IndexHomeController extends Controller
@@ -16,8 +15,14 @@ class IndexHomeController extends Controller
     public function index()
     {
         $populars = IndexHome::find([1]);
-        $tartars = ListSnacks::find([2]);
-        return view('home.index',compact('populars'),compact('tartars'));
+        $snas = IndexHome::find([2]);
+        $zacs = IndexHome::find([3]);
+        $sys = IndexHome::find([4]);
+        $pas = IndexHome::find([5]);
+        $shtr = IndexHome::find([6]);
+        return view('home.index',
+            compact('populars','snas','zacs','sys','pas','shtr')
+        );
     }
 
     /**

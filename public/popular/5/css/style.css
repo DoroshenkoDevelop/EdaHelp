@@ -37,32 +37,22 @@
     margin: 0 auto;
 }
 .parallax{
-    background-image: url("public/images/Gordon.jpg");
-    min-height: 1000px;
+    background-image: url("../../../images/Gordon.jpg");
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .content-header{
-    background-color: #1b1e21;
+    background-color: #343A3F;
 }
 .content-footer{
-    background-color: #1b1e21;
+    background-color: #343A3F;
     background-size: cover;
 }
 
-.logo{
-    width: 6%;
-    height: 20%;
-    margin: 0 auto;
-}
 .block-container{
     width: 65%;
     margin: 0 auto;
-}
-.block-slider{
-    height: 20%;
-
-
 }

@@ -14,7 +14,7 @@ class ListDessertsController extends Controller
      */
     public function index()
     {
-        $desserts = ListDesserts::all();
+        $desserts = ListDesserts::find([1]);
         return view('desserts.index',compact('desserts'));
     }
 

@@ -15,10 +15,11 @@ class ListFishesController extends Controller
     public function index()
     {
         $fishes = ListFishes::find([1]);
-        $trouts = ListFishes::find([2]);
+        $tro = ListFishes::find([2]);
+        $los = ListFishes::find([3]);
         return view('fish.index',
-            compact('fishes'),
-            compact('trouts'));
+            compact('fishes','tro','los')
+        );
     }
 
     /**
