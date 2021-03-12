@@ -18,7 +18,7 @@
                         <a class="text-decoration-none"
                            <?php echo e($soup->id); ?>
 
-                           href="<?php echo e(route('dessert',['id'=>$soup->id])); ?>">
+                           href="<?php echo e(route('cream_soup',['id'=>$soup->id])); ?>">
                             <img src="<?php echo e(asset($soup->cream_soups_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>

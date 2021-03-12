@@ -62,7 +62,7 @@
             
 
             
-          
+
         
 
         
@@ -185,4 +185,5 @@
 
     </main>
 <?php echo $__env->yieldSection(); ?>
+
 <?php /**PATH W:\domains\EH\resources\views/layouts/content.blade.php ENDPATH**/ ?>

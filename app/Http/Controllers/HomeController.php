@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ListSnacks;
+use App\Models\IndexHome;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

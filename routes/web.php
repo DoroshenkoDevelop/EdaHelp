@@ -15,7 +15,6 @@ use App\Http\Controllers\ListExquisiteController;
 use App\Http\Controllers\ListSushiController;
 use App\Http\Controllers\ListPasteController;
 use App\Http\Controllers\ListCreamSoupController;
-use App\Http\Controllers\PopularRecipesController;
 use App\Http\Controllers\IndexHomeController;
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +29,7 @@ use App\Http\Controllers\IndexHomeController;
 
 /* ДОМАШНЯЯ СТРАНИЦА */
 Route::get('/',[IndexHomeController::class,'index'])->name('home');
-Route::get('popular{id}/recipe',[IndexHomeController::class,'show'])->name('popular_recipe');
+Route::get('popular/{id}/recipe',[IndexHomeController::class,'show'])->name('popular');
 /* ДОМАШНЯЯ СТРАНИЦА */
 
 /* О НАС */
@@ -55,34 +54,6 @@ Route::get('my_recipe',function ()
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
 Route::post('send_recipe',[MailController::class,'send']);
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
-
-
-/*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*/
-
-/* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
-Route::get('popular_recipes',[PopularRecipesController::class,'index'])->name('popular_recipes');
-
-/* ПОПУЛЯРНЫЕ РЕЦЕПТЫ */
-
-/* ТОП ШЕФ РЕЦЕПТОВ */
-Route::get('top_chef_recipes',[HomeController::class,'popular'])->name('top_chefs');
-Route::get('top_chef{id}/recipe',[HomeController::class,'popular'])->name('top_chef_recipe');
-/* ТОП ШЕФ РЕЦЕПТОВ  */
-
-/* СЕЗОННЫЕ РЕЦЕПТЫ */
-Route::get('seasonal_recipes',[HomeController::class,'popular'])->name('seasonal_recipes');
-Route::get('seasonal{id}/recipe',[HomeController::class,'popular'])->name('seasonal_recipe');
-/* СЕЗОННЫЕ РЕЦЕПТЫ */
-
-/* НОВЫЕ РЕЦЕПТЫ */
-Route::get('new_recipes',[HomeController::class,'popular'])->name('new_recipes');
-Route::get('new{id}/recipe',[HomeController::class,'popular'])->name('new_recipe');
-/* НОВЫЕ РЕЦЕПТЫ */
-
-/*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*//*КОНТЕНТ*/
-
-
-
 
 
 
@@ -144,10 +115,6 @@ Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'
 /* СПИСОК КРЕМ СУПОВ */
 
 /*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
-
-
-
-
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

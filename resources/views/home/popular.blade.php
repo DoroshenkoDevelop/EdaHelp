@@ -5,9 +5,7 @@
         {{-- ЗАГОЛОВОК --}}
         <article class="col m-5">
             <h2 class="text-center text-comfortaa h4">
-                <b>
-                    {{ $soup->cream_soups_name }}
-                </b>
+                <b></b>
             </h2>
         </article>
         {{-- ЗАГОЛОВОК --}}
@@ -24,7 +22,7 @@
                 <img class="img-fluid"
                      alt="Responsive image"
                      width="100%"
-                     src="{{ asset($soup->cream_soups_image) }}">
+                     src="{{ asset($popular->index_image) }}">
             </article>
             {{-- ФОТО--}}
 
@@ -34,61 +32,61 @@
                     <ul class="list-group">
                         <li>
                             <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
-                                {{ $soup->cream_soups_ingredients_1 }}
+                                {{ $popular->index_ingredients_1 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_2 }}
+                                {{ $popular->index_ingredients_2 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_3 }}
+                                {{ $popular->index_ingredients_3 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_4 }}
+                                {{ $popular->index_ingredients_4 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_5 }}
+                                {{ $popular->index_ingredients_5 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_6 }}
+                                {{ $popular->index_ingredients_6 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_7 }}
+                                {{ $popular->index_ingredients_7 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_8 }}
+                                {{ $popular->index_ingredients_8 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_9 }}
+                                {{ $popular->index_ingredients_9 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_10 }}
+                                {{ $popular->index_ingredients_10 }}
                             </p>
                         </li>
                     </ul>
@@ -97,61 +95,61 @@
                     <ul class="list-group">
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_1 }} {{ $soup->cream_soups_ingredients_value_1 }}
+                                {{ $popular->index_ingredients_gr_1 }} {{ $popular->index_ingredients_value_1 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_2 }} {{ $soup->cream_soups_ingredients_value_2 }}
+                                {{ $popular->index_ingredients_gr_2 }} {{ $popular->index_ingredients_value_2 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_3 }} {{ $soup->cream_soups_ingredients_value_3 }}
+                                {{ $popular->index_ingredients_gr_3 }} {{ $popular->index_ingredients_value_3 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_4 }} {{ $soup->cream_soups_ingredients_value_4 }}
+                                {{ $popular->index_ingredients_gr_4 }} {{ $popular->index_ingredients_value_4 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_5 }} {{ $soup->cream_soups_ingredients_value_5 }}
+                                {{ $popular->index_ingredients_gr_5 }} {{ $popular->index_ingredients_value_5 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_6 }} {{ $soup->cream_soups_ingredients_value_6 }}
+                                {{ $popular->index_ingredients_gr_6 }} {{ $popular->index_ingredients_value_6 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_7 }} {{ $soup->cream_soups_ingredients_value_7 }}
+                                {{ $popular->index_ingredients_gr_7 }} {{ $popular->index_ingredients_value_7 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_8 }} {{ $soup->cream_soups_ingredients_value_8 }}
+                                {{ $popular->index_ingredients_gr_8 }} {{ $popular->index_ingredients_value_8 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_9 }} {{ $soup->cream_soups_ingredients_value_9 }}
+                                {{ $popular->index_ingredients_gr_9 }} {{ $popular->index_ingredients_value_9 }}
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_gr_10 }} {{ $soup->cream_soups_ingredients_value_10 }}
+                                {{ $popular->index_ingredients_gr_10 }} {{ $popular->index_ingredients_value_10 }}
                             </p>
                         </li>
 
@@ -180,7 +178,7 @@
                     </div>
 
                     <p class="cuprum">
-                        {{ $soup->cream_soups_description_1 }}
+                        {{ $popular->index_description_1 }}
                     </p>
 
                     <div class="round bg-dark text-white mb-3 mt-3">
@@ -190,7 +188,7 @@
                     </div>
 
                     <p class="cuprum">
-                        {{ $soup->cream_soups_description_2 }}
+                        {{ $popular->index_description_2 }}
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
                         <p class="lead">
@@ -199,7 +197,7 @@
                     </div>
 
                     <p class="cuprum">
-                        {{ $soup->cream_soups_description_3 }}
+                        {{ $popular->index_description_3 }}
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
                         <p class="lead">
@@ -208,7 +206,7 @@
                     </div>
 
                     <p class="cuprum">
-                        {{ $soup->cream_soups_description_4 }}
+                        {{ $popular->index_description_4 }}
                     </p>
                 </div>
             </article>
@@ -225,7 +223,7 @@
 
                     <div>
                         <p class="cuprum">
-                        {{ $soup->cream_soups_additionally    }}
+                        {{ $popular->index_additionally    }}
                         <p CLASS="cuprum ">
                             <b>
                                 Вкусное блюдо готово, ПРИЯТНОГО АППЕТИТА!!!
@@ -239,3 +237,6 @@
     </main>
 
 @endsection
+
+
+

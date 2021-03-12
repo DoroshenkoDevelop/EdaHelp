@@ -62,21 +62,7 @@
             {{-- ЗАГОЛОВОК --}}
 
             {{-- РЕЦЕПТ --}}
-          {{--  <article class="col-sm-12 col-md-3">
-                @foreach($populars as $popular)
-                    <a class="text-decoration-none"
-                       {{ $popular->id }}
-                       href="{{ route('popular_recipe',['id'=>$popular->id])}}">
-                        <img src="{{ asset($popular->snacks_image) }}"
-                             class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                                {{ $popular->snacks_name}}
-                            </b>
-                        </p>
-                    </a>
-                @endforeach
-            </article>--}}
+
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
         {{--ТОП ШЕФ РЕЦЕПТОВ--}}
@@ -199,3 +185,4 @@
 
     </main>
 @show
+

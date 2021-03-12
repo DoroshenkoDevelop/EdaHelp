@@ -13,15 +13,15 @@
             
 
             <article class="col-sm-12 col-md-3">
-                <?php $__currentLoopData = $popularity; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $popularitys): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $populars; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $popular): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($popularitys->id); ?>
+                       <?php echo e($popular->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$popularitys->id])); ?>">
-                        <img src="<?php echo e(asset($popularitys->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('popular',['id'=>$popular->id])); ?>">
+                        <img src="<?php echo e(asset($popular->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($popularitys->index_name); ?>
+                                <?php echo e($popular->index_name); ?>
 
                             </b>
                         </p>
@@ -39,4 +39,4 @@
 
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/popular_recipes/index.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\EH\resources\views/popular/index.blade.php ENDPATH**/ ?>

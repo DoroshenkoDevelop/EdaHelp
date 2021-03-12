@@ -2,21 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PopularRecipesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/IndexHome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PopularRecipes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_11_113802_create_popular_recipes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_11_161520_create_index_homes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/popular_recipes/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/popular_recipes/popular.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/90fa1218c4e2484d61c2a3a3cb101af09725631f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/95063ea642011535f4b8b926cc799e42992b32a0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Mousse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Salmon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/baloneze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cream_soup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mussels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/risotto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/strudel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sweat_sushi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/trout.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipe_cream_soup1/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipe_cream_soup1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipe_paste1/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/recipe_paste1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/popular.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/popular/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/08d99f1d49d24a43763bba480a102107ca54e1ec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/347c8b2bd9a55f8d8a8436c85ab7160da02b7580.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/99b34accd170cda57b3b4883ba355b4ff1d7718b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/d482ba989780974628ea5f0dc127e263d7a17bb6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/ef4e06bb0d7d600710478646ae8e181e7c8b25ea.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/f7348abcea5db45a8cbb25a474943bc2e3834ecb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/fdb617d469b1c4b41fd35c1d844334b5676b4947.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PopularRecipesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/PopularRecipes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_11_113802_create_popular_recipes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_11_161520_create_index_homes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_11_161520_create_index_homes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cream_soups/cream_soup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cream_soups/cream_soup.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cream_soups/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cream_soups/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/desserts/cream_soup.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/desserts/dessert.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/paste/paste.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/paste/paste.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/popular_recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/popular_recipes/popular.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/popular/popular.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/360a954f51c29262a6707c1241b66a2605904a46.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/360a954f51c29262a6707c1241b66a2605904a46.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/7b6cc14e300bf260814f839d5f049485cb159e0c.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/7b6cc14e300bf260814f839d5f049485cb159e0c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/95063ea642011535f4b8b926cc799e42992b32a0.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/95063ea642011535f4b8b926cc799e42992b32a0.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/c38515bba9fd06cf6874717f846b657da6620041.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/c38515bba9fd06cf6874717f846b657da6620041.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,25 +207,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/popular_recipes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\popular_recipes" />
       <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\home" />
       <recent name="D:\open server\OpenServer\domains\EH\storage" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\salads" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\EH\public\images" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\home" />
       <recent name="D:\open server\OpenServer\domains\EH\resources\views\popular_recipes" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\cream_soups" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\paste" />
       <recent name="D:\open server\OpenServer\domains\EH\public" />
-      <recent name="D:\open server\OpenServer\domains\EH\resources\views\sushi" />
+      <recent name="D:\open server\OpenServer\domains\EH\resources\views\cream_soups" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -347,7 +372,9 @@
       <workItem from="1614936931356" duration="1214000" />
       <workItem from="1615293076493" duration="8318000" />
       <workItem from="1615378053867" duration="15214000" />
-      <workItem from="1615457623502" duration="14471000" />
+      <workItem from="1615457623502" duration="14738000" />
+      <workItem from="1615486947537" duration="3514000" />
+      <workItem from="1615537370059" duration="16842000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -496,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615404737749</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="project EH">
+      <created>1615480342746</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480342746</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,18 +558,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614784669816" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615476305816">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615554522941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615476305816" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615554522941" />
     <state x="669" y="202" key="#index.php" timestamp="1611079661198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615404730798">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1615480338475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615404730798" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615480338475" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -628,11 +662,6 @@
           <url>file://$PROJECT_DIR$/resources/views/layouts/content.blade.php</url>
           <line>1</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/home/home.blade.php</url>
-          <line>132</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

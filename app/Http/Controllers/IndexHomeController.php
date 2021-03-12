@@ -15,8 +15,9 @@ class IndexHomeController extends Controller
      */
     public function index()
     {
-        $populars = ListSnacks::find([1]);
-        return view('home.home',compact('populars'));
+        $populars = IndexHome::find([1]);
+        $tartars = ListSnacks::find([2]);
+        return view('home.index',compact('populars'),compact('tartars'));
     }
 
     /**
@@ -48,8 +49,8 @@ class IndexHomeController extends Controller
      */
     public function show($id)
     {
-        $snack = ListSnacks::find($id);
-        return view('popular_recipes.popular',compact('snack'));
+        $popular = IndexHome::find($id);
+        return view('popular.popular',compact('popular'));
     }
 
     /**

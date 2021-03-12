@@ -18,7 +18,7 @@
                     @foreach($soups  as $soup)
                         <a class="text-decoration-none"
                            {{ $soup->id }}
-                           href="{{ route('dessert',['id'=>$soup->id])}}">
+                           href="{{ route('cream_soup',['id'=>$soup->id])}}">
                             <img src="{{ asset($soup->cream_soups_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
