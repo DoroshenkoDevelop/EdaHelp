@@ -14,8 +14,10 @@ class ListCreamSoupController extends Controller
      */
     public function index()
     {
-        $soups = ListCreamSoup::all();
-        return view('cream_soups.index',compact('soups'));
+        $creamsoups = ListCreamSoup::find([1,2]);
+        $fushsoups = ListCreamSoup::find([3,5]);
+        $meatsoups = ListCreamSoup::find([4]);
+        return view('cream_soups.index',compact('creamsoups','fushsoups','meatsoups'));
     }
 
     /**

@@ -14,7 +14,43 @@
                 {{-- ЗАГОЛОВОК --}}
 
                 {{-- РЕЦЕПТ --}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-3">
+                    @foreach($snack3 as $snack)
+                        <a class="text-decoration-none"
+                           {{ $snack->id }}
+                           href="{{ route('snack',['id'=>$snack->id])}}">
+                            <img src="{{ asset($snack->snacks_image) }}"
+                                 class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $snack->snacks_name}}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{-- РЕЦЕПТ --}}
+
+                {{-- РЕЦЕПТ --}}
+                <article class="col-sm-12 col-md-3 mb-3">
+                    @foreach($snack4 as $snack)
+                        <a class="text-decoration-none"
+                           {{ $snack->id }}
+                           href="{{ route('snack',['id'=>$snack->id])}}">
+                            <img src="{{ asset($snack->snacks_image) }}"
+                                 class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $snack->snacks_name}}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{-- РЕЦЕПТ --}}
+
+                {{-- РЕЦЕПТ --}}
+                <article class="col-sm-12 col-md-3 mb-3">
                     @foreach($recipes as $recipe)
                     <a class="text-decoration-none"
                        {{ $recipe->id }}
@@ -32,7 +68,7 @@
                 {{-- РЕЦЕПТ --}}
 
                 {{-- РЕЦЕПТ --}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-3">
                     @foreach($tartars as $tartar)
                         <a class="text-decoration-none"
                            {{ $tartar->id }}

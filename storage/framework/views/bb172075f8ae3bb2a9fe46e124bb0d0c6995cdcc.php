@@ -30,6 +30,63 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
                 
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $brounis; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $brouni): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($brouni->id); ?>
+
+                           href="<?php echo e(route('dessert',['id'=>$brouni->id])); ?>">
+                            <img src="<?php echo e(asset($brouni->desserts_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($brouni->desserts_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $сheesecakes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $сheesecake): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($сheesecake->id); ?>
+
+                           href="<?php echo e(route('dessert',['id'=>$сheesecake->id])); ?>">
+                            <img src="<?php echo e(asset($сheesecake->desserts_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($сheesecake->desserts_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $strudelcherys; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $strudelchery): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($strudelchery->id); ?>
+
+                           href="<?php echo e(route('dessert',['id'=>$strudelchery->id])); ?>">
+                            <img src="<?php echo e(asset($strudelchery->desserts_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($strudelchery->desserts_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
             </div>
         </main>
     </main>

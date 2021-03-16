@@ -13,8 +13,25 @@
                 </article>
                 {{--ЗАГОЛОВОК--}}
 
+                {{--РЕЦЕПТ--}}
+                <article class="col-sm-12 col-md-3 mb-3">
+                    @foreach($fish4  as $fish)
+                        <a class="text-decoration-none"
+                           {{ $fish->id }}
+                           href="{{ route('fish',['id'=>$fish->id])}}">
+                            <img src="{{ asset($fish->fishes_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $fish->fishes_name}}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{--РЕЦЕПТ--}}
+
                  {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-3">
                     @foreach($fishes  as $fish)
                         <a class="text-decoration-none"
                            {{ $fish->id }}
@@ -31,7 +48,7 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-3">
                     @foreach($tro  as $tros)
                         <a class="text-decoration-none"
                            {{ $tros->id }}
@@ -48,7 +65,7 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-3">
                     @foreach($los  as $lo)
                         <a class="text-decoration-none"
                            {{ $lo->id }}

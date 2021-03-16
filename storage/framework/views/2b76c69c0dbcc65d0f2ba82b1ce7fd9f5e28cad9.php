@@ -30,6 +30,26 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
                 
+
+                
+                <article class="col-sm-12 col-md-3">
+                    <?php $__currentLoopData = $crabs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $crab): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($crab->id); ?>
+
+                           href="<?php echo e(route('exquisite',['id'=>$crab->id])); ?>">
+                            <img src="<?php echo e(asset($crab->exquisite_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($crab->exquisite_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
             </div>
         </main>
     </main>

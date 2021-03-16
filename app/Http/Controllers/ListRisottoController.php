@@ -14,8 +14,10 @@ class ListRisottoController extends Controller
      */
     public function index()
     {
-        $risottos = ListRisotto::all();
-        return view('risotto.index',compact('risottos'));
+        $risottos = ListRisotto::find([1]);
+        $risottos2 = ListRisotto::find([2]);
+        $risottos3 = ListRisotto::find([3]);
+        return view('risotto.index',compact('risottos','risottos2','risottos3'));
     }
 
     /**

@@ -14,8 +14,14 @@ class ListMeatController extends Controller
      */
     public function index()
     {
-        $meats = ListMeat::all();
-        return view('meat.index',compact('meats'));
+        $beefs = ListMeat::find([10]);
+        $porks = ListMeat::find([1,4,9]);
+        $birds = ListMeat::find([3,5,8]);
+        $mixs = ListMeat::find([7,2]);
+
+        return view('meat.index',compact(
+            'beefs','porks','birds','mixs')
+        );
     }
 
     /**

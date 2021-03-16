@@ -2,30 +2,31 @@
 @section('content')
     <main class="container-sm border-right border-left border-dark">
 
-        {{--ОПИСАНИЕ--}}
+      {{--  ОПИСАНИЕ--}}
         <main class="text-center container-sm">
-            <h1 class="display-2 mt-5 text-comfortaa mb-5">
+            <h1 class="display-2 mt-5 text-comfortaa mb-4">
                 Мир кулинарного искусства
             </h1>
-            <p class="cuprum h4 mb-5">
+            <p class="cuprum h4 mb-4">
                 Портал не только с классическими, но и с самыми интересными и оригинальными рецептами от шеф-поваров.
             </p>
             <p class="cuprum h5 mt-4">
                 На нашем сайте вы найдете огромное количество фоторецептов с пошаговым и детальным описанием процесса приготовления.
             <p/>
         </main>
-        {{--ОПИСАНИЕ--}}
+      {{--  ОПИСАНИЕ--}}
 
 
-        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
+       {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
         <section class="row">
         <article class="">
             <p class="cuprum h2  mt-5 mb-2">
                 ПОПУЛЯРНЫЕ РЕЦЕПТЫ
             </p>
         </article>
+            {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
-        {{-- РЕЦЕПТ --}}
+        {{--РЕЦЕПТ--}}
         <article class="col-sm-12 col-md-4">
             @foreach($populars as $popular)
                 <a class="text-decoration-none"
@@ -40,9 +41,9 @@
                 </a>
             @endforeach
         </article>
-        {{-- РЕЦЕПТ --}}
+         {{--РЕЦЕПТ--}}
 
-            {{-- РЕЦЕПТ --}}
+          {{--РЕЦЕПТ--}}
             <article class="col-sm-12 col-md-4">
                 @foreach($snas as $sna)
                     <a class="text-decoration-none"
@@ -57,10 +58,10 @@
                     </a>
                 @endforeach
             </article>
-            {{-- РЕЦЕПТ --}}
+          {{--   РЕЦЕПТ --}}
 
 
-            {{-- РЕЦЕПТ --}}
+            {{--РЕЦЕПТ--}}
             <article class="col-sm-12 col-md-4">
                 @foreach($zacs as $zac)
                     <a class="text-decoration-none"
@@ -79,8 +80,8 @@
         </section>
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
-        {{--ТОП ШЕФ РЕЦЕПТОВ--}}
-        <section class="mt-5">
+       {{-- ТОП ШЕФ РЕЦЕПТОВ--}}
+        <section class="mt-3">
             <div class="row">
                 <div class="col">
                     <p class="cuprum h2 ">
@@ -89,13 +90,13 @@
                     <div class="carousel slide" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
-                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
+                                <img src="{{ asset('/images/oliver.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                             <div class="carousel-item">
                                 <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
+                                <img src="{{ asset('/images/paul_bocuse_1.jpg') }}" class="img-fluid d-block w-100">
                             </div>
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
@@ -121,8 +122,8 @@
                 </p>
             </article>
 
-            {{-- РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-4">
+             {{--РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
                 @foreach($sys as $sy)
                     <a class="text-decoration-none"
                        {{ $sy->id }}
@@ -136,10 +137,10 @@
                     </a>
                 @endforeach
             </article>
-            {{-- РЕЦЕПТ --}}
+             {{--РЕЦЕПТ --}}
 
-            {{-- РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-4">
+             {{--РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
                 @foreach($pas as $pa)
                     <a class="text-decoration-none"
                        {{ $pa->id }}
@@ -156,7 +157,7 @@
             {{-- РЕЦЕПТ --}}
 
             {{-- РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-4">
+            <article class="col-sm-12 col-md-3">
                 @foreach($shtr as $sht)
                     <a class="text-decoration-none"
                        {{ $sht->id }}
@@ -170,7 +171,24 @@
                     </a>
                 @endforeach
             </article>
+             {{--РЕЦЕПТ --}}
+
             {{-- РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($chess as $ches)
+                    <a class="text-decoration-none"
+                       {{ $ches->id }}
+                       href="{{ route('popular',['id'=>$ches->id])}}">
+                        <img src="{{ asset($ches->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $ches->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--РЕЦЕПТ --}}
         </section>
         {{--НОВЫЕ РЕЦЕПТЫ--}}
 

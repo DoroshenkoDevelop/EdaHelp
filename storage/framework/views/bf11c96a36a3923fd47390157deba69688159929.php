@@ -49,7 +49,7 @@
                            href="<?php echo e(route('map')); ?>" >
                             <p class="h4 cuprum">
                                 <b>
-                                    КАРТА
+                                    РЕСТО-ГИД
                                 </b>
                             </p>
                         </a>
@@ -116,7 +116,7 @@
                            aria-current="page"
                            href="<?php echo e(route('cream_soups')); ?>">
                             <p class="h-25  cuprum">
-                                КРЕМ СУПЫ
+                                СУПЫ
                             </p>
                         </a>
                     </li>
@@ -186,7 +186,7 @@
                            aria-current="page"
                            href="<?php echo e(route('desserts')); ?>">
                             <p class="h-25  cuprum">
-                                ДИСЕРТЫ
+                                ДЕСЕРТЫ
                             </p>
                         </a>
                     </li>

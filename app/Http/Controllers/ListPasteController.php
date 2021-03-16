@@ -14,8 +14,9 @@ class ListPasteController extends Controller
      */
     public function index()
     {
-        $pastes = ListPaste::all();
-        return view('paste.index',compact('pastes'));
+        $pastes = ListPaste::find([1]);
+        $pastes2 = ListPaste::find([2]);
+        return view('paste.index',compact('pastes','pastes2'));
     }
 
     /**

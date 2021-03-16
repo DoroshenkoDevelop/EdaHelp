@@ -17,8 +17,9 @@ class ListFishesController extends Controller
         $fishes = ListFishes::find([1]);
         $tro = ListFishes::find([2]);
         $los = ListFishes::find([3]);
+        $fish4 = ListFishes::find([4]);
         return view('fish.index',
-            compact('fishes','tro','los')
+            compact('fishes','tro','los','fish4')
         );
     }
 

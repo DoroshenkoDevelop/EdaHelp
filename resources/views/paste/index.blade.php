@@ -14,7 +14,7 @@
                 {{-- ЗАГОЛОВОК --}}
 
                 {{-- РЕЦЕПТ --}}
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     @foreach($pastes  as $paste)
                     <a class="text-decoration-none"
                        {{ $paste->id }}
@@ -30,80 +30,21 @@
                 </article>
                 {{-- РЕЦЕПТ --}}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               {{-- <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                    --}}{{-- РЕЦЕПТ --}}{{--
-
+                {{-- РЕЦЕПТ --}}
+                <article class="col-sm-12 col-md-3 mb-4">
+                    @foreach($pastes2  as $pastes)
+                        <a class="text-decoration-none"
+                           {{ $pastes->id }}
+                           href="{{ route('paste',['id'=>$pastes->id])}}">
+                            <img src="{{ asset($pastes->pastes_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $pastes->pastes_name }}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
                 </article>
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                </article>
-                --}}{{-- РЕЦЕПТ --}}{{--
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}"  class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>
-                --}}{{-- РЕЦЕПТ --}}{{--
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                    --}}{{-- РЕЦЕПТ --}}{{--
-
-                </article>
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}" class="img-fluid card-img"><p class="cuprum text-dark"><b>Тар-тар из говядины с французкой горчицей, трюфелем и огурцом.</b></p></a>
-                    </a>
-                </article>
-                --}}{{-- РЕЦЕПТ --}}{{--
-
-                --}}{{-- РЕЦЕПТ --}}{{--
-                <article class="col-sm-12 col-md-3">
-                    <a class="text-decoration-none" href="">
-                        <img src="{{ asset('images/_71A5736.jpg') }}"  class="img-fluid card-img"><p class="cuprum text-dark"><b>Мус из тигровых креветок и форели</b></p></a>
-                    </a>
-                </article>--}}
                 {{-- РЕЦЕПТ --}}
 
             </div>

@@ -29,6 +29,24 @@
                     @endforeach
                 </article>
                 {{--РЕЦЕПТ--}}
+
+                {{--РЕЦЕПТ--}}
+                <article class="col-sm-12 col-md-3">
+                    @foreach($crabs as $crab)
+                        <a class="text-decoration-none"
+                           {{ $crab->id }}
+                           href="{{ route('exquisite',['id'=>$crab->id])}}">
+                            <img src="{{ asset($crab->exquisite_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $crab->exquisite_name}}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{--РЕЦЕПТ--}}
+
             </div>
         </main>
     </main>

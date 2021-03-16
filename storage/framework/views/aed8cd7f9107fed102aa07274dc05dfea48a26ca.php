@@ -13,7 +13,7 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <?php $__currentLoopData = $pastes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $paste): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
                        <?php echo e($paste->id); ?>
@@ -31,25 +31,23 @@
                 </article>
                 
 
+                
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <?php $__currentLoopData = $pastes2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pastes): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($pastes->id); ?>
 
+                           href="<?php echo e(route('paste',['id'=>$pastes->id])); ?>">
+                            <img src="<?php echo e(asset($pastes->pastes_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($pastes->pastes_name); ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
                 
 
             </div>
