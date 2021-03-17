@@ -29,7 +29,7 @@ use App\Http\Controllers\IndexHomeController;
 
 /* ДОМАШНЯЯ СТРАНИЦА */
 Route::get('/',[IndexHomeController::class,'index'])->name('home');
-Route::get('popular/{id}/recipe',[IndexHomeController::class,'show'])->name('popular');
+Route::get('home/{id}/recipe',[IndexHomeController::class,'show'])->name('recipe');
 /* ДОМАШНЯЯ СТРАНИЦА */
 
 /* О НАС */

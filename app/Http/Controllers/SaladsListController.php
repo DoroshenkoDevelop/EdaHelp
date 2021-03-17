@@ -14,11 +14,11 @@ class SaladsListController extends Controller
      */
     public function index()
     {
-        $salads = SaladsList::find([1]);
-        $salad2 = SaladsList::find([2]);
-        $salad3 = SaladsList::find([3]);
-        return view('salads.index',compact('salads',
-            'salad2','salad3'));
+        $saladsbiffs = SaladsList::find([4]);
+        $saladchikens = SaladsList::find([2]);
+        $saladseafoods = SaladsList::find([3]);
+        $saladvegetables = SaladsList::find([1]);
+        return view('salads.index',compact('saladsbiffs', 'saladchikens','saladseafoods','saladvegetables'));
     }
 
     /**

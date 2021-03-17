@@ -31,7 +31,7 @@
                 <a class="text-decoration-none"
                    <?php echo e($popular->id); ?>
 
-                   href="<?php echo e(route('popular',['id'=>$popular->id])); ?>">
+                   href="<?php echo e(route('recipe',['id'=>$popular->id])); ?>">
                     <img src="<?php echo e(asset($popular->index_image)); ?>" class="img-fluid card-img">
                     <p class="cuprum text-dark">
                         <b>
@@ -50,7 +50,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($sna->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$sna->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$sna->id])); ?>">
                         <img src="<?php echo e(asset($sna->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -70,7 +70,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($zac->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$zac->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$zac->id])); ?>">
                         <img src="<?php echo e(asset($zac->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -95,14 +95,30 @@
                     <div class="carousel slide" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
-                                <img src="<?php echo e(asset('/images/oliver.jpg')); ?>" class="img-fluid d-block w-100">
+                                <a href="">
+                                <img src="<?php echo e(asset('/images/oliver.jpg')); ?>"
+                                     class="img-fluid d-block w-100">
+                                </a>
                             </div>
+
                             <div class="carousel-item">
-                                <img src="<?php echo e(asset('/images/gordon-ramzi.jpg')); ?>" class="img-fluid d-block w-100">
+                                <?php $__currentLoopData = $che; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ch): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                    <?php echo e($ch->id); ?>
+
+                                <a href="<?php echo e(route('recipe',['id'=>$ch->id])); ?>">
+                                <img src="<?php echo e(asset('/images/gordon-ramzi.jpg')); ?>"
+                                     class="img-fluid d-block w-100">
+                                </a>
+                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                             </div>
+
                             <div class="carousel-item">
-                                <img src="<?php echo e(asset('/images/paul_bocuse_1.jpg')); ?>" class="img-fluid d-block w-100">
+                                <a href="">
+                                <img src="<?php echo e(asset('/images/paul_bocuse_1.jpg')); ?>"
+                                     class="img-fluid d-block w-100">
+                                </a>
                             </div>
+
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -133,7 +149,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($sy->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$sy->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$sy->id])); ?>">
                         <img src="<?php echo e(asset($sy->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -152,7 +168,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($pa->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$pa->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$pa->id])); ?>">
                         <img src="<?php echo e(asset($pa->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -171,7 +187,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($sht->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$sht->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$sht->id])); ?>">
                         <img src="<?php echo e(asset($sht->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -190,7 +206,7 @@
                     <a class="text-decoration-none"
                        <?php echo e($ches->id); ?>
 
-                       href="<?php echo e(route('popular',['id'=>$ches->id])); ?>">
+                       href="<?php echo e(route('recipe',['id'=>$ches->id])); ?>">
                         <img src="<?php echo e(asset($ches->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>

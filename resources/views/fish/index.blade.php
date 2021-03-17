@@ -5,24 +5,29 @@
         <main class="container-sm">
 
              {{--ЗАГОЛОВОК--}}
-            <div class="row ">
+            <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         РЫБА
                     </p>
                 </article>
                 {{--ЗАГОЛОВОК--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($fish4  as $fish)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ЖАРЕННАЯ
+                        </p>
+                    </article>
+                    @foreach($frieds  as $fried)
                         <a class="text-decoration-none"
-                           {{ $fish->id }}
-                           href="{{ route('fish',['id'=>$fish->id])}}">
-                            <img src="{{ asset($fish->fishes_image) }}" class="img-fluid card-img">
+                           {{ $fried->id }}
+                           href="{{ route('fish',['id'=>$fried->id])}}">
+                            <img src="{{ asset($fried->fishes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $fish->fishes_name}}
+                                    {{ $fried->fishes_name}}
                                 </b>
                             </p>
                         </a>
@@ -31,15 +36,20 @@
                 {{--РЕЦЕПТ--}}
 
                  {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($fishes  as $fish)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ЗАПЕЧЕНАЯ
+                        </p>
+                    </article>
+                    @foreach($bakeds  as $baked)
                         <a class="text-decoration-none"
-                           {{ $fish->id }}
-                           href="{{ route('fish',['id'=>$fish->id])}}">
-                            <img src="{{ asset($fish->fishes_image) }}" class="img-fluid card-img">
+                           {{ $baked->id }}
+                           href="{{ route('fish',['id'=>$baked->id])}}">
+                            <img src="{{ asset($baked->fishes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $fish->fishes_name}}
+                                    {{ $baked->fishes_name}}
                                 </b>
                             </p>
                         </a>
@@ -48,15 +58,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($tro  as $tros)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            СЫРАЯ
+                        </p>
+                    </article>
+                    @foreach($raws  as $raw)
                         <a class="text-decoration-none"
-                           {{ $tros->id }}
-                           href="{{ route('fish',['id'=>$tros->id])}}">
-                            <img src="{{ asset($tros->fishes_image) }}" class="img-fluid card-img">
+                           {{ $raw->id }}
+                           href="{{ route('fish',['id'=>$raw->id])}}">
+                            <img src="{{ asset($raw->fishes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $tros->fishes_name}}
+                                    {{ $raw->fishes_name}}
                                 </b>
                             </p>
                         </a>
@@ -65,15 +80,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($los  as $lo)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            МИКС
+                        </p>
+                    </article>
+                    @foreach($mixs  as $mix)
                         <a class="text-decoration-none"
-                           {{ $lo->id }}
-                           href="{{ route('fish',['id'=>$lo->id])}}">
-                            <img src="{{ asset($lo->fishes_image) }}" class="img-fluid card-img">
+                           {{ $mix->id }}
+                           href="{{ route('fish',['id'=>$mix->id])}}">
+                            <img src="{{ asset($mix->fishes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $lo->fishes_name}}
+                                    {{ $mix->fishes_name}}
                                 </b>
                             </p>
                         </a>

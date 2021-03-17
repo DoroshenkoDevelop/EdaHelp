@@ -32,7 +32,7 @@
     box-sizing: border-box;
 }
 .parallax{
-    background-image: url("public/images/Gordon.jpg");
+    background-image: url("../../public/storage/public/Gordon.jpg");
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;

@@ -14,12 +14,12 @@ class ListFishesController extends Controller
      */
     public function index()
     {
-        $fishes = ListFishes::find([1]);
-        $tro = ListFishes::find([2]);
-        $los = ListFishes::find([3]);
-        $fish4 = ListFishes::find([4]);
+        $frieds = ListFishes::find([1,4]);
+        $bakeds = ListFishes::find([2]);
+        $raws = ListFishes::find([5]);
+        $mixs = ListFishes::find([3]);
         return view('fish.index',
-            compact('fishes','tro','los','fish4')
+            compact('frieds','bakeds','raws','mixs')
         );
     }
 

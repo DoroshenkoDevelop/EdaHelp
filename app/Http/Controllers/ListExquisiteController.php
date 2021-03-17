@@ -14,9 +14,9 @@ class ListExquisiteController extends Controller
      */
     public function index()
     {
-        $exquisites = ListExquisite::find([1]);
-        $crabs = ListExquisite::find([2]);
-        return view('exquisite.index',compact('exquisites','crabs'));
+        $seafoods = ListExquisite::find([1,2]);
+        $pokes = ListExquisite::find([3]);
+        return view('exquisite.index',compact('seafoods','pokes'));
     }
 
     /**

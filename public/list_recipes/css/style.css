@@ -37,7 +37,7 @@
     margin: 0 auto;
 }
 .parallax{
-    background-image: url("public/images/Gordon.jpg");
+    background-image: url("../../storage/public/Gordon.jpg");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;

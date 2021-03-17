@@ -31,7 +31,7 @@
             @foreach($populars as $popular)
                 <a class="text-decoration-none"
                    {{ $popular->id }}
-                   href="{{ route('popular',['id'=>$popular->id])}}">
+                   href="{{ route('recipe',['id'=>$popular->id])}}">
                     <img src="{{ asset($popular->index_image) }}" class="img-fluid card-img">
                     <p class="cuprum text-dark">
                         <b>
@@ -48,7 +48,7 @@
                 @foreach($snas as $sna)
                     <a class="text-decoration-none"
                        {{ $sna->id }}
-                       href="{{ route('popular',['id'=>$sna->id])}}">
+                       href="{{ route('recipe',['id'=>$sna->id])}}">
                         <img src="{{ asset($sna->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -66,7 +66,7 @@
                 @foreach($zacs as $zac)
                     <a class="text-decoration-none"
                        {{ $zac->id }}
-                       href="{{ route('popular',['id'=>$zac->id])}}">
+                       href="{{ route('recipe',['id'=>$zac->id])}}">
                         <img src="{{ asset($zac->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -90,14 +90,28 @@
                     <div class="carousel slide" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active ">
-                                <img src="{{ asset('/images/oliver.jpg') }}" class="img-fluid d-block w-100">
+                                <a href="">
+                                <img src="{{ asset('/images/oliver.jpg') }}"
+                                     class="img-fluid d-block w-100">
+                                </a>
                             </div>
+
                             <div class="carousel-item">
-                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid d-block w-100">
+
+                                <a href="">
+                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}"
+                                     class="img-fluid d-block w-100">
+                                </a>
+
                             </div>
+
                             <div class="carousel-item">
-                                <img src="{{ asset('/images/paul_bocuse_1.jpg') }}" class="img-fluid d-block w-100">
+                                <a href="">
+                                <img src="{{ asset('/images/paul_bocuse_1.jpg') }}"
+                                     class="img-fluid d-block w-100">
+                                </a>
                             </div>
+
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,7 +141,7 @@
                 @foreach($sys as $sy)
                     <a class="text-decoration-none"
                        {{ $sy->id }}
-                       href="{{ route('popular',['id'=>$sy->id])}}">
+                       href="{{ route('recipe',['id'=>$sy->id])}}">
                         <img src="{{ asset($sy->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -144,7 +158,7 @@
                 @foreach($pas as $pa)
                     <a class="text-decoration-none"
                        {{ $pa->id }}
-                       href="{{ route('popular',['id'=>$pa->id])}}">
+                       href="{{ route('recipe',['id'=>$pa->id])}}">
                         <img src="{{ asset($pa->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -161,7 +175,7 @@
                 @foreach($shtr as $sht)
                     <a class="text-decoration-none"
                        {{ $sht->id }}
-                       href="{{ route('popular',['id'=>$sht->id])}}">
+                       href="{{ route('recipe',['id'=>$sht->id])}}">
                         <img src="{{ asset($sht->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
@@ -178,7 +192,7 @@
                 @foreach($chess as $ches)
                     <a class="text-decoration-none"
                        {{ $ches->id }}
-                       href="{{ route('popular',['id'=>$ches->id])}}">
+                       href="{{ route('recipe',['id'=>$ches->id])}}">
                         <img src="{{ asset($ches->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>

@@ -5,26 +5,197 @@
         <main class="container-md border-right border-left border-dark">
             
             <div class="content-header container">
+
                 <div class="row">
-                    <p class="text-comfortaa h4 text-center text-white mt-3"><b>Gordon Ramzi</b></p>
+                    <p class="cuprum h3 text-white">
+                        <?php echo e($chef->chef_description_3); ?>
+
+                    </p>
+
+                    <p class="cuprum h3 text-white">
+                        <?php echo e($chef->chef_description_3); ?>
+
+                    </p>
+
+                    <p class="cuprum h3 text-white">
+                        <?php echo e($chef->chef_description_3); ?>
+
+                    </p>
                 </div>
             </div>
             
 
             
-            <div class="parallax text-white p-5 text-left">
-                <p class="cuprum h3 mt-5">
-                    Его рестораны удостоены 16 звёзд Мишлен.
-                    Его фирменный ресторан Restaurant Gordon Ramsay, находящийся в Лондоне, имеет три звезды Мишлен.
-                    Популярный ведущий британских телешоу The F-Word, Ramsay’s Kitchen Nightmares и Адская кухня, а также их американских теле-близнецов.</p>
-                <p class="cuprum h3">Его фирменный ресторан Restaurant Gordon Ramsay, находящийся в Лондоне, имеет три звезды Мишлен.</p>
-                <p class="cuprum h3"> Популярный ведущий британских телешоу The F-Word, Ramsay’s Kitchen Nightmares и Адская кухня, а также их американских теле-близнецов.</p>
+            <div class="parallax">
+
+                <p class="cuprum h2 text-left text-white">
+                        <?php echo e($chef->name_chef); ?>
+
+                </p>
             </div>
             
 
-            <div class="content-footer text-white p-5 text-center">
+            <div class="content-footer">
 
+                <p class="cuprum h2 text-right text-white">
+                        <?php echo e($chef->name_recipe); ?>
+
+                </p>
+
+                
+                <article class="row">
+                    <div class="col-8">
+                        <ul class="list-group">
+                            <li>
+                                <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
+                                    <?php echo e($chef->chef_ingredients_1); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_2); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_3); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_4); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_5); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_6); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_7); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_8); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_9); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_10); ?>
+
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4">
+                        <ul class="list-group">
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_1); ?> <?php echo e($chef->chef_ingredients_value_1); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_2); ?> <?php echo e($chef->chef_ingredients_value_2); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_3); ?> <?php echo e($chef->chef_ingredients_value_3); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_4); ?> <?php echo e($chef->chef_ingredients_value_4); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_5); ?> <?php echo e($chef->chef_ingredients_value_5); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_6); ?> <?php echo e($chef->chef_ingredients_value_6); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_7); ?> <?php echo e($chef->chef_ingredients_value_7); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_8); ?> <?php echo e($chef->chef_ingredients_value_8); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_9); ?> <?php echo e($chef->chef_ingredients_value_9); ?>
+
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                                    <?php echo e($chef->chef_ingredients_gr_10); ?> <?php echo e($chef->chef_ingredients_value_10); ?>
+
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </article>
+                
             </div>
+
         </main>
     </form>
 

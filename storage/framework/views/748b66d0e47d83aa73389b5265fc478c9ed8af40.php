@@ -17,7 +17,7 @@
                     </a>
                 </div>
 
-        <form  method="POST" action="<?php echo e(asset('send_recipe')); ?>">
+        <form  method="POST" action="<?php echo e(asset('send_recipe')); ?>" enctype="multipart/form-data">
             <input name="_token" type="hidden" value="<?php echo e(csrf_token()); ?>">
 
             <div class="form-group ">
@@ -137,10 +137,10 @@
                     <div class="form-group mt-4">
                         <label for="exampleFormControlFile1">
                             <p class="cuprum">
-                                ЗАГРУЗИТЕ ФОТО
+                                ССЫЛКА НА ФОТО
                             </p>
                         </label>
-                        <input type="file" name="image" class="form-control-file" id="exampleFormControlFile1">
+                        <input type="text" name="image" class="form-control-file" id="exampleFormControlFile1">
                     </div>
 
 

@@ -14,15 +14,20 @@
 
                 
                 <article class="col-sm-12 col-md-3 mb-4">
-                    <?php $__currentLoopData = $pastes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $paste): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <article>
+                        <p class="cuprum h5 ">
+                            ПЕНЕ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $pene; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pen): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($paste->id); ?>
+                       <?php echo e($pen->id); ?>
 
-                       href="<?php echo e(route('paste',['id'=>$paste->id])); ?>">
-                        <img src="<?php echo e(asset($paste->pastes_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('paste',['id'=>$pen->id])); ?>">
+                        <img src="<?php echo e(asset($pen->pastes_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               <?php echo e($paste->pastes_name); ?>
+                               <?php echo e($pen->pastes_name); ?>
 
                             </b>
                         </p>
@@ -33,15 +38,68 @@
 
                 
                 <article class="col-sm-12 col-md-3 mb-4">
-                    <?php $__currentLoopData = $pastes2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pastes): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $vermicelli; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $vermicell): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($pastes->id); ?>
+                           <?php echo e($vermicell->id); ?>
 
-                           href="<?php echo e(route('paste',['id'=>$pastes->id])); ?>">
-                            <img src="<?php echo e(asset($pastes->pastes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('paste',['id'=>$vermicell->id])); ?>">
+                            <img src="<?php echo e(asset($vermicell->pastes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($pastes->pastes_name); ?>
+                                    <?php echo e($vermicell->pastes_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
+                
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $vermicelli; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $vermicell): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($vermicell->id); ?>
+
+                           href="<?php echo e(route('paste',['id'=>$vermicell->id])); ?>">
+                            <img src="<?php echo e(asset($vermicell->pastes_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($vermicell->pastes_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
+                
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $vermicelli; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $vermicell): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($vermicell->id); ?>
+
+                           href="<?php echo e(route('paste',['id'=>$vermicell->id])); ?>">
+                            <img src="<?php echo e(asset($vermicell->pastes_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($vermicell->pastes_name); ?>
 
                                 </b>
                             </p>

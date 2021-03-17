@@ -14,7 +14,7 @@
                 {{--ЗАГОЛОВОК--}}
 
                 {{--РУЛЬКА В СОУСЕ BBQ--}}
-                <article class="col-sm-12 col-md-3 mb-5">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <article class="">
                         <p class="cuprum h5">
                             ГОВЯДИНА

@@ -19,6 +19,7 @@ class MailController extends Controller
         $image = $request->image;
 
         Mail::to('printcodestudio@gmail.com')->send(new OrderShipped($email,$name,$category,$recipe,$image));
+        return view('my_recipe.my_recipe');
 
     }
 }

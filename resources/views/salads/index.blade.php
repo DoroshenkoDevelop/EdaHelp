@@ -7,22 +7,27 @@
              {{--ЗАГОЛОВОК--}}
             <div class="row ">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         САЛАТЫ
                     </p>
                 </article>
                 {{--ЗАГОЛОВОК--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($salad3  as $salad)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5">
+                            С МЯСОМ
+                        </p>
+                    </article>
+                    @foreach($saladsbiffs  as $saladsbiff)
                         <a class="text-decoration-none"
-                           {{ $salad->id }}
-                           href="{{ route('salad',['id'=>$salad->id])}}">
-                            <img src="{{ asset($salad->salads_image) }}" class="img-fluid card-img">
+                           {{ $saladsbiff->id }}
+                           href="{{ route('salad',['id'=>$saladsbiff->id])}}">
+                            <img src="{{ asset($saladsbiff->salads_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $salad->salads_name}}
+                                    {{ $saladsbiff->salads_name}}
                                 </b>
                             </p>
                         </a>
@@ -31,15 +36,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($salad2  as $salad)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            С ПТИЦЕЙ
+                        </p>
+                    </article>
+                    @foreach($saladchikens  as $saladchiken)
                         <a class="text-decoration-none"
-                           {{ $salad->id }}
-                           href="{{ route('salad',['id'=>$salad->id])}}">
-                            <img src="{{ asset($salad->salads_image) }}" class="img-fluid card-img">
+                           {{ $saladchiken->id }}
+                           href="{{ route('salad',['id'=>$saladchiken->id])}}">
+                            <img src="{{ asset($saladchiken->salads_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $salad->salads_name}}
+                                    {{ $saladchiken->salads_name}}
                                 </b>
                             </p>
                         </a>
@@ -48,15 +58,42 @@
                 {{--РЕЦЕПТ--}}
 
                  {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3 mb-3">
-                    @foreach($salads  as $salad)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            С МОРЕПРОДУКТАМИ И РЫБОЙ
+                        </p>
+                    </article>
+                    @foreach($saladseafoods  as $saladseafood)
                         <a class="text-decoration-none"
-                           {{ $salad->id }}
-                           href="{{ route('salad',['id'=>$salad->id])}}">
-                            <img src="{{ asset($salad->salads_image) }}" class="img-fluid card-img">
+                           {{ $saladseafood->id }}
+                           href="{{ route('salad',['id'=>$saladseafood->id])}}">
+                            <img src="{{ asset($saladseafood->salads_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $salad->salads_name}}
+                                    {{ $saladseafood->salads_name}}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{--РЕЦЕПТ--}}
+
+                {{--РЕЦЕПТ--}}
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ОВОЩНОЙ
+                        </p>
+                    </article>
+                    @foreach($saladvegetables  as $saladvegetable)
+                        <a class="text-decoration-none"
+                           {{ $saladvegetable->id }}
+                           href="{{ route('salad',['id'=>$saladvegetable->id])}}">
+                            <img src="{{ asset($saladvegetable->salads_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $saladvegetable->salads_name}}
                                 </b>
                             </p>
                         </a>

@@ -14,8 +14,8 @@ class ListChefController extends Controller
      */
     public function index()
     {
-        $lists = ListChef::all();
-        return view('chef.index' , compact('lists'));
+        $chefs = ListChef::find([1]);
+        return view('chef.index',compact('chefs'));
     }
 
     /**
@@ -48,7 +48,8 @@ class ListChefController extends Controller
     public function show($id)
 
     {
-        return view('chef.gordon');
+        $chef = ListChef::find($id);
+        return view('chef.gordon',compact('chef'));
 
     }
 

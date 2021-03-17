@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\IndexHome;
+use App\Models\Modal\ListChef;
 use Illuminate\Http\Request;
 
 class IndexHomeController extends Controller
@@ -21,6 +22,7 @@ class IndexHomeController extends Controller
         $pas = IndexHome::find([5]);
         $shtr = IndexHome::find([6]);
         $chess = IndexHome::find([7]);
+
 
         return view('home.index',
             compact('populars',

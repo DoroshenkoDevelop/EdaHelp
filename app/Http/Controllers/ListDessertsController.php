@@ -14,12 +14,12 @@ class ListDessertsController extends Controller
      */
     public function index()
     {
-        $desserts = ListDesserts::find([1]);
-        $brounis = ListDesserts::find([2]);
-        $сheesecakes = ListDesserts::find([3]);
-        $strudelcherys = ListDesserts::find([4]);
+        $pies = ListDesserts::find([3]);
+        $puffs = ListDesserts::find([1,4]);
+        $biscuits = ListDesserts::find([2]);
+        $mixs = ListDesserts::find([5]);
         return view('desserts.index',compact(
-            'desserts','brounis','сheesecakes','strudelcherys'
+            'pies','puffs','biscuits','mixs'
         ));
     }
 

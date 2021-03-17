@@ -2,25 +2,37 @@
     
     <main class="container-md border-right border-left border-dark">
         <table class="table table-striped table-hover">
+
             <tbody>
             <tr>
-                <td> <?php $__currentLoopData = $lists; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $list): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                        <?php echo e($list->id); ?>
+                <td> <?php $__currentLoopData = $chefs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $chef): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a href="<?php echo e(route('chef',['id'=>$chef->id])); ?>">
+                            <p class="cuprum">
+                                <?php echo e($chef->name_chef); ?>
 
-                        <a href="<?php echo e(route('chef',['id'=>$list->id])); ?>">
-                            <p class="cuprum">Gordon Ramzi</p>
-                            <img class="img-fluid" width="100px" height="100px" src="<?php echo e(asset('images/Gordon.jpg')); ?>">
+                            </p>
+
+                            <img class="img-fluid"
+                                 width="100px"
+                                 height="100px"
+                                 src="<?php echo e(asset($chef->image_chef)); ?>">
                         </a>
-
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </td>
 
                 <td>
-                    <p class="cuprum">ШЕФ</p>
+                    <p class="cuprum">
+                        <?php echo e($chef->chef_description_1); ?>
+
+                    </p>
                 </td>
                 
                 <td>
-                    <a href=""><p class="cuprum">КУХНЯ</p></a>
+                        <p class="cuprum">
+                            <?php echo e($chef->chef_description_2); ?>
+
+                        </p>
+                    </a>
                 </td>
                 
             </tr>

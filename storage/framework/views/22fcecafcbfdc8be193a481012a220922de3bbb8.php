@@ -4,25 +4,30 @@
         <main class="container-sm">
 
              
-            <div class="row ">
+            <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         РЫБА
                     </p>
                 </article>
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $fish4; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $fish): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ЖАРЕННАЯ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $frieds; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $fried): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($fish->id); ?>
+                           <?php echo e($fried->id); ?>
 
-                           href="<?php echo e(route('fish',['id'=>$fish->id])); ?>">
-                            <img src="<?php echo e(asset($fish->fishes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('fish',['id'=>$fried->id])); ?>">
+                            <img src="<?php echo e(asset($fried->fishes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($fish->fishes_name); ?>
+                                    <?php echo e($fried->fishes_name); ?>
 
                                 </b>
                             </p>
@@ -32,16 +37,21 @@
                 
 
                  
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $fishes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $fish): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ЗАПЕЧЕНАЯ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $bakeds; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $baked): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($fish->id); ?>
+                           <?php echo e($baked->id); ?>
 
-                           href="<?php echo e(route('fish',['id'=>$fish->id])); ?>">
-                            <img src="<?php echo e(asset($fish->fishes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('fish',['id'=>$baked->id])); ?>">
+                            <img src="<?php echo e(asset($baked->fishes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($fish->fishes_name); ?>
+                                    <?php echo e($baked->fishes_name); ?>
 
                                 </b>
                             </p>
@@ -51,16 +61,21 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $tro; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tros): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            СЫРАЯ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $raws; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $raw): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($tros->id); ?>
+                           <?php echo e($raw->id); ?>
 
-                           href="<?php echo e(route('fish',['id'=>$tros->id])); ?>">
-                            <img src="<?php echo e(asset($tros->fishes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('fish',['id'=>$raw->id])); ?>">
+                            <img src="<?php echo e(asset($raw->fishes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($tros->fishes_name); ?>
+                                    <?php echo e($raw->fishes_name); ?>
 
                                 </b>
                             </p>
@@ -70,16 +85,21 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $los; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $lo): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            МИКС
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $mixs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $mix): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($lo->id); ?>
+                           <?php echo e($mix->id); ?>
 
-                           href="<?php echo e(route('fish',['id'=>$lo->id])); ?>">
-                            <img src="<?php echo e(asset($lo->fishes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('fish',['id'=>$mix->id])); ?>">
+                            <img src="<?php echo e(asset($mix->fishes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($lo->fishes_name); ?>
+                                    <?php echo e($mix->fishes_name); ?>
 
                                 </b>
                             </p>

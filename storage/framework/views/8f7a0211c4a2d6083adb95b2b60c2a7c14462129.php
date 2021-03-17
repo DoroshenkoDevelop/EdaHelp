@@ -6,7 +6,7 @@
             
             <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         ЗАКУСКИ
                     </p>
                 </article>

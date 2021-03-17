@@ -16,17 +16,90 @@
                 <div class="container">
                     {{--Форма регистрации--}}
                     <form class="d-flex">
-                        <input class="form-control mr-xl-1 cuprum" type="search" placeholder="ПОИСК" aria-label="Search">
-                        <button class="btn btn-outline-success margin cuprum" type="submit">ПОИСК</button>
+                        <input class="form-control mr-xl-1 cuprum"
+                               name="TextSearch"
+                               id="TextSearch"
+                               type="search"
+                               placeholder="ПОИСК"
+                               aria-label="Search">
+                        @csrf
+                        <button class="btn btn-outline-success margin cuprum"
+                                type="submit"
+                                name="search"
+                                id="search">
+                            ПОИСК
+                        </button>
+
+                    {{--    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>ingredients</th>
+                            <th>id</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>--}}
+
+
+                     {{--   <script>
+                            $(document).ready(function ()
+                            {
+                                function load_data(full_text_search_query = '')
+                                {
+                                    var _token = $("input[name=_token]").val();
+                                    $.ajax({
+                                        url:"{{route('TextSearch.action')}}",
+                                        method:"POST",
+                                        data:{full_text_search_query:full_text_search_query, _token:_token},
+                                        dataType:"json",
+                                        success:function (data)
+                                        {
+                                            var output = '';
+                                            if(data.length > 0)
+                                            {
+                                                for(var count = 0; count < data.length; count++)
+                                                {
+                                                    output += '<tr>';
+                                                    output += '<td>'+data[count].Name+'</td>';
+                                                    output += '<td>'+data[count].ingredients+'</td>';
+                                                    output += '<td>'+data[count].id+'</td>';
+                                                    output += '</tr>';
+                                                }
+                                            }
+                                            else
+                                            {
+                                                output += '<tr>';
+                                                output += '<td colspan="6">No Data Found</td>';
+                                                output += '</tr>';
+                                            }
+                                            $('tbody').html(output);
+                                        }
+
+
+                                    });
+                                }
+                                $('#search').click(function(){
+                                    var full_text_search_query = $('#full_text_search').val();
+                                    load_data(full_text_search_query);
+                                });
+                            });
+                        </script>--}}
+
+
                         @if (Route::has('login'))
 
                             @auth
-                                <a href="{{ route('home')}}" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
+                                <a href="{{ route('home')}}" class="text-sm text-gray-700 underline">
+                                    ГЛАВНАЯ
+                                </a>
                             @else
-                                <a href="{{ route('login') }}" button class="btn btn-success margin cuprum">ВХОД</a>
+                                <a href="{{ route('login') }}" button class="btn btn-success margin cuprum">
+                                    ВХОД
+                                </a>
 
                                 @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" button class="btn btn-success margin cuprum">РЕГИСТРАЦИЯ</a>
+                                    <a href="{{ route('register') }}" button class="btn btn-success margin cuprum">
+                                        РЕГИСТРАЦИЯ
+                                    </a>
                                 @endif
 
                             @endauth

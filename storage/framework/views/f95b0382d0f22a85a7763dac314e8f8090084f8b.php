@@ -6,7 +6,7 @@
              
             <div class="row ">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         РИЗОТТО
                     </p>
                 </article>
@@ -14,15 +14,20 @@
 
                  
                 <article class="col-sm-12 col-md-3 mb-4">
-                    <?php $__currentLoopData = $risottos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risotto): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <article>
+                        <p class="cuprum h5 ">
+                            С МЯСОМ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $risottomeats; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottomeat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($risotto->id); ?>
+                           <?php echo e($risottomeat->id); ?>
 
-                           href="<?php echo e(route('risotto',['id'=>$risotto->id])); ?>">
-                            <img src="<?php echo e(asset($risotto->risottos_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('risotto',['id'=>$risottomeat->id])); ?>">
+                            <img src="<?php echo e(asset($risottomeat->risottos_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($risotto->risottos_name); ?>
+                                    <?php echo e($risottomeat->risottos_name); ?>
 
                                 </b>
                             </p>
@@ -33,15 +38,20 @@
 
                 
                 <article class="col-sm-12 col-md-3 mb-4">
-                    <?php $__currentLoopData = $risottos2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottos): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <article>
+                        <p class="cuprum h5 ">
+                            С ПТИЦЕЙ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $risottochikens; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottochiken): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($risottos->id); ?>
+                           <?php echo e($risottochiken->id); ?>
 
-                           href="<?php echo e(route('risotto',['id'=>$risottos->id])); ?>">
-                            <img src="<?php echo e(asset($risottos->risottos_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('risotto',['id'=>$risottochiken->id])); ?>">
+                            <img src="<?php echo e(asset($risottochiken->risottos_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($risottos->risottos_name); ?>
+                                    <?php echo e($risottochiken->risottos_name); ?>
 
                                 </b>
                             </p>
@@ -52,15 +62,20 @@
 
                 
                 <article class="col-sm-12 col-md-3 mb-4">
-                    <?php $__currentLoopData = $risottos3; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottos): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <article>
+                        <p class="cuprum h5 ">
+                            С МОРЕПРОДУКТАМИ И РЫБОЙ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $risottosseafoods; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottosseafood): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($risottos->id); ?>
+                           <?php echo e($risottosseafood->id); ?>
 
-                           href="<?php echo e(route('risotto',['id'=>$risottos->id])); ?>">
-                            <img src="<?php echo e(asset($risottos->risottos_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('risotto',['id'=>$risottosseafood->id])); ?>">
+                            <img src="<?php echo e(asset($risottosseafood->risottos_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($risottos->risottos_name); ?>
+                                    <?php echo e($risottosseafood->risottos_name); ?>
 
                                 </b>
                             </p>
@@ -68,6 +83,31 @@
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </article>
                 
+
+                
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            С ОВОЩАМИ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $risottovegetables; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $risottovegetable): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                        <a class="text-decoration-none"
+                           <?php echo e($risottovegetable->id); ?>
+
+                           href="<?php echo e(route('risotto',['id'=>$risottovegetable->id])); ?>">
+                            <img src="<?php echo e(asset($risottovegetable->risottos_image)); ?>" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    <?php echo e($risottovegetable->risottos_name); ?>
+
+                                </b>
+                            </p>
+                        </a>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </article>
+                
+
             </div>
         </main>
     </main>

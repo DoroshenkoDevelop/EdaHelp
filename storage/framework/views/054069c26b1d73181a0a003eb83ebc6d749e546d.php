@@ -15,17 +15,41 @@
                 <div class="container">
                     
                     <form class="d-flex">
-                        <input class="form-control mr-xl-1 cuprum" type="search" placeholder="ПОИСК" aria-label="Search">
-                        <button class="btn btn-outline-success margin cuprum" type="submit">ПОИСК</button>
+                        <input class="form-control mr-xl-1 cuprum"
+                               name="TextSearch"
+                               id="TextSearch"
+                               type="search"
+                               placeholder="ПОИСК"
+                               aria-label="Search">
+                        <?php echo csrf_field(); ?>
+                        <button class="btn btn-outline-success margin cuprum"
+                                type="submit"
+                                name="search"
+                                id="search">
+                            ПОИСК
+                        </button>
+
+                    
+
+
+                     
+
+
                         <?php if(Route::has('login')): ?>
 
                             <?php if(auth()->guard()->check()): ?>
-                                <a href="<?php echo e(route('home')); ?>" class="text-sm text-gray-700 underline">ГЛАВНАЯ</a>
+                                <a href="<?php echo e(route('home')); ?>" class="text-sm text-gray-700 underline">
+                                    ГЛАВНАЯ
+                                </a>
                             <?php else: ?>
-                                <a href="<?php echo e(route('login')); ?>" button class="btn btn-success margin cuprum">ВХОД</a>
+                                <a href="<?php echo e(route('login')); ?>" button class="btn btn-success margin cuprum">
+                                    ВХОД
+                                </a>
 
                                 <?php if(Route::has('register')): ?>
-                                    <a href="<?php echo e(route('register')); ?>" button class="btn btn-success margin cuprum">РЕГИСТРАЦИЯ</a>
+                                    <a href="<?php echo e(route('register')); ?>" button class="btn btn-success margin cuprum">
+                                        РЕГИСТРАЦИЯ
+                                    </a>
                                 <?php endif; ?>
 
                             <?php endif; ?>

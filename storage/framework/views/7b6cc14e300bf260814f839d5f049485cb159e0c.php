@@ -6,14 +6,14 @@
              
             <div class="row ">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5 text-center">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         СУПЫ
                     </p>
                 </article>
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5">
                             КРЕМ СУП
@@ -37,7 +37,7 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5">
                             С МОРЕПРОДУКТАМИ И РЫБОЙ
@@ -61,7 +61,7 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
                             С МЯСОМ
@@ -85,7 +85,7 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
+                <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
                             ОВОЩНОЙ

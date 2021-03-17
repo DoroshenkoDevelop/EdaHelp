@@ -7,22 +7,27 @@
              {{--ЗАГОЛОВОК--}}
             <div class="row ">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         ДЕСЕРТЫ
                     </p>
                 </article>
                 {{--ЗАГОЛОВОК--}}
 
                  {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
-                    @foreach($desserts  as $dessert)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    @foreach($pies  as $pie)
+                        <article>
+                            <p class="cuprum h5 ">
+                                ПИРОГИ
+                            </p>
+                        </article>
                         <a class="text-decoration-none"
-                           {{ $dessert->id }}
-                           href="{{ route('dessert',['id'=>$dessert->id])}}">
-                            <img src="{{ asset($dessert->desserts_image) }}" class="img-fluid card-img">
+                           {{ $pie->id }}
+                           href="{{ route('dessert',['id'=>$pie->id])}}">
+                            <img src="{{ asset($pie->desserts_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $dessert->desserts_name}}
+                                    {{ $pie->desserts_name}}
                                 </b>
                             </p>
                         </a>
@@ -31,15 +36,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
-                    @foreach($brounis  as $brouni)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            СЛОЕНЫЕ
+                        </p>
+                    </article>
+                    @foreach($puffs  as $puff)
                         <a class="text-decoration-none"
-                           {{ $brouni->id }}
-                           href="{{ route('dessert',['id'=>$brouni->id])}}">
-                            <img src="{{ asset($brouni->desserts_image) }}" class="img-fluid card-img">
+                           {{ $puff->id }}
+                           href="{{ route('dessert',['id'=>$puff->id])}}">
+                            <img src="{{ asset($puff->desserts_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $brouni->desserts_name}}
+                                    {{ $puff->desserts_name}}
                                 </b>
                             </p>
                         </a>
@@ -48,15 +58,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
-                    @foreach($сheesecakes  as $сheesecake)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            БИСКВИТЫ
+                        </p>
+                    </article>
+                    @foreach($biscuits  as $biscuit)
                         <a class="text-decoration-none"
-                           {{ $сheesecake->id }}
-                           href="{{ route('dessert',['id'=>$сheesecake->id])}}">
-                            <img src="{{ asset($сheesecake->desserts_image) }}" class="img-fluid card-img">
+                           {{ $biscuit->id }}
+                           href="{{ route('dessert',['id'=>$biscuit->id])}}">
+                            <img src="{{ asset($biscuit->desserts_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $сheesecake->desserts_name}}
+                                    {{ $biscuit->desserts_name}}
                                 </b>
                             </p>
                         </a>
@@ -65,15 +80,20 @@
                 {{--РЕЦЕПТ--}}
 
                 {{--РЕЦЕПТ--}}
-                <article class="col-sm-12 col-md-3">
-                    @foreach($strudelcherys  as $strudelchery)
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            МИКС
+                        </p>
+                    </article>
+                    @foreach($mixs  as $mix)
                         <a class="text-decoration-none"
-                           {{ $strudelchery->id }}
-                           href="{{ route('dessert',['id'=>$strudelchery->id])}}">
-                            <img src="{{ asset($strudelchery->desserts_image) }}" class="img-fluid card-img">
+                           {{ $mix->id }}
+                           href="{{ route('dessert',['id'=>$mix->id])}}">
+                            <img src="{{ asset($mix->desserts_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $strudelchery->desserts_name}}
+                                    {{ $mix->desserts_name}}
                                 </b>
                             </p>
                         </a>

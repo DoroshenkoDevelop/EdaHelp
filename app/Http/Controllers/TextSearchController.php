@@ -2,23 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ListRisotto;
+use App\Models\TextSearch;
 use Illuminate\Http\Request;
 
-class ListRisottoController extends Controller
+class TextSearchController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $risottomeats = ListRisotto::find([1]);
-        $risottochikens = ListRisotto::find([2]);
-        $risottosseafoods = ListRisotto::find([3]);
-        $risottovegetables = ListRisotto::find([3]);
-        return view('risotto.index',compact('risottomeats','risottochikens','risottosseafoods','risottovegetables'));
+        return view('layouts.app');
     }
 
     /**
@@ -44,23 +40,22 @@ class ListRisottoController extends Controller
 
     /**
      * Display the specified resource.
-     * @param  int  $id
-     * @param  \App\Models\ListRisotto  $listRisotto
+     *
+     * @param  \App\Models\TextSearch  $textSearch
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(TextSearch $textSearch)
     {
-        $risotto = ListRisotto::Find($id);
-        return view('risotto.risotto',compact('risotto'));
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\ListRisotto  $listRisotto
+     * @param  \App\Models\TextSearch  $textSearch
      * @return \Illuminate\Http\Response
      */
-    public function edit(ListRisotto $listRisotto)
+    public function edit(TextSearch $textSearch)
     {
         //
     }
@@ -69,10 +64,10 @@ class ListRisottoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\ListRisotto  $listRisotto
+     * @param  \App\Models\TextSearch  $textSearch
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ListRisotto $listRisotto)
+    public function update(Request $request, TextSearch $textSearch)
     {
         //
     }
@@ -80,10 +75,10 @@ class ListRisottoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\ListRisotto  $listRisotto
+     * @param  \App\Models\TextSearch  $textSearch
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ListRisotto $listRisotto)
+    public function destroy(TextSearch $textSearch)
     {
         //
     }

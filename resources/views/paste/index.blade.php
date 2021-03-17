@@ -7,7 +7,7 @@
             {{-- ЗАГОЛОВОК --}}
             <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         ПАСТА
                     </p>
                 </article>
@@ -15,14 +15,19 @@
 
                 {{-- РЕЦЕПТ --}}
                 <article class="col-sm-12 col-md-3 mb-4">
-                    @foreach($pastes  as $paste)
+                    <article>
+                        <p class="cuprum h5 ">
+                            ПЕНЕ
+                        </p>
+                    </article>
+                    @foreach($pene  as $pen)
                     <a class="text-decoration-none"
-                       {{ $paste->id }}
-                       href="{{ route('paste',['id'=>$paste->id])}}">
-                        <img src="{{ asset($paste->pastes_image) }}" class="img-fluid card-img">
+                       {{ $pen->id }}
+                       href="{{ route('paste',['id'=>$pen->id])}}">
+                        <img src="{{ asset($pen->pastes_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               {{ $paste->pastes_name }}
+                               {{ $pen->pastes_name }}
                             </b>
                         </p>
                     </a>
@@ -32,14 +37,63 @@
 
                 {{-- РЕЦЕПТ --}}
                 <article class="col-sm-12 col-md-3 mb-4">
-                    @foreach($pastes2  as $pastes)
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    @foreach($vermicelli  as $vermicell)
                         <a class="text-decoration-none"
-                           {{ $pastes->id }}
-                           href="{{ route('paste',['id'=>$pastes->id])}}">
-                            <img src="{{ asset($pastes->pastes_image) }}" class="img-fluid card-img">
+                           {{ $vermicell->id }}
+                           href="{{ route('paste',['id'=>$vermicell->id])}}">
+                            <img src="{{ asset($vermicell->pastes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $pastes->pastes_name }}
+                                    {{ $vermicell->pastes_name }}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{-- РЕЦЕПТ --}}
+
+                {{-- РЕЦЕПТ --}}
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    @foreach($vermicelli  as $vermicell)
+                        <a class="text-decoration-none"
+                           {{ $vermicell->id }}
+                           href="{{ route('paste',['id'=>$vermicell->id])}}">
+                            <img src="{{ asset($vermicell->pastes_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $vermicell->pastes_name }}
+                                </b>
+                            </p>
+                        </a>
+                    @endforeach
+                </article>
+                {{-- РЕЦЕПТ --}}
+
+                {{-- РЕЦЕПТ --}}
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ВЕРМЕШЕЛЬ
+                        </p>
+                    </article>
+                    @foreach($vermicelli  as $vermicell)
+                        <a class="text-decoration-none"
+                           {{ $vermicell->id }}
+                           href="{{ route('paste',['id'=>$vermicell->id])}}">
+                            <img src="{{ asset($vermicell->pastes_image) }}" class="img-fluid card-img">
+                            <p class="cuprum text-dark">
+                                <b>
+                                    {{ $vermicell->pastes_name }}
                                 </b>
                             </p>
                         </a>
