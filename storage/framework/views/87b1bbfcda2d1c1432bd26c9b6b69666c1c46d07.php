@@ -1,5 +1,5 @@
-@section('header')
-    {{--Хеадер--}}
+<?php $__env->startSection('header'); ?>
+    
 <header class="container-sm">
     <header class="card-header border-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -7,12 +7,12 @@
                  id="navbarSupportedContent">
 
 
-                {{-- ШЕФ РЕЦЕПТЫ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('list_chefs')}}" >
+                           href="<?php echo e(route('list_chefs')); ?>" >
                             <p class="h4 cuprum">
                                 <b>
                                     ШЕФ-РЕЦЕПТЫ
@@ -21,15 +21,15 @@
                         </a>
                     </li>
                 </ul>
-                {{-- ШЕФ РЕЦЕПТЫ --}}
+                
 
 
-                {{-- КАРТА --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('map')}}" >
+                           href="<?php echo e(route('map')); ?>" >
                             <p class="h4 cuprum">
                                 <b>
                                     РЕСТО-ГИД
@@ -38,14 +38,14 @@
                         </a>
                     </li>
                 </ul>
-                {{-- КАРТА--}}
+                
 
-                {{-- МОЙ РЕЦЕПТ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ asset('my_recipe') }}">
+                           href="<?php echo e(asset('my_recipe')); ?>">
                             <p class="h4 cuprum">
                                 <b>
                                     МОЙ РЕЦЕПТ
@@ -54,14 +54,14 @@
                         </a>
                     </li>
                 </ul>
-                {{-- МОЙ РЕЦЕПТ --}}
+                
 
-                {{-- О НАС --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{route('info')}}">
+                           href="<?php echo e(route('info')); ?>">
                             <p class="h4 cuprum">
                                 <b>
                                     О НАС
@@ -70,157 +70,158 @@
                         </a>
                     </li>
                 </ul>
-                {{-- О НАС --}}
+                
             </div>
         </nav>
 
-        {{-- СПИСОК РЕЦЕПТОВ --}}
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="navbar-collapse"
                  id="navbarSupportedContent">
 
-                {{-- ЗАКУСКИ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{route('snacks')}}">
+                           href="<?php echo e(route('snacks')); ?>">
                             <p class="h-25 cuprum">
                                 ЗАКУСКИ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- ЗАКУСКИ --}}
+                
 
-                {{-- САЛАТЫ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('salads') }}">
+                           href="<?php echo e(route('salads')); ?>">
                             <p class="h-25 cuprum">
                                 САЛАТЫ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- САЛАТЫ --}}
+                
 
-                {{-- КРЕМ СУПЫ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('cream_soups') }}">
+                           href="<?php echo e(route('cream_soups')); ?>">
                             <p class="h-25  cuprum">
                                 СУПЫ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- КРЕМ СУПЫ --}}
+                
 
-                {{-- ПАСТА --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('pastes') }}">
+                           href="<?php echo e(route('pastes')); ?>">
                             <p class="h-25  cuprum">
                                 ПАСТА
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- ПАСТА --}}
+                
 
-                {{-- РИЗОТТО --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('risottos') }}">
+                           href="<?php echo e(route('risottos')); ?>">
                             <p class="h-25  cuprum">
                                 РИЗОТТО
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- РИЗОТТО --}}
+                
 
-                {{-- МЯСО --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('meats') }}">
+                           href="<?php echo e(route('meats')); ?>">
                             <p class="h-25  cuprum">
                                 МЯСО
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- МЯСО --}}
+                
 
-                {{-- РЫБА --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('fishes') }}">
+                           href="<?php echo e(route('fishes')); ?>">
                             <p class="h-25 cuprum">
                                 РЫБА
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- РЫБА --}}
+                
 
-                {{-- ДИСЕРТЫ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('desserts') }}">
+                           href="<?php echo e(route('desserts')); ?>">
                             <p class="h-25  cuprum">
                                 ДЕСЕРТЫ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- ДИСЕРТЫ --}}
+                
 
-                {{-- СУШИ --}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('sushies') }}">
+                           href="<?php echo e(route('sushies')); ?>">
                             <p class="h-25  cuprum">
                                  СУШИ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- СУШИ --}}
+                
 
-                {{-- ИЗЫСКАННОЕ--}}
+                
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="{{ route('exquisites') }}">
+                           href="<?php echo e(route('exquisites')); ?>">
                             <p class="h-25  cuprum">
                                 ИЗЫСКАННОЕ
                             </p>
                         </a>
                     </li>
                 </ul>
-                {{-- ИЗЫСКАННОЕ--}}
-                {{-- СПИСОК РЕЦЕПТОВ --}}
+                
+                
             </div>
         </nav>
     </header>
 </header>
-@show
+<?php echo $__env->yieldSection(); ?>
+<?php /**PATH W:\domains\eh\resources\views/layouts/header.blade.php ENDPATH**/ ?>

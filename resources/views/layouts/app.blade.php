@@ -39,7 +39,6 @@
                         </thead>
                         <tbody></tbody>--}}
 
-
                      {{--   <script>
                             $(document).ready(function ()
                             {
@@ -88,7 +87,7 @@
                         @if (Route::has('login'))
 
                             @auth
-                              
+
                             @else
                                 <a href="{{ route('login') }}" button class="btn btn-success margin cuprum">
                                     ВХОД
