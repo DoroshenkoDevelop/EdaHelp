@@ -20,14 +20,14 @@
                             ПЕНЕ
                         </p>
                     </article>
-                    @foreach($pene  as $pen)
+                    @foreach($penes  as $pene)
                     <a class="text-decoration-none"
-                       {{ $pen->id }}
-                       href="{{ route('paste',['id'=>$pen->id])}}">
-                        <img src="{{ asset($pen->pastes_image) }}" class="img-fluid card-img">
+                       {{ $pene->id }}
+                       href="{{ route('paste',['id'=>$pene->id])}}">
+                        <img src="{{ asset($pene->pastes_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               {{ $pen->pastes_name }}
+                               {{ $pene->pastes_name }}
                             </b>
                         </p>
                     </a>
@@ -61,17 +61,17 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ВЕРМЕШЕЛЬ
+                            СПАГЕТТИ
                         </p>
                     </article>
-                    @foreach($vermicelli  as $vermicell)
+                    @foreach($spaghettis  as $spaghetti)
                         <a class="text-decoration-none"
-                           {{ $vermicell->id }}
-                           href="{{ route('paste',['id'=>$vermicell->id])}}">
-                            <img src="{{ asset($vermicell->pastes_image) }}" class="img-fluid card-img">
+                           {{ $spaghetti->id }}
+                           href="{{ route('paste',['id'=>$spaghetti->id])}}">
+                            <img src="{{ asset($spaghetti->pastes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $vermicell->pastes_name }}
+                                    {{ $spaghetti->pastes_name }}
                                 </b>
                             </p>
                         </a>
@@ -83,17 +83,17 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ВЕРМЕШЕЛЬ
+                            ЛИНГВИНИ
                         </p>
                     </article>
-                    @foreach($vermicelli  as $vermicell)
+                    @foreach($linguinis  as $linguini)
                         <a class="text-decoration-none"
-                           {{ $vermicell->id }}
-                           href="{{ route('paste',['id'=>$vermicell->id])}}">
-                            <img src="{{ asset($vermicell->pastes_image) }}" class="img-fluid card-img">
+                           {{ $linguini->id }}
+                           href="{{ route('paste',['id'=>$linguini->id])}}">
+                            <img src="{{ asset($linguini->pastes_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $vermicell->pastes_name }}
+                                    {{ $linguini->pastes_name }}
                                 </b>
                             </p>
                         </a>

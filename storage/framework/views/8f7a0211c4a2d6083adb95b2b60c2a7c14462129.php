@@ -13,17 +13,22 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $snack3; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $snack): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ХОЛОДНЫЕ ЗАКУСКИ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $coldsnacks; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $coldsnack): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($snack->id); ?>
+                           <?php echo e($coldsnack->id); ?>
 
-                           href="<?php echo e(route('snack',['id'=>$snack->id])); ?>">
-                            <img src="<?php echo e(asset($snack->snacks_image)); ?>"
+                           href="<?php echo e(route('snack',['id'=>$coldsnack->id])); ?>">
+                            <img src="<?php echo e(asset($coldsnack->snacks_image)); ?>"
                                  class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($snack->snacks_name); ?>
+                                    <?php echo e($coldsnack->snacks_name); ?>
 
                                 </b>
                             </p>
@@ -33,17 +38,22 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $snack4; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $snack): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            ГОРЯЧИЕ ЗАКУСКИ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $hotsnacks; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $hotsnack): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($snack->id); ?>
+                           <?php echo e($hotsnack->id); ?>
 
-                           href="<?php echo e(route('snack',['id'=>$snack->id])); ?>">
-                            <img src="<?php echo e(asset($snack->snacks_image)); ?>"
+                           href="<?php echo e(route('snack',['id'=>$hotsnack->id])); ?>">
+                            <img src="<?php echo e(asset($hotsnack->snacks_image)); ?>"
                                  class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($snack->snacks_name); ?>
+                                    <?php echo e($hotsnack->snacks_name); ?>
 
                                 </b>
                             </p>
@@ -53,17 +63,22 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $recipes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $recipe): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            БРУСКЕТТЫ И СМОРЕБРОДЫ
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $bruschettas; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $bruschetta): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($recipe->id); ?>
+                       <?php echo e($bruschetta->id); ?>
 
-                       href="<?php echo e(route('snack',['id'=>$recipe->id])); ?>">
-                        <img src="<?php echo e(asset($recipe->snacks_image)); ?>"
+                       href="<?php echo e(route('snack',['id'=>$bruschetta->id])); ?>">
+                        <img src="<?php echo e(asset($bruschetta->snacks_image)); ?>"
                              class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               <?php echo e($recipe->snacks_name); ?>
+                               <?php echo e($bruschetta->snacks_name); ?>
 
                             </b>
                         </p>
@@ -73,17 +88,22 @@
                 
 
                 
-                <article class="col-sm-12 col-md-3 mb-3">
-                    <?php $__currentLoopData = $tartars; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $tartar): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <article class="col-sm-12 col-md-3 mb-4">
+                    <article>
+                        <p class="cuprum h5 ">
+                            МИКС
+                        </p>
+                    </article>
+                    <?php $__currentLoopData = $mixs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $mix): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($tartar->id); ?>
+                           <?php echo e($mix->id); ?>
 
-                           href="<?php echo e(route('snack',['id'=>$tartar->id])); ?>">
-                            <img src="<?php echo e(asset($tartar->snacks_image)); ?>"
+                           href="<?php echo e(route('snack',['id'=>$mix->id])); ?>">
+                            <img src="<?php echo e(asset($mix->snacks_image)); ?>"
                                  class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($tartar->snacks_name); ?>
+                                    <?php echo e($mix->snacks_name); ?>
 
                                 </b>
                             </p>

@@ -65,18 +65,18 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ПОКЕ
+                            МЯСО
                         </p>
                     </article>
-                    <?php $__currentLoopData = $pokes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $poke): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $meats; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $meat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($poke->id); ?>
+                           <?php echo e($meat->id); ?>
 
-                           href="<?php echo e(route('exquisite',['id'=>$poke->id])); ?>">
-                            <img src="<?php echo e(asset($poke->exquisite_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('exquisite',['id'=>$meat->id])); ?>">
+                            <img src="<?php echo e(asset($meat->exquisite_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($poke->exquisite_name); ?>
+                                    <?php echo e($meat->exquisite_name); ?>
 
                                 </b>
                             </p>
@@ -90,18 +90,18 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ПОКЕ
+                            РЫБА
                         </p>
                     </article>
-                    <?php $__currentLoopData = $pokes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $poke): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $fishes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $fish): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($poke->id); ?>
+                           <?php echo e($fish->id); ?>
 
-                           href="<?php echo e(route('exquisite',['id'=>$poke->id])); ?>">
-                            <img src="<?php echo e(asset($poke->exquisite_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('exquisite',['id'=>$fish->id])); ?>">
+                            <img src="<?php echo e(asset($fish->exquisite_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($poke->exquisite_name); ?>
+                                    <?php echo e($fish->exquisite_name); ?>
 
                                 </b>
                             </p>

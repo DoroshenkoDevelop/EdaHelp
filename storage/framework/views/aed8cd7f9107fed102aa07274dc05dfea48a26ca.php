@@ -6,7 +6,7 @@
             
             <div class="row">
                 <article class="">
-                    <p class="cuprum h2 mt-5 mb-5">
+                    <p class="cuprum h1 mt-5 mb-5 text-center">
                         ПАСТА
                     </p>
                 </article>
@@ -19,15 +19,15 @@
                             ПЕНЕ
                         </p>
                     </article>
-                    <?php $__currentLoopData = $pene; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pen): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $penes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pene): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($pen->id); ?>
+                       <?php echo e($pene->id); ?>
 
-                       href="<?php echo e(route('paste',['id'=>$pen->id])); ?>">
-                        <img src="<?php echo e(asset($pen->pastes_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('paste',['id'=>$pene->id])); ?>">
+                        <img src="<?php echo e(asset($pene->pastes_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                               <?php echo e($pen->pastes_name); ?>
+                               <?php echo e($pene->pastes_name); ?>
 
                             </b>
                         </p>
@@ -64,18 +64,18 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ВЕРМЕШЕЛЬ
+                            СПАГЕТТИ
                         </p>
                     </article>
-                    <?php $__currentLoopData = $vermicelli; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $vermicell): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $spaghettis; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $spaghetti): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($vermicell->id); ?>
+                           <?php echo e($spaghetti->id); ?>
 
-                           href="<?php echo e(route('paste',['id'=>$vermicell->id])); ?>">
-                            <img src="<?php echo e(asset($vermicell->pastes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('paste',['id'=>$spaghetti->id])); ?>">
+                            <img src="<?php echo e(asset($spaghetti->pastes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($vermicell->pastes_name); ?>
+                                    <?php echo e($spaghetti->pastes_name); ?>
 
                                 </b>
                             </p>
@@ -88,18 +88,18 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ВЕРМЕШЕЛЬ
+                            ЛИНГВИНИ
                         </p>
                     </article>
-                    <?php $__currentLoopData = $vermicelli; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $vermicell): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__currentLoopData = $linguinis; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $linguini): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                         <a class="text-decoration-none"
-                           <?php echo e($vermicell->id); ?>
+                           <?php echo e($linguini->id); ?>
 
-                           href="<?php echo e(route('paste',['id'=>$vermicell->id])); ?>">
-                            <img src="<?php echo e(asset($vermicell->pastes_image)); ?>" class="img-fluid card-img">
+                           href="<?php echo e(route('paste',['id'=>$linguini->id])); ?>">
+                            <img src="<?php echo e(asset($linguini->pastes_image)); ?>" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    <?php echo e($vermicell->pastes_name); ?>
+                                    <?php echo e($linguini->pastes_name); ?>
 
                                 </b>
                             </p>

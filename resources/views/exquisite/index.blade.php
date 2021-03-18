@@ -62,17 +62,17 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ПОКЕ
+                            МЯСО
                         </p>
                     </article>
-                    @foreach($pokes as $poke)
+                    @foreach($meats as $meat)
                         <a class="text-decoration-none"
-                           {{ $poke->id }}
-                           href="{{ route('exquisite',['id'=>$poke->id])}}">
-                            <img src="{{ asset($poke->exquisite_image) }}" class="img-fluid card-img">
+                           {{ $meat->id }}
+                           href="{{ route('exquisite',['id'=>$meat->id])}}">
+                            <img src="{{ asset($meat->exquisite_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $poke->exquisite_name}}
+                                    {{ $meat->exquisite_name}}
                                 </b>
                             </p>
                         </a>
@@ -85,17 +85,17 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ПОКЕ
+                            РЫБА
                         </p>
                     </article>
-                    @foreach($pokes as $poke)
+                    @foreach($fishes as $fish)
                         <a class="text-decoration-none"
-                           {{ $poke->id }}
-                           href="{{ route('exquisite',['id'=>$poke->id])}}">
-                            <img src="{{ asset($poke->exquisite_image) }}" class="img-fluid card-img">
+                           {{ $fish->id }}
+                           href="{{ route('exquisite',['id'=>$fish->id])}}">
+                            <img src="{{ asset($fish->exquisite_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $poke->exquisite_name}}
+                                    {{ $fish->exquisite_name}}
                                 </b>
                             </p>
                         </a>

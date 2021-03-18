@@ -4,21 +4,21 @@
 
         <main class="container-md border-right border-left border-dark">
             
-            <div class="content-header container">
+            <div class="content-header container p-5">
 
                 <div class="row">
-                    <p class="cuprum h3 text-white">
+                    <p class="cuprum h4 text-white">
                         <?php echo e($chef->chef_description_3); ?>
 
                     </p>
 
                     <p class="cuprum h3 text-white">
-                        <?php echo e($chef->chef_description_3); ?>
+                        <?php echo e($chef->chef_description_4); ?>
 
                     </p>
 
                     <p class="cuprum h3 text-white">
-                        <?php echo e($chef->chef_description_3); ?>
+                        <?php echo e($chef->chef_description_5); ?>
 
                     </p>
                 </div>
@@ -36,8 +36,7 @@
             
 
             <div class="content-footer">
-
-                <p class="cuprum h2 text-right text-white">
+                <p class="cuprum h2 text-right text-black">
                         <?php echo e($chef->name_recipe); ?>
 
                 </p>
@@ -189,11 +188,12 @@
 
                                 </p>
                             </li>
-
                         </ul>
                     </div>
+
                 </article>
                 
+
             </div>
 
         </main>

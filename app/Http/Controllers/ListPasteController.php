@@ -14,9 +14,11 @@ class ListPasteController extends Controller
      */
     public function index()
     {
-        $pene = ListPaste::find([1]);
+        $penes = ListPaste::find([1]);
         $vermicelli = ListPaste::find([2]);
-        return view('paste.index',compact('pene','vermicelli'));
+        $spaghettis = ListPaste::find([3]);
+        $linguinis = ListPaste::find([4]);
+        return view('paste.index',compact('penes','vermicelli','spaghettis','linguinis'));
     }
 
     /**

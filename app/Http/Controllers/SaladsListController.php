@@ -14,7 +14,7 @@ class SaladsListController extends Controller
      */
     public function index()
     {
-        $saladsbiffs = SaladsList::find([4]);
+        $saladsbiffs = SaladsList::find([4,5]);
         $saladchikens = SaladsList::find([2]);
         $saladseafoods = SaladsList::find([3]);
         $saladvegetables = SaladsList::find([1]);

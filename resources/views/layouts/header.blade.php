@@ -7,23 +7,6 @@
                  id="navbarSupportedContent">
 
 
-                {{-- МОЙ РЕЦЕПТ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="{{ asset('my_recipe') }}">
-                            <p class="h4 cuprum">
-                                <b>
-                                    МОЙ РЕЦЕПТ
-                                </b>
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                {{-- МОЙ РЕЦЕПТ --}}
-
-
                 {{-- ШЕФ РЕЦЕПТЫ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
@@ -57,6 +40,21 @@
                 </ul>
                 {{-- КАРТА--}}
 
+                {{-- МОЙ РЕЦЕПТ --}}
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="{{ asset('my_recipe') }}">
+                            <p class="h4 cuprum">
+                                <b>
+                                    МОЙ РЕЦЕПТ
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                {{-- МОЙ РЕЦЕПТ --}}
 
                 {{-- О НАС --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">

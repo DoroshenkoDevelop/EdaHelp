@@ -117,8 +117,9 @@ Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'
 /*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function ()
+{
+    return view('home.home');
 })->name('dashboard');
 
 

@@ -38,9 +38,7 @@
                         <?php if(Route::has('login')): ?>
 
                             <?php if(auth()->guard()->check()): ?>
-                                <a href="<?php echo e(route('home')); ?>" class="text-sm text-gray-700 underline">
-                                    ГЛАВНАЯ
-                                </a>
+                              
                             <?php else: ?>
                                 <a href="<?php echo e(route('login')); ?>" button class="btn btn-success margin cuprum">
                                     ВХОД

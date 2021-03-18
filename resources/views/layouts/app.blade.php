@@ -88,9 +88,7 @@
                         @if (Route::has('login'))
 
                             @auth
-                                <a href="{{ route('home')}}" class="text-sm text-gray-700 underline">
-                                    ГЛАВНАЯ
-                                </a>
+                              
                             @else
                                 <a href="{{ route('login') }}" button class="btn btn-success margin cuprum">
                                     ВХОД

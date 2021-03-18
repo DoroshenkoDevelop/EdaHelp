@@ -102,14 +102,12 @@
                             </div>
 
                             <div class="carousel-item">
-                                <?php $__currentLoopData = $che; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ch): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                                    <?php echo e($ch->id); ?>
 
-                                <a href="<?php echo e(route('recipe',['id'=>$ch->id])); ?>">
+                                <a href="">
                                 <img src="<?php echo e(asset('/images/gordon-ramzi.jpg')); ?>"
                                      class="img-fluid d-block w-100">
                                 </a>
-                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
                             </div>
 
                             <div class="carousel-item">

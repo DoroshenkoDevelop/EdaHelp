@@ -14,15 +14,15 @@ class ListSnacksController extends Controller
      */
     public function index()
     {
-        $recipes = ListSnacks::find([1]);
-        $tartars = ListSnacks::find([2]);
-        $snack3 = ListSnacks::find([3]);
-        $snack4 = ListSnacks::find([4]);
+        $coldsnacks = ListSnacks::find([1,2,3,4]);
+        $hotsnacks = ListSnacks::find([]);
+        $bruschettas = ListSnacks::find([2,4]);
+        $mixs = ListSnacks::find([4,2,1]);
         return view('recipes.index',
-            compact('recipes',
-                'tartars',
-                'snack3',
-                'snack4')
+            compact('coldsnacks',
+                'hotsnacks',
+                'bruschettas',
+                'mixs')
         );
     }
 
