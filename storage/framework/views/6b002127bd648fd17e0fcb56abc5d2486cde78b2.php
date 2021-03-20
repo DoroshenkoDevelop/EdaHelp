@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 <link rel="stylesheet" type="text/css" href="<?php echo e(mix('css/app.css')); ?>">
 
-<title><?php echo e(config('app.name', 'Laravel')); ?></title>
+<title>eh</title>
 
 <?php echo $__env->yieldSection(); ?>
 <?php /**PATH W:\domains\eh\resources\views/layouts/head.blade.php ENDPATH**/ ?>

@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/script.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/40cb243bf11a0808a8da1ad9d69da4a5ee7ea754.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/4eb48bf083028dfbcd4e40a46b990a8af783d55d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/5a58b40afa2fa3b8b40b4e459b8c79ecd30ee41d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/6b002127bd648fd17e0fcb56abc5d2486cde78b2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/87b1bbfcda2d1c1432bd26c9b6b69666c1c46d07.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/90b4716b3b762a175328331298a713f20e7bde6d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/d2b565bc2939d3e1f7fd88ff60c811178292fe42.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/d6664f76b34a147ebedb93736427543895d03e57.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/dd5f7bb51ccbe677f61c8bca8a94cb4cdc8146d4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/e332cbcbf639e05b1866425ed2928625d887da40.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/e3385836887de429e4a170492f8881e24d346ab8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/e34557b2509bb8db51ca264e686c0a231657d190.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/f0992597775a381fa69b5d6cf264385b0ebee0ea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EH.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/map/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/map/map.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +345,8 @@
       <workItem from="1615972431527" duration="28299000" />
       <workItem from="1616056771160" duration="605000" />
       <workItem from="1616072881021" duration="6783000" />
-      <workItem from="1616089119358" duration="7833000" />
+      <workItem from="1616089119358" duration="7978000" />
+      <workItem from="1616228249316" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -571,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616081616456</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="project EH">
+      <created>1616102176925</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616102176926</updated>
+    </task>
+    <task id="LOCAL-00031" summary="project EH">
+      <created>1616102280374</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616102280374</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,10 +605,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1616081611307">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1616102277690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616081611307" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616102277690" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1613455989033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,10 +629,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613752171239" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616081670895">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616102284274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616081670895" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616102284274" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

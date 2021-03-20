@@ -14,20 +14,10 @@
                 
                 <div class="container">
                     
-                    <form class="d-flex">
-                        <input class="form-control mr-xl-1 cuprum"
-                               name="TextSearch"
-                               id="TextSearch"
-                               type="search"
-                               placeholder="ПОИСК"
-                               aria-label="Search">
+               
+
                         <?php echo csrf_field(); ?>
-                        <button class="btn btn-outline-success margin cuprum"
-                                type="submit"
-                                name="search"
-                                id="search">
-                            ПОИСК
-                        </button>
+                      
 
                     
 

@@ -15,20 +15,20 @@
                 {{--Регистрация--}}
                 <div class="container">
                     {{--Форма регистрации--}}
-                    <form class="d-flex">
-                        <input class="form-control mr-xl-1 cuprum"
+               {{--     <form class="d-flex ">--}}
+{{--                        <input class="form-control mr-xl-1 cuprum"
                                name="TextSearch"
                                id="TextSearch"
                                type="search"
                                placeholder="ПОИСК"
-                               aria-label="Search">
+                               aria-label="Search">--}}
                         @csrf
-                        <button class="btn btn-outline-success margin cuprum"
+                      {{--  <button class="btn btn-outline-success margin cuprum"
                                 type="submit"
                                 name="search"
                                 id="search">
                             ПОИСК
-                        </button>
+                        </button>--}}
 
                     {{--    <thead>
                         <tr>
