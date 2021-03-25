@@ -1,5 +1,5 @@
 <?php $__env->startSection('footer'); ?>
-<footer class="page-footer font-small blue pt-4 border-top rounded-top bg-dark text-white">
+<footer class="page-footer font-small blue pt-4 border-top rounded-top bg-dark text-white mt-3">
 
     
     <div class="container-fluid text-center text-md-left">
@@ -36,7 +36,7 @@
                     </li>
                     <li>
                         <a class="text-decoration-none text-white"
-                           href="#!">ПРАВИЛА САЙТА
+                           href="<?php echo e(route('contacts')); ?>">КОНТАКТЫ
                         </a>
                     </li>
                     <li>
@@ -48,7 +48,7 @@
                     <li>
                         <a class="text-decoration-none text-white"
                            href="">
-                            КОНТАКТЫ
+
                         </a>
                     </li>
                 </ul>
@@ -88,7 +88,9 @@
     
 
     
-    <div class="footer-copyright text-center py-3 text-comfortaa">© 2020 DoroshenkoDevelop</div>
+    <div class="footer-copyright text-center py-3 text-comfortaa">
+        © 2020 DoroshenkoDevelop
+    </div>
     
 </footer>
 <?php echo $__env->yieldSection(); ?>

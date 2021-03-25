@@ -28,4 +28,9 @@ class HomeController extends Controller
         return view('order.order');
     }
 
+    public function contacts()
+    {
+        return view('contacts.contacts');
+    }
+
 }

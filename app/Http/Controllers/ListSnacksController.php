@@ -15,7 +15,7 @@ class ListSnacksController extends Controller
     public function index()
     {
         $coldsnacks = ListSnacks::find([1,2,3,4]);
-        $hotsnacks = ListSnacks::find([]);
+        $hotsnacks = ListSnacks::find([5,6]);
         $bruschettas = ListSnacks::find([2,4]);
         $mixs = ListSnacks::find([4,2,1]);
         return view('recipes.index',

@@ -1,6 +1,5 @@
 @extends('layouts.head')
 @section('app')
-
 <header class="card-header container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
@@ -41,16 +40,19 @@
                 </div>
                 {{--Форма регистрации--}}
                 @if (Route::has('login'))
-
                     @auth
-
+                        <a class="btn btn-success cuprum" href="{{ route('logout') }}">
+                            ВЫЙТИ
+                        </a>
                     @else
-                        <a href="{{ route('login') }}" class="btn btn-success margin cuprum pt-3 pb-3">
+                        <a href="{{ route('login') }}"
+                           class="btn btn-success margin cuprum pt-3 pb-3">
                             ВХОД
                         </a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="btn btn-success margin cuprum pt-3 pb-3">
+                            <a href="{{ route('register') }}"
+                               class="btn btn-success margin cuprum pt-3 pb-3">
                                 РЕГИСТРАЦИЯ
                             </a>
                         @endif

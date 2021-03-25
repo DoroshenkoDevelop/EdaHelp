@@ -18,17 +18,17 @@
 
 
 
-        <p class="cuprum  text-center mt-4 h5">
+        <p class="cuprum  text-center mt-5 h5">
             <b>ЕДА-HELP</b> - находка для всех, кто любит вкусно поесть.
         <p/>
-        <p class="cuprum  text-center mt-4 h5">
+        <p class="cuprum  text-center mt-5 h5">
             <b>ЕДА-HELP</b> поможет Вам научиться играть с ингредиентами.
 
         <p/>
-        <p class="cuprum  text-center mt-4 h5">
+        <p class="cuprum  text-center mt-5 h5">
             Наш блог с Шеф-Рецептами от профессионалов с авторскими рецептами.
         <p/>
-        <p class="cuprum  text-center mt-4 h5">
+        <p class="cuprum  text-center mt-5 h5 ">
 
         <p/>
     </main>

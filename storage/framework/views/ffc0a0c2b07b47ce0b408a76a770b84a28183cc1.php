@@ -1,12 +1,12 @@
-    @extends('home.home')
-@section('content')
+    
+<?php $__env->startSection('content'); ?>
 
     <main class="container-sm">
 
             <section class="block-container card-header border-right border-left border-dark">
                 <div class="logo mt-5 mb-5">
                     <a class="navbar-brand"
-                       href="{{ route('home') }}">
+                       href="<?php echo e(route('home')); ?>">
                         <p class="text-center mb-1 text-inter h3 text-inter text-dark">
                             ЕДА
                         </p>
@@ -17,8 +17,8 @@
                     </a>
                 </div>
 
-        <form  method="POST" action="{{ asset('send_recipe') }}" enctype="multipart/form-data">
-            <input name="_token" type="hidden" value="{{ csrf_token() }}">
+        <form  method="POST" action="<?php echo e(asset('send_recipe')); ?>" enctype="multipart/form-data">
+            <input name="_token" type="hidden" value="<?php echo e(csrf_token()); ?>">
 
             <div class="form-group ">
                 <label for="exampleFormControlInput1">
@@ -155,4 +155,6 @@
             </section>
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\eh\resources\views/my_recipe/my_recipe.blade.php ENDPATH**/ ?>

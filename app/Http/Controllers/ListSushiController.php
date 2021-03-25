@@ -14,8 +14,11 @@ class ListSushiController extends Controller
      */
     public function index()
     {
-        $sushies = ListSushi::all();
-        return view('sushi.index',compact('sushies'));
+        $salmons = ListSushi::find([1]);
+        $tunas = ListSushi::find([2]);
+        $seafoods = ListSushi::find([3]);
+        $mixs = ListSushi::find([4]);
+        return view('sushi.index',compact('salmons','tunas','seafoods','mixs'));
     }
 
     /**

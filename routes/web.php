@@ -16,6 +16,8 @@ use App\Http\Controllers\ListSushiController;
 use App\Http\Controllers\ListPasteController;
 use App\Http\Controllers\ListCreamSoupController;
 use App\Http\Controllers\IndexHomeController;
+use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,6 +46,8 @@ Route::get('map',[HomeController::class,'map'])->name('map');
 Route::get('order',[HomeController::class,'order'])->name('order');
 /* ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ */
 
+Route::get('contacts',[HomeController::class,'contacts'])->name('contacts');
+
 /* МОЙ РЕЦЕПТ */
 Route::get('my_recipe',function ()
 {
@@ -54,6 +58,18 @@ Route::get('my_recipe',function ()
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
 Route::post('send_recipe',[MailController::class,'send']);
 /* ОТПРАВКА МОЙ РЕЦЕПТ */
+
+
+/* КОНТАКТЫ *//* КОНТАКТЫ *//* КОНТАКТЫ *//* КОНТАКТЫ *//* КОНТАКТЫ *//* КОНТАКТЫ *//* КОНТАКТЫ */
+Route::get('my_recipe',function ()
+{
+    return view('my_recipe.my_recipe');
+});
+/* КОНТАКТЫ */
+
+/* ОТПРАВКА  КОНТАКТЫ */
+Route::post('send_recipe',[MailController::class,'send']);
+/* ОТПРАВКА  КОНТАКТЫ *//* ОТПРАВКА  КОНТАКТЫ *//* ОТПРАВКА  КОНТАКТЫ *//* ОТПРАВКА  КОНТАКТЫ */
 
 
 
@@ -117,11 +133,15 @@ Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'
 /*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
 
 
+
+/*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*/
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function ()
 {
-    return view('home.home');
+    return view('info.info');
 })->name('dashboard');
 
+Route::get('logout',[AuthenticatedSessionController::class,'destroy'])->name('logout');
+/*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*//*РЕГИСТРАЦИЯ*/
 
 
 

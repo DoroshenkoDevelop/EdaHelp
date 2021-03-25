@@ -1,4 +1,6 @@
 @section('head')
+
+    <meta name="google-site-verification" content=TBbnzgj2hscIAHRYi5CVGqWH7gFODCYGH5Y4jRQyBWg">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -34,7 +36,7 @@
 <!-- /Yandex.Metrika counter -->
 
 <title>
-    edahelp.ru
+    Рецепты приготовления блюд||EdaHelp.ru
 </title>
 
 @show
