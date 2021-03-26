@@ -1,5 +1,6 @@
 @extends('home.home')
 @section('content')
+
     <main class="container-sm border-right border-left border-dark">
 
       {{--  ОПИСАНИЕ--}}
