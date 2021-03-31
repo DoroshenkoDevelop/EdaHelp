@@ -1,4 +1,5 @@
 <?php $__env->startSection('content'); ?>
+
     <main class="container-sm border-right border-left border-dark">
 
       
@@ -26,16 +27,16 @@
             
 
         
-        <article class="col-sm-12 col-md-4">
-            <?php $__currentLoopData = $populars; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $popular): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+        <article class="col-sm-12 col-md-3">
+            <?php $__currentLoopData = $populars1; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $populars): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <a class="text-decoration-none"
-                   <?php echo e($popular->id); ?>
+                   <?php echo e($populars->id); ?>
 
-                   href="<?php echo e(route('recipe',['id'=>$popular->id])); ?>">
-                    <img src="<?php echo e(asset($popular->index_image)); ?>" class="img-fluid card-img">
+                   href="<?php echo e(route('recipe',['id'=>$populars->id])); ?>">
+                    <img src="<?php echo e(asset($populars->index_image)); ?>" class="img-fluid card-img">
                     <p class="cuprum text-dark">
                         <b>
-                            <?php echo e($popular->index_name); ?>
+                            <?php echo e($populars->index_name); ?>
 
                         </b>
                     </p>
@@ -45,16 +46,16 @@
          
 
           
-            <article class="col-sm-12 col-md-4">
-                <?php $__currentLoopData = $snas; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sna): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <article class="col-sm-12 col-md-3">
+                <?php $__currentLoopData = $populars2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $populars): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($sna->id); ?>
+                       <?php echo e($populars->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$sna->id])); ?>">
-                        <img src="<?php echo e(asset($sna->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$populars->id])); ?>">
+                        <img src="<?php echo e(asset($populars->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($sna->index_name); ?>
+                                <?php echo e($populars->index_name); ?>
 
                             </b>
                         </p>
@@ -63,18 +64,17 @@
             </article>
           
 
-
             
-            <article class="col-sm-12 col-md-4">
-                <?php $__currentLoopData = $zacs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $zac): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <article class="col-sm-12 col-md-3">
+                <?php $__currentLoopData = $populars3; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $populars): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($zac->id); ?>
+                       <?php echo e($populars->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$zac->id])); ?>">
-                        <img src="<?php echo e(asset($zac->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$populars->id])); ?>">
+                        <img src="<?php echo e(asset($populars->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($zac->index_name); ?>
+                                <?php echo e($populars->index_name); ?>
 
                             </b>
                         </p>
@@ -82,6 +82,26 @@
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </article>
             
+
+            
+            <article class="col-sm-12 col-md-3">
+                <?php $__currentLoopData = $populars4; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $populars): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a class="text-decoration-none"
+                       <?php echo e($populars->id); ?>
+
+                       href="<?php echo e(route('recipe',['id'=>$populars->id])); ?>">
+                        <img src="<?php echo e(asset($populars->index_image)); ?>" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                <?php echo e($populars->index_name); ?>
+
+                            </b>
+                        </p>
+                    </a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </article>
+            
+
         </section>
         
 
@@ -143,15 +163,15 @@
 
              
             <article class="col-sm-12 col-md-3">
-                <?php $__currentLoopData = $sys; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sy): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $new1; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $new): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($sy->id); ?>
+                       <?php echo e($new->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$sy->id])); ?>">
-                        <img src="<?php echo e(asset($sy->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$new->id])); ?>">
+                        <img src="<?php echo e(asset($new->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($sy->index_name); ?>
+                                <?php echo e($new->index_name); ?>
 
                             </b>
                         </p>
@@ -162,15 +182,15 @@
 
              
             <article class="col-sm-12 col-md-3">
-                <?php $__currentLoopData = $pas; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pa): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $new2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $new): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($pa->id); ?>
+                       <?php echo e($new->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$pa->id])); ?>">
-                        <img src="<?php echo e(asset($pa->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$new->id])); ?>">
+                        <img src="<?php echo e(asset($new->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($pa->index_name); ?>
+                                <?php echo e($new->index_name); ?>
 
                             </b>
                         </p>
@@ -181,15 +201,15 @@
 
             
             <article class="col-sm-12 col-md-3">
-                <?php $__currentLoopData = $shtr; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sht): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $new3; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $new): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($sht->id); ?>
+                       <?php echo e($new->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$sht->id])); ?>">
-                        <img src="<?php echo e(asset($sht->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$new->id])); ?>">
+                        <img src="<?php echo e(asset($new->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($sht->index_name); ?>
+                                <?php echo e($new->index_name); ?>
 
                             </b>
                         </p>
@@ -200,15 +220,15 @@
 
             
             <article class="col-sm-12 col-md-3">
-                <?php $__currentLoopData = $chess; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ches): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                <?php $__currentLoopData = $new4; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $new): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <a class="text-decoration-none"
-                       <?php echo e($ches->id); ?>
+                       <?php echo e($new->id); ?>
 
-                       href="<?php echo e(route('recipe',['id'=>$ches->id])); ?>">
-                        <img src="<?php echo e(asset($ches->index_image)); ?>" class="img-fluid card-img">
+                       href="<?php echo e(route('recipe',['id'=>$new->id])); ?>">
+                        <img src="<?php echo e(asset($new->index_image)); ?>" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                <?php echo e($ches->index_name); ?>
+                                <?php echo e($new->index_name); ?>
 
                             </b>
                         </p>

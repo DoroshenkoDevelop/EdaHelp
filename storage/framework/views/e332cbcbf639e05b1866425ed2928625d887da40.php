@@ -1,4 +1,5 @@
 <?php $__env->startSection('app'); ?>
+
 <header class="card-header container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">

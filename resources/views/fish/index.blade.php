@@ -61,7 +61,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            СЫРАЯ
+                            СВЕЖАЯ
                         </p>
                     </article>
                     @foreach($raws  as $raw)

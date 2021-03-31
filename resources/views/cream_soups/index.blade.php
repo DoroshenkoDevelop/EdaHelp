@@ -86,14 +86,14 @@
                             ОВОЩНОЙ
                         </p>
                     </article>
-                    @foreach($meatsoups  as $meatsoup)
+                    @foreach($vegetables as $vegetable)
                         <a class="text-decoration-none"
-                           {{ $meatsoup->id }}
-                           href="{{ route('cream_soup',['id'=>$meatsoup->id])}}">
-                            <img src="{{ asset($meatsoup->cream_soups_image) }}" class="img-fluid card-img">
+                           {{ $vegetable->id }}
+                           href="{{ route('cream_soup',['id'=>$vegetable->id])}}">
+                            <img src="{{ asset($vegetable->cream_soups_image) }}" class="img-fluid card-img">
                             <p class="cuprum text-dark">
                                 <b>
-                                    {{ $meatsoup->cream_soups_name }}
+                                    {{ $vegetable->cream_soups_name }}
                                 </b>
                             </p>
                         </a>

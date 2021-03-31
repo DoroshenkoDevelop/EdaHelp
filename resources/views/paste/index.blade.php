@@ -39,7 +39,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ВЕРМЕШЕЛЬ
+                            ЛАПША
                         </p>
                     </article>
                     @foreach($vermicelli  as $vermicell)

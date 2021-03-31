@@ -14,22 +14,27 @@ class IndexHomeController extends Controller
      */
     public function index()
     {
-        $populars = IndexHome::find([1]);
-        $snas = IndexHome::find([2]);
-        $zacs = IndexHome::find([3]);
-        $sys = IndexHome::find([4]);
-        $pas = IndexHome::find([5]);
-        $shtr = IndexHome::find([6]);
-        $chess = IndexHome::find([7]);
+        // ПОПУЛЯРНЫЕ
+        $populars1 = IndexHome::find([1]);
+        $populars2 = IndexHome::find([2]);
+        $populars3 = IndexHome::find([3]);
+        $populars4 = IndexHome::find([4]);
+       // ПОПУЛЯРНЫЕ
 
+        // НОВЫЕ
+        $new1 = IndexHome::find([5]);
+        $new2 = IndexHome::find([6]);
+        $new3 = IndexHome::find([7]);
+        $new4 = IndexHome::find([8]);
+        // НОВЫЕ
 
         return view('home.index',
-            compact('populars',
-                'snas',
-                'zacs',
-                'sys',
-                'pas',
-                'shtr','chess'
+            compact('populars1',
+                'populars2',
+                'populars3',
+                'populars4',
+                'new1','new2',
+                'new3','new4'
             )
         );
     }

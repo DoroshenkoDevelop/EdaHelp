@@ -28,15 +28,15 @@
             {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
         {{--РЕЦЕПТ--}}
-        <article class="col-sm-12 col-md-4">
-            @foreach($populars as $popular)
+        <article class="col-sm-12 col-md-3">
+            @foreach($populars1 as $populars)
                 <a class="text-decoration-none"
-                   {{ $popular->id }}
-                   href="{{ route('recipe',['id'=>$popular->id])}}">
-                    <img src="{{ asset($popular->index_image) }}" class="img-fluid card-img">
+                   {{ $populars->id }}
+                   href="{{ route('recipe',['id'=>$populars->id])}}">
+                    <img src="{{ asset($populars->index_image) }}" class="img-fluid card-img">
                     <p class="cuprum text-dark">
                         <b>
-                            {{ $popular->index_name }}
+                            {{ $populars->index_name }}
                         </b>
                     </p>
                 </a>
@@ -45,15 +45,15 @@
          {{--РЕЦЕПТ--}}
 
           {{--РЕЦЕПТ--}}
-            <article class="col-sm-12 col-md-4">
-                @foreach($snas as $sna)
+            <article class="col-sm-12 col-md-3">
+                @foreach($populars2 as $populars)
                     <a class="text-decoration-none"
-                       {{ $sna->id }}
-                       href="{{ route('recipe',['id'=>$sna->id])}}">
-                        <img src="{{ asset($sna->index_image) }}" class="img-fluid card-img">
+                       {{ $populars->id }}
+                       href="{{ route('recipe',['id'=>$populars->id])}}">
+                        <img src="{{ asset($populars->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $sna->index_name }}
+                                {{ $populars->index_name }}
                             </b>
                         </p>
                     </a>
@@ -61,23 +61,40 @@
             </article>
           {{--   РЕЦЕПТ --}}
 
-
             {{--РЕЦЕПТ--}}
-            <article class="col-sm-12 col-md-4">
-                @foreach($zacs as $zac)
+            <article class="col-sm-12 col-md-3">
+                @foreach($populars3 as $populars)
                     <a class="text-decoration-none"
-                       {{ $zac->id }}
-                       href="{{ route('recipe',['id'=>$zac->id])}}">
-                        <img src="{{ asset($zac->index_image) }}" class="img-fluid card-img">
+                       {{ $populars->id }}
+                       href="{{ route('recipe',['id'=>$populars->id])}}">
+                        <img src="{{ asset($populars->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $zac->index_name }}
+                                {{ $populars->index_name }}
                             </b>
                         </p>
                     </a>
                 @endforeach
             </article>
             {{-- РЕЦЕПТ --}}
+
+            {{--РЕЦЕПТ--}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($populars4 as $populars)
+                    <a class="text-decoration-none"
+                       {{ $populars->id }}
+                       href="{{ route('recipe',['id'=>$populars->id])}}">
+                        <img src="{{ asset($populars->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $populars->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{-- РЕЦЕПТ --}}
+
         </section>
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
@@ -139,14 +156,14 @@
 
              {{--РЕЦЕПТ --}}
             <article class="col-sm-12 col-md-3">
-                @foreach($sys as $sy)
+                @foreach($new1 as $new)
                     <a class="text-decoration-none"
-                       {{ $sy->id }}
-                       href="{{ route('recipe',['id'=>$sy->id])}}">
-                        <img src="{{ asset($sy->index_image) }}" class="img-fluid card-img">
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $sy->index_name }}
+                                {{ $new->index_name }}
                             </b>
                         </p>
                     </a>
@@ -156,14 +173,14 @@
 
              {{--РЕЦЕПТ --}}
             <article class="col-sm-12 col-md-3">
-                @foreach($pas as $pa)
+                @foreach($new2 as $new)
                     <a class="text-decoration-none"
-                       {{ $pa->id }}
-                       href="{{ route('recipe',['id'=>$pa->id])}}">
-                        <img src="{{ asset($pa->index_image) }}" class="img-fluid card-img">
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $pa->index_name }}
+                                {{ $new->index_name }}
                             </b>
                         </p>
                     </a>
@@ -173,14 +190,14 @@
 
             {{-- РЕЦЕПТ --}}
             <article class="col-sm-12 col-md-3">
-                @foreach($shtr as $sht)
+                @foreach($new3 as $new)
                     <a class="text-decoration-none"
-                       {{ $sht->id }}
-                       href="{{ route('recipe',['id'=>$sht->id])}}">
-                        <img src="{{ asset($sht->index_image) }}" class="img-fluid card-img">
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $sht->index_name }}
+                                {{ $new->index_name }}
                             </b>
                         </p>
                     </a>
@@ -190,14 +207,14 @@
 
             {{-- РЕЦЕПТ --}}
             <article class="col-sm-12 col-md-3">
-                @foreach($chess as $ches)
+                @foreach($new4 as $new)
                     <a class="text-decoration-none"
-                       {{ $ches->id }}
-                       href="{{ route('recipe',['id'=>$ches->id])}}">
-                        <img src="{{ asset($ches->index_image) }}" class="img-fluid card-img">
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
                         <p class="cuprum text-dark">
                             <b>
-                                {{ $ches->index_name }}
+                                {{ $new->index_name }}
                             </b>
                         </p>
                     </a>
