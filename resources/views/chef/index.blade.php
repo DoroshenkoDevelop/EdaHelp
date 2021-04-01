@@ -3,23 +3,22 @@
     {{-- Гордон Рамзи --}}
     <main class="container-md border-right border-left border-dark">
         <table class="table table-striped table-hover">
-
+            @foreach($chefs as $chef)
             <tbody>
             <tr>
-                <td> @foreach($chefs as $chef)
-                        <a href="{{ route('chef',['id'=>$chef->id])}}">
+                <td>
+
+                        <a class="text-decoration-none text-black" href="{{ route('chef',['id'=>$chef->id])}}">
                             <p class="cuprum">
                                 {{ $chef->name_chef }}
                             </p>
-
                             <img class="img-fluid"
                                  width="100px"
                                  height="100px"
                                  src="{{ asset($chef->image_chef) }}">
                         </a>
-                    @endforeach
-                </td>
 
+                </td>
                 <td>
                     <p class="cuprum">
                         {{ $chef->chef_description_1 }}
@@ -34,7 +33,9 @@
                 </td>
                 {{--КУХНЯ--}}
             </tr>
+
             </tbody>
+            @endforeach
         </table>
     </main>
     {{-- Гордон Рамзи --}}

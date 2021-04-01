@@ -1,6 +1,8 @@
 @section('head')
 
-    <meta name="google-site-verification" content="TBbnzgj2hscIAHRYi5CVGqWH7gFODCYGH5Y4jRQyBWg" />
+    <link rel="icon" href="{{ asset('storage/favicon/favicon.PNG') }}" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -10,6 +12,7 @@
         ga('create', 'UA-XXXXX-Y', 'auto');
         ga('send', 'pageview');
     </script>
+
     <!-- Google Analytics -->
     <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -18,10 +21,25 @@
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="csrf-token" content="{{ csrf_token() }}">
-<meta name="Description" content="Рецепты,пошаговые рецепты,рецепты с фото,простые рецепты,вкусные рецепты,интересные рецепты,необычные рецепты,салаты,фото рецепт,суп,суши."/>
+
+
+    <meta name="google-site-verification" content="TBbnzgj2hscIAHRYi5CVGqWH7gFODCYGH5Y4jRQyBWg" />
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="keywords" content="Рецепты, рецепты закусок, рецепты салатов, рецепты супов, рецепты мясо">
+    <meta name="Description" content="Рецепты,
+    пошаговые рецепты,
+     рецепты с фото,
+     простые рецепты,
+     вкусные рецепты,
+     интересные рецепты,
+     необычные рецепты,
+     салаты,
+     фото рецепт,
+     суп,
+     суши."
+    />
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">

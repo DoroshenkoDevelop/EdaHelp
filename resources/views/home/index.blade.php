@@ -98,6 +98,84 @@
         </section>
         {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
 
+        {{--НОВЫЕ РЕЦЕПТЫ--}}
+        <section class="row mb-5">
+            <article class="">
+                <p class="cuprum h2  mt-5 mb-2">
+                    НОВЫЕ РЕЦЕПТЫ
+                </p>
+            </article>
+
+            {{--РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($new1 as $new)
+                    <a class="text-decoration-none"
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $new->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--РЕЦЕПТ --}}
+
+            {{--РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($new2 as $new)
+                    <a class="text-decoration-none"
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $new->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{-- РЕЦЕПТ --}}
+
+            {{-- РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($new3 as $new)
+                    <a class="text-decoration-none"
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $new->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--РЕЦЕПТ --}}
+
+            {{-- РЕЦЕПТ --}}
+            <article class="col-sm-12 col-md-3">
+                @foreach($new4 as $new)
+                    <a class="text-decoration-none"
+                       {{ $new->id }}
+                       href="{{ route('recipe',['id'=>$new->id])}}">
+                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark">
+                            <b>
+                                {{ $new->index_name }}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--РЕЦЕПТ --}}
+        </section>
+        {{--НОВЫЕ РЕЦЕПТЫ--}}
+
        {{-- ТОП ШЕФ РЕЦЕПТОВ--}}
         <section class="mt-3">
             <div class="row">
@@ -146,83 +224,7 @@
         {{--ТОП ШЕФ РЕЦЕПТОВ--}}
 
 
-        {{--НОВЫЕ РЕЦЕПТЫ--}}
-        <section class="row mb-5">
-            <article class="">
-                <p class="cuprum h2  mt-5 mb-2">
-                    НОВЫЕ РЕЦЕПТЫ
-                </p>
-            </article>
 
-             {{--РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-3">
-                @foreach($new1 as $new)
-                    <a class="text-decoration-none"
-                       {{ $new->id }}
-                       href="{{ route('recipe',['id'=>$new->id])}}">
-                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                                {{ $new->index_name }}
-                            </b>
-                        </p>
-                    </a>
-                @endforeach
-            </article>
-             {{--РЕЦЕПТ --}}
-
-             {{--РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-3">
-                @foreach($new2 as $new)
-                    <a class="text-decoration-none"
-                       {{ $new->id }}
-                       href="{{ route('recipe',['id'=>$new->id])}}">
-                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                                {{ $new->index_name }}
-                            </b>
-                        </p>
-                    </a>
-                @endforeach
-            </article>
-            {{-- РЕЦЕПТ --}}
-
-            {{-- РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-3">
-                @foreach($new3 as $new)
-                    <a class="text-decoration-none"
-                       {{ $new->id }}
-                       href="{{ route('recipe',['id'=>$new->id])}}">
-                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                                {{ $new->index_name }}
-                            </b>
-                        </p>
-                    </a>
-                @endforeach
-            </article>
-             {{--РЕЦЕПТ --}}
-
-            {{-- РЕЦЕПТ --}}
-            <article class="col-sm-12 col-md-3">
-                @foreach($new4 as $new)
-                    <a class="text-decoration-none"
-                       {{ $new->id }}
-                       href="{{ route('recipe',['id'=>$new->id])}}">
-                        <img src="{{ asset($new->index_image) }}" class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                                {{ $new->index_name }}
-                            </b>
-                        </p>
-                    </a>
-                @endforeach
-            </article>
-            {{--РЕЦЕПТ --}}
-        </section>
-        {{--НОВЫЕ РЕЦЕПТЫ--}}
 
 
 

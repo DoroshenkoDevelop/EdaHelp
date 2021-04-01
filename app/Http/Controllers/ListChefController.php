@@ -14,7 +14,7 @@ class ListChefController extends Controller
      */
     public function index()
     {
-        $chefs = ListChef::find([1]);
+        $chefs = ListChef::all();
         return view('chef.index',compact('chefs'));
     }
 

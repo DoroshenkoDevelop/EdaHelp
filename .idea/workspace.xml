@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="project EH">
+    <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/a58e7c5e18414b16a75b67664856c754d85e3bfe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListCreamSoupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListCreamSoupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListRisottoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListRisottoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cream_soups/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cream_soups/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/fish/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/fish/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListChefController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListChefController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/chef/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/chef/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/paste/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/paste/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/2c1f290621f31ffaf47188cfa6d3256bfafba69d.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/2c1f290621f31ffaf47188cfa6d3256bfafba69d.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/6b002127bd648fd17e0fcb56abc5d2486cde78b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/6b002127bd648fd17e0fcb56abc5d2486cde78b2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/87b1bbfcda2d1c1432bd26c9b6b69666c1c46d07.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/87b1bbfcda2d1c1432bd26c9b6b69666c1c46d07.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/e332cbcbf639e05b1866425ed2928625d887da40.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e332cbcbf639e05b1866425ed2928625d887da40.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/e34557b2509bb8db51ca264e686c0a231657d190.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/e34557b2509bb8db51ca264e686c0a231657d190.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/f0992597775a381fa69b5d6cf264385b0ebee0ea.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/f0992597775a381fa69b5d6cf264385b0ebee0ea.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,24 +180,24 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/rizotto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/favicon" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\favicon" />
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\rizotto" />
+      <recent name="D:\open server\OpenServer\domains\eh\public" />
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\hot_appetizers" />
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\sushi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\eh\public" />
       <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage\public" />
-      <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\rizotto" />
-      <recent name="D:\open server\OpenServer\domains\eh\public" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\hot_appetizers" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\sushi" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
     </key>
   </component>
@@ -368,7 +370,8 @@
       <workItem from="1617036654854" duration="1988000" />
       <workItem from="1617096151804" duration="918000" />
       <workItem from="1617101768983" duration="5273000" />
-      <workItem from="1617195452731" duration="3123000" />
+      <workItem from="1617195452731" duration="8935000" />
+      <workItem from="1617265689258" duration="5377000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -615,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616762122270</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="project EH">
+      <created>1617215156355</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1617215156355</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,18 +673,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1617214302186">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1617215148988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617214302186" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617215148988" />
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog" timestamp="1616685058487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616685058487" />
-    <state x="100" y="32" width="1736" height="856" key="DirDiffDialog" timestamp="1617214953116">
+    <state x="100" y="32" width="1736" height="856" key="DirDiffDialog" timestamp="1617266299511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="100" y="32" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617214953116" />
+    <state x="100" y="32" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617266299511" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1616682271332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -695,10 +705,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613752171239" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616762130890">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617215156255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616762130890" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617215156255" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

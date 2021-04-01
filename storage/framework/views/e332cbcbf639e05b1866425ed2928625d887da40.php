@@ -2,7 +2,7 @@
 
 <header class="card-header container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container">
+            <div class="container-sm">
                 
                 <a href="<?php echo e(route('home')); ?>" class="navbar-brand">
                     <p class="text-center mb-1 text-inter h3 text-inter text-white">ЕДА</p>

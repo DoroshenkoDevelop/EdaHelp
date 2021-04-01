@@ -1,5 +1,6 @@
 <?php $__env->startSection('header'); ?>
     
+
 <header class="container-sm">
     <header class="card-header border-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -178,45 +179,15 @@
                 
 
                 
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="<?php echo e(route('desserts')); ?>">
-                            <p class="h-25  cuprum">
-                                ДЕСЕРТЫ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
+          
                 
 
                 
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="<?php echo e(route('sushies')); ?>">
-                            <p class="h-25  cuprum">
-                                 СУШИ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
+           
                 
 
                 
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="<?php echo e(route('exquisites')); ?>">
-                            <p class="h-25  cuprum">
-                                ИЗЫСКАННОЕ
-                            </p>
-                        </a>
-                    </li>
-                </ul>
+             
                 
                 
             </div>

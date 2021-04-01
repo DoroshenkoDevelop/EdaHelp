@@ -1,5 +1,6 @@
 @section('header')
     {{--Хеадер--}}
+
 <header class="container-sm">
     <header class="card-header border-dark">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -178,7 +179,7 @@
                 {{-- РЫБА --}}
 
                 {{-- ДИСЕРТЫ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+          {{--      <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -188,11 +189,11 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- ДИСЕРТЫ --}}
 
                 {{-- СУШИ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+           {{--     <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -202,11 +203,11 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- СУШИ --}}
 
                 {{-- ИЗЫСКАННОЕ--}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+             {{--   <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -216,7 +217,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- ИЗЫСКАННОЕ--}}
                 {{-- СПИСОК РЕЦЕПТОВ --}}
             </div>
