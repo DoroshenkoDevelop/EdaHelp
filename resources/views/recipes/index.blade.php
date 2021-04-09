@@ -17,7 +17,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ХОЛОДНЫЕ ЗАКУСКИ
+                            ЗАКУСКИ
                         </p>
                     </article>
                     @foreach($coldsnacks as $coldsnack)
@@ -40,7 +40,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ГОРЯЧИЕ ЗАКУСКИ
+                            СТРИТ ФУД
                         </p>
                     </article>
                     @foreach($hotsnacks as $hotsnack)
@@ -63,7 +63,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            БРУСКЕТТЫ И СМОРЕБРОДЫ
+                            ФИНГЕР ФУД
                         </p>
                     </article>
                     @foreach($bruschettas as $bruschetta)

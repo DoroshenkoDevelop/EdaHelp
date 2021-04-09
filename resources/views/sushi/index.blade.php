@@ -61,7 +61,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article class="">
                         <p class="cuprum h5">
-                            С МОРЕПРОДУКТАМИ
+                            С УГРЁМ
                         </p>
                     </article>
                     @foreach($seafoods  as $seafood)
@@ -83,7 +83,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article class="">
                         <p class="cuprum h5">
-                            МИКСё
+                            МИКС
                         </p>
                     </article>
                     @foreach($mixs  as $mix)

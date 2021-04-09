@@ -64,7 +64,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article class="">
                         <p class="cuprum h5">
-                            С МОРЕПРОДУКТАМИ
+                            С УГРЁМ
                         </p>
                     </article>
                     <?php $__currentLoopData = $seafoods; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $seafood): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -88,7 +88,7 @@
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article class="">
                         <p class="cuprum h5">
-                            МИКСё
+                            МИКС
                         </p>
                     </article>
                     <?php $__currentLoopData = $mixs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $mix): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>

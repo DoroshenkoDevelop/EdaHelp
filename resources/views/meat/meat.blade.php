@@ -172,7 +172,7 @@
 
 
                     <div class="round bg-dark text-white mb-3">
-                        <p class="lead">
+                        <p class="">
                             1
                         </p>
                     </div>
@@ -182,7 +182,7 @@
                     </p>
 
                     <div class="round bg-dark text-white mb-3 mt-3">
-                        <p class="lead">
+                        <p class="">
                             2
                         </p>
                     </div>
@@ -191,7 +191,7 @@
                         {{ $meat->meats_description_2 }}
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
-                        <p class="lead">
+                        <p class="">
                             3
                         </p>
                     </div>
@@ -200,7 +200,7 @@
                         {{ $meat->meats_description_3 }}
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
-                        <p class="lead">
+                        <p class="">
                             4
                         </p>
                     </div>

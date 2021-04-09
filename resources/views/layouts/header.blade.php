@@ -42,7 +42,7 @@
                 {{-- КАРТА--}}
 
                 {{-- МОЙ РЕЦЕПТ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+      {{--          <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -54,7 +54,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- МОЙ РЕЦЕПТ --}}
 
                 {{-- О НАС --}}
@@ -193,7 +193,7 @@
                 {{-- ДИСЕРТЫ --}}
 
                 {{-- СУШИ --}}
-           {{--     <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -203,7 +203,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>--}}
+                </ul>
                 {{-- СУШИ --}}
 
                 {{-- ИЗЫСКАННОЕ--}}

@@ -34,11 +34,11 @@
                             ГЛАВНАЯ
                         </a>
                     </li>
-                    <li>
+                 {{--   <li>
                         <a class="text-decoration-none text-white"
                            href="{{ route('contacts') }}">КОНТАКТЫ
                         </a>
-                    </li>
+                    </li>--}}
                     <li>
                         <a class="text-decoration-none text-white"
                            href="{{ route('order') }}">
