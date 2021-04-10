@@ -42,7 +42,19 @@
                 
 
                 
-      
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="<?php echo e(asset('my_recipe')); ?>">
+                            <p class="h4 cuprum">
+                                <b>
+                                    МОЙ РЕЦЕПТ
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
                 
 
                 
@@ -166,9 +178,6 @@
                 </ul>
                 
 
-                
-          
-                
 
                 
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
@@ -185,8 +194,9 @@
                 
 
                 
-             
                 
+                
+
                 
             </div>
         </nav>

@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Modal\ListChef;
+use App\Models\ListSnack;
 use App\Models\IndexHome;
 use Illuminate\Http\Request;
 
@@ -28,13 +29,18 @@ class IndexHomeController extends Controller
         $new4 = IndexHome::find([8]);
         // НОВЫЕ
 
+        //ШЕФ РЕЦЕПТЫ
+        $chef1 = ListChef::find([1]);
+        //ШЕФ РЕЦЕПТЫ
+
+
         return view('home.index',
             compact('populars1',
                 'populars2',
                 'populars3',
                 'populars4',
                 'new1','new2',
-                'new3','new4'
+                'new3','new4','chef1'
             )
         );
     }

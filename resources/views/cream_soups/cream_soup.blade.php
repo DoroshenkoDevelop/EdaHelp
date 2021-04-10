@@ -88,7 +88,7 @@
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                {{ $soup->cream_soups_ingredients_10 }}
+                                {{ $soup->cream_soupsingredients_10 }}
                             </p>
                         </li>
                     </ul>

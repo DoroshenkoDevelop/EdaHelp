@@ -198,30 +198,31 @@
                     <p class="cuprum h2 ">
                         ТОП ШЕФ РЕЦЕПТОВ
                     </p>
-                    <div class="carousel slide" id="mySlider" data-ride="carousel">
+                    <div class="carousel slide mb-5" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active ">
-                                <a href="">
-                                <img src="<?php echo e(asset('/images/oliver.jpg')); ?>"
-                                     class="img-fluid d-block w-100">
-                                </a>
+                            <div class="carousel-item active">
+                                <?php $__currentLoopData = $chef1; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $chef): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                    <a class="text-decoration-none"
+                                       <?php echo e($chef->id); ?>
+
+                                       href="<?php echo e(route('chef',['id'=>$chef->id])); ?>">
+                                        <img src="<?php echo e(asset('/images/gordon-ramzi.jpg')); ?>" class="img-fluid card-img">
+                                        <p class="cuprum text-dark">
+                                            <b>
+                                                <?php echo e($chef->index_name); ?>
+
+                                            </b>
+                                        </p>
+                                    </a>
+                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                             </div>
 
-                            <div class="carousel-item">
 
-                                <a href="">
-                                <img src="<?php echo e(asset('/images/gordon-ramzi.jpg')); ?>"
-                                     class="img-fluid d-block w-100">
-                                </a>
+                           
 
-                            </div>
 
-                            <div class="carousel-item">
-                                <a href="">
-                                <img src="<?php echo e(asset('/images/paul_bocuse_1.jpg')); ?>"
-                                     class="img-fluid d-block w-100">
-                                </a>
-                            </div>
+                          
+
 
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">

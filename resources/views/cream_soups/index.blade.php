@@ -35,11 +35,11 @@
                 </article>
                 {{--КРЕМ СУП--}}
 
-                {{--С МОРЕПРОДУКТАМИ И РЫБОЙ--}}
+                {{--АЗИАТСКИЕ--}}
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5">
-                            С МОРЕПРОДУКТАМИ И РЫБОЙ
+                            АЗИАТСКИЕ
                         </p>
                     </article>
                     @foreach($fushsoups  as $fushsoup)
@@ -55,13 +55,13 @@
                         </a>
                     @endforeach
                 </article>
-                {{--С МОРЕПРОДУКТАМИ И РЫБОЙ--}}
+                {{--АЗИАТСКИЕ--}}
 
                 {{--С МЯСОМ--}}
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            С МЯСОМ
+                            НАРОДНЫЕ
                         </p>
                     </article>
                     @foreach($meatsoups  as $meatsoup)
@@ -79,11 +79,11 @@
                 </article>
                 {{--С МЯСОМ--}}
 
-                {{--С МЯСОМ--}}
+                {{--ХОЛОДНЫЕ--}}
                 <article class="col-sm-12 col-md-3 mb-4">
                     <article>
                         <p class="cuprum h5 ">
-                            ОВОЩНОЙ
+                            ХОЛОДНЫЕ
                         </p>
                     </article>
                     @foreach($vegetables as $vegetable)
@@ -99,7 +99,7 @@
                         </a>
                     @endforeach
                 </article>
-                {{--С МЯСОМ--}}
+                {{--ХОЛОДНЫЕ--}}
 
 
             </div>

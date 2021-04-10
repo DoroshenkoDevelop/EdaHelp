@@ -36,7 +36,8 @@
                     </li>
                     <li>
                         <a class="text-decoration-none text-white"
-                           href="<?php echo e(route('contacts')); ?>">КОНТАКТЫ
+                           href="<?php echo e(route('contacts')); ?>">
+                            КОНТАКТЫ
                         </a>
                     </li>
                     <li>

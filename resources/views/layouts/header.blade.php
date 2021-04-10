@@ -42,7 +42,7 @@
                 {{-- КАРТА--}}
 
                 {{-- МОЙ РЕЦЕПТ --}}
-      {{--          <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -54,7 +54,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>--}}
+                </ul>
                 {{-- МОЙ РЕЦЕПТ --}}
 
                 {{-- О НАС --}}
@@ -178,19 +178,6 @@
                 </ul>
                 {{-- РЫБА --}}
 
-                {{-- ДИСЕРТЫ --}}
-          {{--      <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="{{ route('desserts') }}">
-                            <p class="h-25  cuprum">
-                                ДЕСЕРТЫ
-                            </p>
-                        </a>
-                    </li>
-                </ul>--}}
-                {{-- ДИСЕРТЫ --}}
 
                 {{-- СУШИ --}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
@@ -206,19 +193,20 @@
                 </ul>
                 {{-- СУШИ --}}
 
-                {{-- ИЗЫСКАННОЕ--}}
-             {{--   <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active"
-                           aria-current="page"
-                           href="{{ route('exquisites') }}">
-                            <p class="h-25  cuprum">
-                                ИЗЫСКАННОЕ
-                            </p>
-                        </a>
-                    </li>
-                </ul>--}}
-                {{-- ИЗЫСКАННОЕ--}}
+                {{-- ДИСЕРТЫ --}}
+                {{--      <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link active"
+                                 aria-current="page"
+                                 href="{{ route('desserts') }}">
+                                  <p class="h-25  cuprum">
+                                      ДЕСЕРТЫ
+                                  </p>
+                              </a>
+                          </li>
+                      </ul>--}}
+                {{-- ДИСЕРТЫ --}}
+
                 {{-- СПИСОК РЕЦЕПТОВ --}}
             </div>
         </nav>

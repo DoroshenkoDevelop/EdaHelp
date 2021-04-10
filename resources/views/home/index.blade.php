@@ -183,30 +183,55 @@
                     <p class="cuprum h2 ">
                         ТОП ШЕФ РЕЦЕПТОВ
                     </p>
-                    <div class="carousel slide" id="mySlider" data-ride="carousel">
+                    <div class="carousel slide mb-5" id="mySlider" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active ">
-                                <a href="">
-                                <img src="{{ asset('/images/oliver.jpg') }}"
-                                     class="img-fluid d-block w-100">
-                                </a>
+                            <div class="carousel-item active">
+                                @foreach($chef1 as $chef)
+                                    <a class="text-decoration-none"
+                                       {{ $chef->id }}
+                                       href="{{ route('chef',['id'=>$chef->id])}}">
+                                        <img src="{{ asset('/images/gordon-ramzi.jpg') }}" class="img-fluid card-img">
+                                        <p class="cuprum text-dark">
+                                            <b>
+                                                {{ $chef->index_name }}
+                                            </b>
+                                        </p>
+                                    </a>
+                                @endforeach
                             </div>
 
-                            <div class="carousel-item">
 
-                                <a href="">
-                                <img src="{{ asset('/images/gordon-ramzi.jpg') }}"
-                                     class="img-fluid d-block w-100">
-                                </a>
+                           {{-- <div class="carousel-item">
+                                @foreach($chef1 as $chef)
+                                    <a class="text-decoration-none"
+                                       {{ $chef->id }}
+                                       href="{{ route('chef',['id'=>$chef->id])}}">
+                                        <img src="{{ asset('/images/oliver.jpg') }}" class="img-fluid card-img">
+                                        <p class="cuprum text-dark">
+                                            <b>
+                                                {{ $chef->index_name }}
+                                            </b>
+                                        </p>
+                                    </a>
+                                @endforeach
+                            </div>--}}
 
-                            </div>
 
-                            <div class="carousel-item">
-                                <a href="">
-                                <img src="{{ asset('/images/paul_bocuse_1.jpg') }}"
-                                     class="img-fluid d-block w-100">
-                                </a>
-                            </div>
+                          {{--  <div class="carousel-item">
+                                @foreach($chef1 as $chef)
+                                    <a class="text-decoration-none"
+                                       {{ $chef->id }}
+                                       href="{{ route('chef',['id'=>$chef->id])}}">
+                                        <img src="{{ asset('/images/paul_bocuse_1.jpg') }}" class="img-fluid card-img">
+                                        <p class="cuprum text-dark">
+                                            <b>
+                                                {{ $chef->index_name }}
+                                            </b>
+                                        </p>
+                                    </a>
+                                @endforeach
+                            </div>--}}
+
 
                         </div>
                         <a href="#mySlider" class="carousel-control-prev" role="button" data-slide="prev">
