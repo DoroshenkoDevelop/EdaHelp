@@ -16,6 +16,7 @@ use App\Http\Controllers\ListSushiController;
 use App\Http\Controllers\ListPasteController;
 use App\Http\Controllers\ListCreamSoupController;
 use App\Http\Controllers\IndexHomeController;
+use App\Http\Controllers\ListArticleController;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 /*
@@ -129,6 +130,11 @@ Route::get('recipe_paste{id}/recipe',[ListPasteController::class,'show'])->name(
 Route::get('recipe_cream_soups',[ListCreamSoupController::class,'index'])->name('cream_soups');
 Route::get('recipe_cream_soup{id}/recipe',[ListCreamSoupController::class,'show'])->name('cream_soup');
 /* СПИСОК КРЕМ СУПОВ */
+
+/* СТАТЬИ */
+Route::get('articles',[ListArticleController::class,'index'])->name('articles');
+Route::get('articles{id}/articles',[ListArticleController::class,'show'])->name('article');
+/* СТАТЬИ */
 
 /*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*//*СПИСКИ*/
 

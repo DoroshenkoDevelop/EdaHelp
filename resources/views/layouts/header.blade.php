@@ -46,7 +46,7 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="" >
+                           href="{{ route('articles') }}">
                             <p class="h4 cuprum">
                                 <b>
                                     СТАТЬИ
