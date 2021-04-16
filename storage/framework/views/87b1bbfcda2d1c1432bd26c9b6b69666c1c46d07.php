@@ -33,7 +33,7 @@
                            href="<?php echo e(route('map')); ?>" >
                             <p class="h4 cuprum">
                                 <b>
-                                    РЕСТО-ГИД
+                                    ЗАВЕДЕНИЯ
                                 </b>
                             </p>
                         </a>
@@ -46,15 +46,19 @@
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
-                           href="<?php echo e(asset('my_recipe')); ?>">
+                           href="" >
                             <p class="h4 cuprum">
                                 <b>
-                                    МОЙ РЕЦЕПТ
+                                    СТАТЬИ
                                 </b>
                             </p>
                         </a>
                     </li>
                 </ul>
+                
+
+                
+               
                 
 
                 

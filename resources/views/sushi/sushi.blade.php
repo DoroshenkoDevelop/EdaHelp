@@ -1,11 +1,15 @@
 @extends('home.home')
 @section('content')
-    <main class="container-sm p-0">
+    <main class="container-sm">
+
+        <div class="col-9 block-container">
 
         {{-- ЗАГОЛОВОК --}}
         <article class="col m-5">
             <h2 class="text-center text-comfortaa h4">
-                <b>{{ $sushi->sushis_name }}</b>
+                <b>
+                    {{ $sushi->sushis_name }}
+                </b>
             </h2>
         </article>
         {{-- ЗАГОЛОВОК --}}
@@ -14,7 +18,7 @@
 
 
         {{-- КОНТЕНТ --}}
-        <main class="block-container border-right border-left border-dark">
+        <main class="border-right border-left border-dark">
             {{-- КОНТЕНТ --}}
 
             {{-- ФОТО --}}
@@ -29,126 +33,126 @@
             {{-- ИНГРЕДИЕНТЫ --}}
             <article class="row">
                 <div class="col-8">
-                    <ul class="list-group">
+                    <ul class="list-group ml-1 h6 mt-2 text-left">
                         <li>
-                            <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_1 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_2 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_3 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_4 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_5 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_6 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_7 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_8 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_9 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="font-italic  h-100 cuprum ml-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_10 }}
                             </p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-4">
-                    <ul class="list-group">
+                    <ul class="list-group list-group mr-1 mt-2 h6 text-right">
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_1 }} {{ $sushi->sushis_ingredients_value_1 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_2 }} {{ $sushi->sushis_ingredients_value_2 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_3 }} {{ $sushi->sushis_ingredients_value_3 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_4 }} {{ $sushi->sushis_ingredients_value_4 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_5 }} {{ $sushi->sushis_ingredients_value_5 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_6 }} {{ $sushi->sushis_ingredients_value_6 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_7 }} {{ $sushi->sushis_ingredients_value_7 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_8 }} {{ $sushi->sushis_ingredients_value_8 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_9 }} {{ $sushi->sushis_ingredients_value_9 }}
                             </p>
                         </li>
 
                         <li>
-                            <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
+                            <p class="font-italic cuprum mb-1">
                                 {{ $sushi->sushis_ingredients_gr_10 }} {{ $sushi->sushis_ingredients_value_10 }}
                             </p>
                         </li>
@@ -234,6 +238,7 @@
             </div>
             {{-- ДОПОЛНИТЕЛЬНО --}}
         </main>
+        </div>
     </main>
 
 @endsection

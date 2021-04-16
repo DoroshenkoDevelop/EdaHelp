@@ -33,7 +33,7 @@
                            href="{{ route('map')}}" >
                             <p class="h4 cuprum">
                                 <b>
-                                    РЕСТО-ГИД
+                                    ЗАВЕДЕНИЯ
                                 </b>
                             </p>
                         </a>
@@ -41,8 +41,24 @@
                 </ul>
                 {{-- КАРТА--}}
 
-                {{-- МОЙ РЕЦЕПТ --}}
+                {{-- СТАТЬИ--}}
                 <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="" >
+                            <p class="h4 cuprum">
+                                <b>
+                                    СТАТЬИ
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                {{-- СТАТЬИ--}}
+
+                {{-- МОЙ РЕЦЕПТ --}}
+               {{-- <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -54,7 +70,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- МОЙ РЕЦЕПТ --}}
 
                 {{-- О НАС --}}

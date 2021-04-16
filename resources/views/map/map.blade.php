@@ -3,8 +3,16 @@
 
     {{-- КАРТА --}}
     <main class="container-sm border-right border-left border-dark">
-        <p class="text-comfortaa text-center h2 mt-5 mb-5">
-            <b>Твой помощник в поиске заведений Минска</b>
+        <p class="text-comfortaa text-center h3 mt-5 mb-2">
+            <b>
+                Твой помощник в поиске заведений Минска
+            </b>
+        </p>
+
+        <p class="text-comfortaa text-center h5">
+            <b>
+                С помощью карты вы найдете самые актуальные заведения в городе Минске.
+            </b>
         </p>
         {{-- ФОРМА --}}
      {{--   <div class="form-group">

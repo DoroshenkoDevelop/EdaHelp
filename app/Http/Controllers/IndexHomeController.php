@@ -75,7 +75,7 @@ class IndexHomeController extends Controller
     public function show($id)
     {
         $popular = IndexHome::find($id);
-        return view('popular.popular',compact('popular'));
+        return view('home.popular',compact('popular'));
     }
 
     /**
