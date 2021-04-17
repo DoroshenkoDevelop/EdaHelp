@@ -17,6 +17,48 @@
         </main>
       {{--  ОПИСАНИЕ--}}
 
+        {{--СТАТЬИ--}}
+        <section class="row">
+            <article class="">
+                <p class="cuprum h2  mt-5 mb-2">
+                    ИНТЕРЕСНОЕ
+                </p>
+            </article>
+            {{--СТАТЬИ--}}
+
+            {{--СТАТЬИ--}}
+            <article class="col-sm-12 col-md-6">
+                @foreach($articles1 as $articles)
+                    <a class="text-decoration-none"
+                       {{ $articles->id }}
+                       href="{{ route('article',['id'=>$articles->id])}}">
+                        <img src="{{ asset($articles->articles_image_1) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark h3 mt-3">
+                            <b>
+                                {{ $articles->articles_name}}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--СТАТЬИ--}}
+
+            {{--СТАТЬИ--}}
+            <article class="col-sm-12 col-md-6">
+                @foreach($articles2 as $articles)
+                    <a class="text-decoration-none"
+                       {{ $articles->id }}
+                       href="{{ route('article',['id'=>$articles->id])}}">
+                        <img src="{{ asset($articles->articles_image_1) }}" class="img-fluid card-img">
+                        <p class="cuprum text-dark h3 mt-3">
+                            <b>
+                                {{ $articles->articles_name}}
+                            </b>
+                        </p>
+                    </a>
+                @endforeach
+            </article>
+            {{--СТАТЬИ--}}
 
        {{--ПОПУЛЯРНЫЕ РЕЦЕПТЫ--}}
         <section class="row">

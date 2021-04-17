@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Modal\ListChef;
+use App\Models\ListArticle;
 use App\Models\ListSnack;
 use App\Models\IndexHome;
 use Illuminate\Http\Request;
@@ -15,6 +16,11 @@ class IndexHomeController extends Controller
      */
     public function index()
     {
+        //СТАТЬИ
+        $articles1 = ListArticle::find([1]);
+        $articles2 = ListArticle::find([2]);
+        //СТАТЬИ
+
         // ПОПУЛЯРНЫЕ
         $populars1 = IndexHome::find([1]);
         $populars2 = IndexHome::find([2]);
@@ -40,7 +46,7 @@ class IndexHomeController extends Controller
                 'populars3',
                 'populars4',
                 'new1','new2',
-                'new3','new4','chef1'
+                'new3','new4','chef1','articles1','articles2'
             )
         );
     }

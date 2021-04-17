@@ -7,7 +7,9 @@
         {{-- ЗАГОЛОВОК --}}
         <article class="col m-5">
             <h2 class="text-center text-comfortaa h4">
-                <b>{{ $meat->meats_name }}</b>
+                <b>
+                    {{ $meat->meats_name }}
+                </b>
             </h2>
         </article>
         {{-- ЗАГОЛОВОК --}}

@@ -16,6 +16,52 @@
         </main>
       
 
+        
+        <section class="row">
+            <article class="">
+                <p class="cuprum h2  mt-5 mb-2">
+                    ИНТЕРЕСНОЕ
+                </p>
+            </article>
+            
+
+            
+            <article class="col-sm-12 col-md-6">
+                <?php $__currentLoopData = $articles1; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $articles): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a class="text-decoration-none"
+                       <?php echo e($articles->id); ?>
+
+                       href="<?php echo e(route('article',['id'=>$articles->id])); ?>">
+                        <img src="<?php echo e(asset($articles->articles_image_1)); ?>" class="img-fluid card-img">
+                        <p class="cuprum text-dark h3 mt-3">
+                            <b>
+                                <?php echo e($articles->articles_name); ?>
+
+                            </b>
+                        </p>
+                    </a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </article>
+            
+
+            
+            <article class="col-sm-12 col-md-6">
+                <?php $__currentLoopData = $articles2; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $articles): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a class="text-decoration-none"
+                       <?php echo e($articles->id); ?>
+
+                       href="<?php echo e(route('article',['id'=>$articles->id])); ?>">
+                        <img src="<?php echo e(asset($articles->articles_image_1)); ?>" class="img-fluid card-img">
+                        <p class="cuprum text-dark h3 mt-3">
+                            <b>
+                                <?php echo e($articles->articles_name); ?>
+
+                            </b>
+                        </p>
+                    </a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </article>
+            
 
        
         <section class="row">
