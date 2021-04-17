@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/articles/article.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/ebf1cb87c5d57eb1cdfb6795d98e1da4c54ac57d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_17_194916_create_text_searches_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/articles/artical.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/articles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/meat/meat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/meat/meat.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/3f0bbcbca1512f25eea3b8833ddf45e1a9db6d8e.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/3f0bbcbca1512f25eea3b8833ddf45e1a9db6d8e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/articles/article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/article.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/ebf1cb87c5d57eb1cdfb6795d98e1da4c54ac57d.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ebf1cb87c5d57eb1cdfb6795d98e1da4c54ac57d.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,19 +176,19 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\eh\public\storage\articles" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\articles" />
-      <recent name="D:\open server\OpenServer\domains\eh\public\storage" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
-      <recent name="D:\open server\OpenServer\domains\eh\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\eh\public" />
       <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\articles" />
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\articles" />
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage" />
+      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
+      <recent name="D:\open server\OpenServer\domains\eh\public" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -376,7 +370,8 @@
       <workItem from="1618090774631" duration="5716000" />
       <workItem from="1618130891996" duration="431000" />
       <workItem from="1618571791032" duration="14789000" />
-      <workItem from="1618594763979" duration="17533000" />
+      <workItem from="1618594763979" duration="17647000" />
+      <workItem from="1618653729558" duration="9196000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -665,7 +660,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618600422700</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="project EH">
+      <created>1618618901217</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1618618901217</updated>
+    </task>
+    <task id="LOCAL-00043" summary="project EH">
+      <created>1618618994837</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618618994837</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,19 +723,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1618600418684">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1618618991769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618600418684" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618618991769" />
     <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617274925964" />
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog" timestamp="1616685058487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616685058487" />
-    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog" timestamp="1618595666255">
+    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog" timestamp="1618670757282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618595666255" />
+    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618670757282" />
     <state x="100" y="32" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618574824175" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1616682271332">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -749,10 +758,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="398" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613752171239" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618600424986">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1618618996905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618600424986" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618618996905" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617274934610" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611081278082">
       <screen x="0" y="0" width="1920" height="1040" />
