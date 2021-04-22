@@ -15,9 +15,9 @@ class SaladsListController extends Controller
     public function index()
     {
         $saladsbiffs = SaladsList::find([4,5]);
-        $saladchikens = SaladsList::find([2]);
-        $saladseafoods = SaladsList::find([3]);
-        $saladvegetables = SaladsList::find([1]);
+        $saladchikens = SaladsList::find([2,8]);
+        $saladseafoods = SaladsList::find([3,6]);
+        $saladvegetables = SaladsList::find([1,7]);
         return view('salads.index',compact('saladsbiffs', 'saladchikens','saladseafoods','saladvegetables'));
     }
 

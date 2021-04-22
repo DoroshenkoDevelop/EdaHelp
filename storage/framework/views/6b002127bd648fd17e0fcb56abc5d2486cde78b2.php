@@ -22,22 +22,11 @@
     <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
 
-
     <meta name="google-site-verification" content="TBbnzgj2hscIAHRYi5CVGqWH7gFODCYGH5Y4jRQyBWg" />
-
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
-    <meta name="keywords" content="Рецепты, рецепты закусок, рецепты салатов, рецепты супов, рецепты мясо">
-    <meta name="Description" content="Рецепты,
-    пошаговые рецепты,
-     рецепты с фото,
-     простые рецепты,
-     вкусные рецепты,
-     интересные рецепты,
-     необычные рецепты,
-     салаты,
-     фото рецепт,
-     суп,
-     суши."
+    <meta name="keywords" content="Рецепты, рецепты закусок, рецепты салатов, рецепты супов, рецепты мясо, рецепты суши.">
+    <meta name="Description" content="
+    Рецепты, пошаговые рецепты, рецепты с фото, простые рецепты, вкусные рецепты, интересные рецепты, необычные рецепты, салаты, фото рецепт, суп, суши."
     />
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -70,7 +59,7 @@
 <!-- /Yandex.Metrika counter -->
 
 <title>
-    Рецепты приготовления блюд||EdaHelp.ru
+    EdaHelp.ru||Рецепты приготовления блюд
 </title>
 
 

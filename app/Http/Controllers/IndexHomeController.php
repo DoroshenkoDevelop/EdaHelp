@@ -5,6 +5,8 @@ use App\Models\Modal\ListChef;
 use App\Models\ListArticle;
 use App\Models\ListSnack;
 use App\Models\IndexHome;
+use App\Models\ListSushi;
+use App\Models\ListMeat;
 use Illuminate\Http\Request;
 
 class IndexHomeController extends Controller
@@ -21,15 +23,21 @@ class IndexHomeController extends Controller
         $articles2 = ListArticle::find([2]);
         //СТАТЬИ
 
+        //РЕКЛАМА
+        $product1 = IndexHome::find([9]);
+        $product2 = IndexHome::find([10]);
+        $product3 = IndexHome::find([11]);
+        //РЕКЛАМА
+
         // ПОПУЛЯРНЫЕ
         $populars1 = IndexHome::find([1]);
         $populars2 = IndexHome::find([2]);
-        $populars3 = IndexHome::find([3]);
-        $populars4 = IndexHome::find([4]);
+        $populars3 = ListSushi::find([2]);
+        $populars4 = ListMeat::find([9]);
        // ПОПУЛЯРНЫЕ
 
         // НОВЫЕ
-        $new1 = IndexHome::find([5]);
+        $new1 = ListMeat::find([2]);
         $new2 = IndexHome::find([6]);
         $new3 = IndexHome::find([7]);
         $new4 = IndexHome::find([8]);
@@ -46,7 +54,7 @@ class IndexHomeController extends Controller
                 'populars3',
                 'populars4',
                 'new1','new2',
-                'new3','new4','chef1','articles1','articles2'
+                'new3','new4','chef1','articles1','articles2','product1','product2','product3'
             )
         );
     }

@@ -24,13 +24,21 @@
                         <a class="text-decoration-none"
                            {{ $coldsnack->id }}
                            href="{{ route('snack',['id'=>$coldsnack->id])}}">
+                            <div class="card">
                             <img src="{{ asset($coldsnack->snacks_image) }}"
                                  class="img-fluid card-img">
-                            <p class="cuprum text-dark">
-                                <b>
-                                    {{ $coldsnack->snacks_name}}
-                                </b>
-                            </p>
+                                <div class="card-body">
+                                    <h5 class="card-title cuprum text-dark">
+                                        <b>
+                                            {{ $coldsnack->snacks_name}}
+                                        </b>
+                                    </h5>
+                                    <p class="card-text cuprum text-dark h6 ">
+                                        <meta name="Description" content="холодные и горячие закуски">
+                                        {{ $coldsnack->snacks_description_5}}
+                                    </p>
+                                </div>
+                            </div>
                         </a>
                     @endforeach
                 </article>
@@ -47,13 +55,21 @@
                         <a class="text-decoration-none"
                            {{ $hotsnack->id }}
                            href="{{ route('snack',['id'=>$hotsnack->id])}}">
+                            <div class="card">
                             <img src="{{ asset($hotsnack->snacks_image) }}"
                                  class="img-fluid card-img">
-                            <p class="cuprum text-dark">
-                                <b>
-                                    {{ $hotsnack->snacks_name}}
-                                </b>
-                            </p>
+                                <div class="card-body">
+                                    <h5 class="card-title cuprum text-dark">
+                                        <b>
+                                            {{ $hotsnack->snacks_name}}
+                                        </b>
+                                    </h5>
+                                    <p class="card-text cuprum text-dark h6 ">
+                                        <meta name="Description" content="стрид-фуд">
+                                        {{ $hotsnack->snacks_description_5}}
+                                    </p>
+                                </div>
+                            </div>
                         </a>
                     @endforeach
                 </article>
@@ -70,13 +86,21 @@
                     <a class="text-decoration-none"
                        {{ $bruschetta->id }}
                        href="{{ route('snack',['id'=>$bruschetta->id])}}">
+                        <div class="card">
                         <img src="{{ asset($bruschetta->snacks_image) }}"
                              class="img-fluid card-img">
-                        <p class="cuprum text-dark">
-                            <b>
-                               {{ $bruschetta->snacks_name}}
-                            </b>
-                        </p>
+                            <div class="card-body">
+                                <h5 class="card-title cuprum text-dark">
+                                    <b>
+                                        {{ $bruschetta->snacks_name}}
+                                    </b>
+                                </h5>
+                                <p class="card-text cuprum text-dark h6 ">
+                                    <meta name="Description" content="тар-тар из сырого мяса">
+                                    {{ $bruschetta->snacks_description_5}}
+                                </p>
+                            </div>
+                        </div>
                     </a>
                     @endforeach
                 </article>
@@ -93,13 +117,21 @@
                         <a class="text-decoration-none"
                            {{ $mix->id }}
                            href="{{ route('snack',['id'=>$mix->id])}}">
+                            <div class="card">
                             <img src="{{ asset($mix->snacks_image) }}"
                                  class="img-fluid card-img">
-                            <p class="cuprum text-dark">
-                                <b>
-                                    {{ $mix->snacks_name}}
-                                </b>
-                            </p>
+                                <div class="card-body">
+                                    <h5 class="card-title cuprum text-dark">
+                                        <b>
+                                            {{ $mix->snacks_name}}
+                                        </b>
+                                    </h5>
+                                    <p class="card-text cuprum text-dark h6 ">
+                                        <meta name="Description" content="Фингер фуд">
+                                        {{ $mix->snacks_description_5}}
+                                    </p>
+                                </div>
+                            </div>
                         </a>
                     @endforeach
                 </article>

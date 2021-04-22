@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ba10d-139b-4173-8b23-5e66aea1139c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_17_194916_create_text_searches_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/articles/article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/articles/article.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/ebf1cb87c5d57eb1cdfb6795d98e1da4c54ac57d.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/ebf1cb87c5d57eb1cdfb6795d98e1da4c54ac57d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexHomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ListSnacksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SaladsListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SaladsListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/map/map.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/map/map.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recipes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/08430a698dae72d8ab254a3bc1bf47698f80c314.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/6b002127bd648fd17e0fcb56abc5d2486cde78b2.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/6b002127bd648fd17e0fcb56abc5d2486cde78b2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,25 +176,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/storage/articles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/storage/salads" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\salads" />
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\snacks" />
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\tar-tar" />
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\streetfood" />
+      <recent name="D:\open server\OpenServer\domains\eh\public\storage\articles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\eh\public" />
       <recent name="D:\open server\OpenServer\domains\EH\storage\app\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage\public" />
       <recent name="D:\open server\OpenServer\domains\EH\public\storage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\open server\OpenServer\domains\eh\public\storage\articles" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public\articles" />
-      <recent name="D:\open server\OpenServer\domains\eh\public\storage" />
-      <recent name="D:\open server\OpenServer\domains\eh\storage\app\public" />
-      <recent name="D:\open server\OpenServer\domains\eh\public" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -371,7 +377,13 @@
       <workItem from="1618130891996" duration="431000" />
       <workItem from="1618571791032" duration="14789000" />
       <workItem from="1618594763979" duration="17647000" />
-      <workItem from="1618653729558" duration="9196000" />
+      <workItem from="1618653729558" duration="9212000" />
+      <workItem from="1618682212964" duration="2731000" />
+      <workItem from="1618863431503" duration="3724000" />
+      <workItem from="1618915154371" duration="1681000" />
+      <workItem from="1618996926486" duration="12007000" />
+      <workItem from="1619013278721" duration="7770000" />
+      <workItem from="1619096957908" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="project EH">
       <created>1611071591264</created>
@@ -674,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618618994837</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="project EH">
+      <created>1618673149279</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618673149279</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,19 +742,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="202" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1611079661198" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1618618991769">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1618673144882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618618991769" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618673144882" />
     <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617274925964" />
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog" timestamp="1616685058487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="95" y="12" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616685058487" />
-    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog" timestamp="1618670757282">
+    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog" timestamp="1619099857365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1618670757282" />
+    <state x="-9" y="366" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040/-1366.78.1366.728@0.0.1920.1040" timestamp="1619099857365" />
     <state x="100" y="32" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618574824175" />
     <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1616682271332">
       <screen x="0" y="0" width="1920" height="1040" />
