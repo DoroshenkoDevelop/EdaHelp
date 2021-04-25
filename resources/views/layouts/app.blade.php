@@ -1,18 +1,18 @@
 @extends('layouts.head')
 @section('app')
 
-<header class="card-header container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-dark">
+<header class=" container-fluid p-0 bg-dark">
+      {{--  <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-sm">
-                {{--Логотип--}}
+                --}}{{--Логотип--}}{{--
                 <a href="{{ route('home')}}" class="navbar-brand">
                     <p class="text-center mb-1 text-inter h3 text-inter text-white">ЕДА</p>
                     <hr class="hr">
                     <p class="text-center mt-1 text-inter h3 text-inter h3 text-white">HELP</p>
                 </a>
-                {{--Логотип--}}
+                --}}{{--Логотип--}}{{--
 
-                {{--Регистрация--}}
+                --}}{{--Регистрация--}}{{--
                 <div class="container">
                    <form class="d-flex">
                        <div class="cuprum ya-site-form ya-site-form_inited_no"
@@ -37,9 +37,9 @@
                            type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');
                        </script>
                     </form>
-                {{--Форма--}}
+                --}}{{--Форма--}}{{--
                 </div>
-                {{--Форма регистрации--}}
+                --}}{{--Форма регистрации--}}{{--
                 @if (Route::has('login'))
                     @auth
                         <a class="btn btn-success cuprum" href="{{ route('logout') }}">
@@ -61,10 +61,132 @@
                     @endauth
 
                 @endif
-                {{--Форма регистрации--}}
+                --}}{{--Форма регистрации--}}{{--
             </div>
-        </nav>
+        </nav>--}}
+    <nav class=" container-sm navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="{{ route('home')}}" class="navbar-brand">
+            <p class="text-center mb-1 text-inter h3 text-inter text-white">ЕДА</p>
+            <hr class="hr">
+            <p class="text-center mt-1 text-inter h3 text-inter h3 text-white">HELP</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0">
+                <div class="container">
+                    <form class="d-flex">
+                        <div class="cuprum ya-site-form ya-site-form_inited_no"
+                             data-bem="{&quot;action&quot;:&quot;https://yandex.ru/search/site/&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:16,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Yandex Site Search #2454816&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_blank&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:3,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:2454816,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:&quot;Поиск по сайту&quot;,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#000000&quot;}">
+                            <form class="d-flex"
+                                  action="https://yandex.ru/search/site/"
+                                  method="get"
+                                  target="_blank"
+                                  accept-charset="utf-8">
+                                <input type="hidden" name="searchid" value="2454816"/>
+                                <input type="hidden" name="l10n" value="ru"/>
+                                <input type="hidden" name="reqenc" value=""/>
+                                <input type="search" name="text" value=""/>
+                                <input class="" type="submit" value="Найти"/>
+
+                            </form>
+                        </div>
+                        <style
+                            type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }
+                        </style>
+                        <script
+                            type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');
+                        </script>
+                    </form>
+                    {{--Форма--}}
+                </div>
+            </form>
+            <ul class="navbar-nav mr-auto ">
+                @if (Route::has('login'))
+                    @auth
+                        <li class="nav-item active">
+                            <a class="btn btn-success cuprum " href="{{ route('logout') }}">
+                                ВЫЙТИ
+                            </a>
+                        </li>
+                    @else
+                        <li class="nav-item">
+                            <a href="{{ route('login') }}"
+                               class="btn btn-success margin cuprum m-1">
+                                ВХОД
+                            </a>
+                        </li>
+                        @if (Route::has('register'))
+                            <li class="nav-item ">
+                                <a href="{{ route('register') }}"
+                                   class="btn btn-success margin cuprum m-1">
+                                    РЕГИСТРАЦИЯ
+                                </a>
+                            </li>
+                        @endif
+                    @endauth
+                @endif
+            </ul>
+        </div>
+
+
+    </nav>
     </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {{--Форма регистрации на бустрап--}}
 {{--<div class="modal fade" id="registration" tapindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

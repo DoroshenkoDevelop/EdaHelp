@@ -14,8 +14,8 @@
 }
 .round{
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     padding: 3px;
 }
@@ -31,21 +31,47 @@
 .border-box{
     box-sizing: border-box;
 }
-.parallax{
-    background-image: url("../../public/storage/public/Gordon.jpg");
-    min-height: 1000px;
+.blog-chef{
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.parallax
+{
+    background-image: url("../storage/public/kare.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 668px;
 }
-.content-header{
-    background-color: #1b1e21;
-}
-.content-footer{
-    background-color: #1b1e21;
+.content-header
+{
+    background-image: url("../storage/public/gordon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    min-height: 668px;
+}
+
+.content-footer{
+    height: 20vh;
+}
+
+.logo{
+    width: 6%;
+    height: 20%;
+    margin: 0 auto;
 }
 .block-container{
+    width: 65%;
     margin: 0 auto;
+}
+.block-slider{
+    margin: 0 auto;
+
+
+}
+.section{
+    height: 100vh;
 }

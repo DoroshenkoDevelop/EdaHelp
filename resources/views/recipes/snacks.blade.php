@@ -12,9 +12,6 @@
     </article>
     {{-- ЗАГОЛОВОК --}}
 
-
-
-
     {{-- КОНТЕНТ --}}
     <main class="border-right border-left border-dark">
         {{-- КОНТЕНТ --}}
@@ -237,8 +234,39 @@
         {{-- ДОПОЛНИТЕЛЬНО --}}
         </main>
     </div>
-    </main>
 
+
+
+    <form action="#" class="form form_margin">
+        <div class="form_item">
+            <div class="form_lable">
+                Простой
+            </div>
+            <div class="simple-rating">
+                <div class="simple-rating_items">
+                    <input id="simple-rating_5" type="radio" class="simple-rating_item" name="simple-rating" value="5">
+                    <lable for="simple-rating_5" class="simple-rating_label"></lable>
+                    <input id="simple-rating_4" type="radio" class="simple-rating_item" name="simple-rating" value="4">
+                    <lable for="simple-rating_4" class="simple-rating_label"></lable>
+                    <input id="simple-rating_3" type="radio" class="simple-rating_item" name="simple-rating" value="3">
+                    <lable for="simple-rating_3" class="simple-rating_label"></lable>
+                    <input id="simple-rating_2" type="radio" class="simple-rating_item" name="simple-rating" value="2">
+                    <lable for="simple-rating_2" class="simple-rating_label"></lable>
+                    <input id="simple-rating_1" type="radio" class="simple-rating_item" name="simple-rating" value="1">
+                    <lable for="simple-rating_1" class="simple-rating_label"></lable>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+    </main>
 @endsection
 
 

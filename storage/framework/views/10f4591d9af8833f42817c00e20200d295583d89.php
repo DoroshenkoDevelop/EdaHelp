@@ -4,10 +4,16 @@
         
         <article class="col m-5">
             <h2 class="text-center text-comfortaa h4">
-                <b></b>
+                <b>
+                    <?php echo e($exq->exquisite_name); ?>
+
+                </b>
             </h2>
         </article>
         
+
+
+
 
         
         <main class="block-container border-right border-left border-dark">
@@ -18,7 +24,7 @@
                 <img class="img-fluid"
                      alt="Responsive image"
                      width="100%"
-                     src="<?php echo e(asset($popular->index_image)); ?>">
+                     src="<?php echo e(asset($exq->exquisite_image)); ?>">
             </article>
             
 
@@ -28,70 +34,70 @@
                     <ul class="list-group">
                         <li>
                             <p class="font-italic h-100 cuprum ml-4 mt-2 mb-1">
-                                <?php echo e($popular->index_ingredients_1); ?>
+                                <?php echo e($exq->exquisite_ingredients_1); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_2); ?>
+                                <?php echo e($exq->exquisite_ingredients_2); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_3); ?>
+                                <?php echo e($exq->exquisite_ingredients_3); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_4); ?>
+                                <?php echo e($exq->exquisite_ingredients_4); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_5); ?>
+                                <?php echo e($exq->exquisite_ingredients_5); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_6); ?>
+                                <?php echo e($exq->exquisite_ingredients_6); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_7); ?>
+                                <?php echo e($exq->exquisite_ingredients_7); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_8); ?>
+                                <?php echo e($exq->exquisite_ingredients_8); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_9); ?>
+                                <?php echo e($exq->exquisite_ingredients_9); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="font-italic  h-100 cuprum ml-4 mb-1">
-                                <?php echo e($popular->index_ingredients_10); ?>
+                                <?php echo e($exq->exquisite_ingredients_10); ?>
 
                             </p>
                         </li>
@@ -101,70 +107,70 @@
                     <ul class="list-group">
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mt-2 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_1); ?> <?php echo e($popular->index_ingredients_value_1); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_1); ?> <?php echo e($exq->exquisite_ingredients_value_1); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_2); ?> <?php echo e($popular->index_ingredients_value_2); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_2); ?> <?php echo e($exq->exquisite_ingredients_value_2); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_3); ?> <?php echo e($popular->index_ingredients_value_3); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_3); ?> <?php echo e($exq->exquisite_ingredients_value_3); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_4); ?> <?php echo e($popular->index_ingredients_value_4); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_4); ?> <?php echo e($exq->exquisite_ingredients_value_4); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_5); ?> <?php echo e($popular->index_ingredients_value_5); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_5); ?> <?php echo e($exq->exquisite_ingredients_value_5); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_6); ?> <?php echo e($popular->index_ingredients_value_6); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_6); ?> <?php echo e($exq->exquisite_ingredients_value_6); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_7); ?> <?php echo e($popular->index_ingredients_value_7); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_7); ?> <?php echo e($exq->exquisite_ingredients_value_7); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_8); ?> <?php echo e($popular->index_ingredients_value_8); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_8); ?> <?php echo e($exq->exquisite_ingredients_value_8); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_9); ?> <?php echo e($popular->index_ingredients_value_9); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_9); ?> <?php echo e($exq->exquisite_ingredients_value_9); ?>
 
                             </p>
                         </li>
 
                         <li>
                             <p class="text-right font-italic  h-100 cuprum mr-4 mb-1">
-                                <?php echo e($popular->index_ingredients_gr_10); ?> <?php echo e($popular->index_ingredients_value_10); ?>
+                                <?php echo e($exq->exquisite_ingredients_gr_10); ?> <?php echo e($exq->exquisite_ingredients_value_10); ?>
 
                             </p>
                         </li>
@@ -194,7 +200,7 @@
                     </div>
 
                     <p class="cuprum">
-                        <?php echo e($popular->index_description_1); ?>
+                        <?php echo e($exq->exquisite_description_1); ?>
 
                     </p>
 
@@ -205,7 +211,7 @@
                     </div>
 
                     <p class="cuprum">
-                        <?php echo e($popular->index_description_2); ?>
+                        <?php echo e($exq->exquisite_description_2); ?>
 
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
@@ -215,7 +221,7 @@
                     </div>
 
                     <p class="cuprum">
-                        <?php echo e($popular->index_description_3); ?>
+                        <?php echo e($exq->exquisite_description_3); ?>
 
                     </p>
                     <div class="round bg-dark text-white mb-3 mt-3">
@@ -225,7 +231,7 @@
                     </div>
 
                     <p class="cuprum">
-                        <?php echo e($popular->index_description_4); ?>
+                        <?php echo e($exq->exquisite_description_4); ?>
 
                     </p>
                 </div>
@@ -243,7 +249,7 @@
 
                     <div>
                         <p class="cuprum">
-                        <?php echo e($popular->index_additionally); ?>
+                        <?php echo e($exq->exquisite_additionally); ?>
 
                         <p CLASS="cuprum ">
                             <b>
@@ -259,7 +265,4 @@
 
 <?php $__env->stopSection(); ?>
 
-
-
-
-<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH W:\domains\eh\resources\views/popular/popular.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('home.home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/edahelpr/public_html/resources/views/exquisite/exquisite.blade.php ENDPATH**/ ?>

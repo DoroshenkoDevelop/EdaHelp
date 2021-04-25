@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
 
-            {{--Линкс--}}
-            @include('layouts.head')
-            {{--Линкс--}}
+<head>
+            {{--Скрипт--}}
+            @include('layouts.script')
+            {{--Скрипт--}}
 
 </head>
     <body>
@@ -25,9 +24,6 @@
             @include('layouts.footer')
             {{--Футер--}}
 
-            {{--Скрипт--}}
-            @include('layouts.script')
-            {{--Скрипт--}}
 
     </body>
 </html>

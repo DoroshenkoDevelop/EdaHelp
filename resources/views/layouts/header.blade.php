@@ -9,7 +9,7 @@
 
 
                 {{-- ШЕФ РЕЦЕПТЫ --}}
-                <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+               {{-- <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active"
                            aria-current="page"
@@ -21,7 +21,7 @@
                             </p>
                         </a>
                     </li>
-                </ul>
+                </ul>--}}
                 {{-- ШЕФ РЕЦЕПТЫ --}}
 
 
@@ -56,6 +56,22 @@
                     </li>
                 </ul>
                 {{-- СТАТЬИ--}}
+
+                {{-- ВИНО--}}
+            {{--    <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           aria-current="page"
+                           href="{{ route('articles') }}">
+                            <p class="h4 cuprum">
+                                <b>
+                                    ВИНО
+                                </b>
+                            </p>
+                        </a>
+                    </li>
+                </ul>--}}
+                {{-- ВИНО--}}
 
                 {{-- МОЙ РЕЦЕПТ --}}
                {{-- <ul class="navbar-nav mr-1 mb-0 mb-lg-0">
